@@ -1,0 +1,43 @@
+* text=auto eol=lf
+*.ipynb -text
+src/**/*.py -text
+cloud/*.py -text
+pyproject.toml -text
+uv.lock -text
+.python-version -text
+README.md -text
+
+# Preserve raw scientific source bytes in the baseline.
+.python-version -text
+README.md -text
+cloud/build_stock_wider_notebook.py -text
+cloud/stage_stock_wider_notebook.py -text
+cloud/stock_development_runner.py -text
+cloud/stock_wider_notebook_bootstrap.py -text
+configs/stock-development.toml -text
+configs/stock-wider-development.toml -text
+pyproject.toml -text
+src/quantlab/__init__.py -text
+src/quantlab/backtest/__init__.py -text
+src/quantlab/backtest/accounting.py -text
+src/quantlab/backtest/engine.py -text
+src/quantlab/data/__init__.py -text
+src/quantlab/data/archive.py -text
+src/quantlab/data/calendar.py -text
+src/quantlab/data/ingest.py -text
+src/quantlab/data/provenance.py -text
+src/quantlab/data/returns.py -text
+src/quantlab/data/snapshot.py -text
+src/quantlab/data/yahoo.py -text
+src/quantlab/stocks/__init__.py -text
+src/quantlab/stocks/ablation.py -text
+src/quantlab/stocks/development.py -text
+src/quantlab/stocks/features.py -text
+src/quantlab/stocks/labels.py -text
+src/quantlab/stocks/prepare.py -text
+src/quantlab/stocks/prepare_wider.py -text
+src/quantlab/stocks/training_targets.py -text
+src/quantlab/stocks/wider_features.py -text
+src/quantlab/stocks/wider_panel.py -text
+src/quantlab/stocks/wider_study.py -text
+uv.lock -text

@@ -1,0 +1,1680 @@
+{
+  "schema": "quant_frozen_source_provenance_v1",
+  "proposal_only": true,
+  "archive": "frozen-source-f520966f.zip",
+  "bytes": 4793361,
+  "sha256": "a86e3d0dd2941801ae769ced0cfda6f57407e3ba3cc371eb7123373f26a57d5e",
+  "release_sha256": "f520966f25f426e6688f895bf51fdac25e887aecf2d26129d1b3243cfd663620",
+  "source_dataset": {
+    "dataset_id": 12677786,
+    "version": 1,
+    "private": true,
+    "status": "READY"
+  },
+  "source_remote_proof_sha256": "623cc85019623d25a8f40beca508dad1bbf11f6ea3e1b2cdd91331a4d37474da",
+  "exact_members": 332,
+  "reconstruction_mapping": {
+    "source__.python-version": {
+      "bytes": 8,
+      "path": ".python-version",
+      "sha256": "845c494b4a7e1a741db19fd42eda239d3ee03b65f08276008943349a3055c9cc"
+    },
+    "source__README.md": {
+      "bytes": 3243,
+      "path": "README.md",
+      "sha256": "ff4367b0a3b001b832725bebd1b707c9170e70efa376665aac114b0a12831f49"
+    },
+    "source__cloud__etf_development_runner.py": {
+      "bytes": 29196,
+      "path": "cloud/etf_development_runner.py",
+      "sha256": "d9e71cfee461ccaade64fc881ae7477df5941e623ac41049f647f3a245643098"
+    },
+    "source__cloud__risk_forecast_runner.py": {
+      "bytes": 37141,
+      "path": "cloud/risk_forecast_runner.py",
+      "sha256": "98193a6195e3ebe8780421857e63a9e4bbfcb5250de675b5931de44c70d8893e"
+    },
+    "source__cloud__shared_holdout_runner.py": {
+      "bytes": 23360,
+      "path": "cloud/shared_holdout_runner.py",
+      "sha256": "229aed8d4462abb4f98be94b7738f830e48eb9de730bdca1e4449f3716c7db17"
+    },
+    "source__cloud__stage_shared_holdout.py": {
+      "bytes": 15928,
+      "path": "cloud/stage_shared_holdout.py",
+      "sha256": "aca8d6a0d9877624d504009c480b1eb095a54babbfc6a5beea08109c8351b4bf"
+    },
+    "source__cloud__stock_development_runner.py": {
+      "bytes": 38282,
+      "path": "cloud/stock_development_runner.py",
+      "sha256": "ce0c9bb0a834601de5a7f94f6f023a2a10e8edf91867b21d1756787e0a12839e"
+    },
+    "source__configs__research.toml": {
+      "bytes": 5312,
+      "path": "configs/research.toml",
+      "sha256": "7bbf36e6d45b8bebe1e564f6ffcb432666c9e2141621a5397cc0c8d44093d07e"
+    },
+    "source__configs__risk-development.toml": {
+      "bytes": 3552,
+      "path": "configs/risk-development.toml",
+      "sha256": "588d428a24c2ce71e6d5961219784a2e3c1e52d170d7e62d6c2955b667117de7"
+    },
+    "source__configs__risk-economic-development.toml": {
+      "bytes": 1444,
+      "path": "configs/risk-economic-development.toml",
+      "sha256": "06d44a17ef57d43bb60fe9c54f0710a48002b677e8af3c4138025263cea4719b"
+    },
+    "source__configs__stock-development.toml": {
+      "bytes": 2953,
+      "path": "configs/stock-development.toml",
+      "sha256": "a13e9e52ff431772d9301ec982c2a830caeda973c8f3ded19fd8223e9a6da6e7"
+    },
+    "source__configs__stock-feature-portability-whitelist.json": {
+      "bytes": 951796,
+      "path": "configs/stock-feature-portability-whitelist.json",
+      "sha256": "0fc604514d7d725ef6e0d439cb0561023ad02a6bf31e9973a39e2f9b65681743"
+    },
+    "source__pyproject.toml": {
+      "bytes": 1022,
+      "path": "pyproject.toml",
+      "sha256": "dc871ca46eaf6dffc012d462d1444db830619910c6cdc302281d1bc5fba07c28"
+    },
+    "source__release__auxiliary__policies__execution-projection.json": {
+      "bytes": 475,
+      "path": "release/auxiliary/policies/execution-projection.json",
+      "sha256": "7a732bd76731370b65c805fe8cef5c8e8eaaac49faeff9b641157951e4487685"
+    },
+    "source__release__auxiliary__release-inputs__evidence__covariance.json": {
+      "bytes": 741,
+      "path": "release/auxiliary/release-inputs/evidence/covariance.json",
+      "sha256": "c00d0013957f9de7d291cf957b089d9ad236b7f3a23287b273e34ee25d23343b"
+    },
+    "source__release__auxiliary__release-inputs__evidence__etf.json": {
+      "bytes": 690,
+      "path": "release/auxiliary/release-inputs/evidence/etf.json",
+      "sha256": "d6162baa4d6c08983d101cab601abf1eea456834c5aab9bdc8248f1a72195a4e"
+    },
+    "source__release__auxiliary__release-inputs__evidence__integrations.json": {
+      "bytes": 1520,
+      "path": "release/auxiliary/release-inputs/evidence/integrations.json",
+      "sha256": "ff8ee216218ea72f133fcab67014bff0b2547758536190f8b53251dcb549d03b"
+    },
+    "source__release__auxiliary__release-inputs__evidence__stocks.json": {
+      "bytes": 1066,
+      "path": "release/auxiliary/release-inputs/evidence/stocks.json",
+      "sha256": "5c16644d39f91ba44cfb202e5e39ff16eb527477ddd02b578163e2f267bf4886"
+    },
+    "source__release__etf-data-freeze.json": {
+      "bytes": 929,
+      "path": "release/etf-data-freeze.json",
+      "sha256": "6dbb5162e047077b962dbe60f815f8a623d21f70043a61e9f2e5da210449fb0f"
+    },
+    "source__release__final-release.json": {
+      "bytes": 2272554,
+      "path": "release/final-release.json",
+      "sha256": "f520966f25f426e6688f895bf51fdac25e887aecf2d26129d1b3243cfd663620"
+    },
+    "source__release__market-data-freeze.json": {
+      "bytes": 1140,
+      "path": "release/market-data-freeze.json",
+      "sha256": "27cbbed912a524a9d08b390e1416bef10d851784fee92835a953ddd37db825f8"
+    },
+    "source__release__prepared-data-freeze.json": {
+      "bytes": 2051,
+      "path": "release/prepared-data-freeze.json",
+      "sha256": "b24b7e20a90c5e74d7921aa643a8caeb1d9ca38d237c3fe14732407d50063d04"
+    },
+    "source__release__recipes__etf_covariance_ewma63_only.json": {
+      "bytes": 1429,
+      "path": "release/recipes/etf_covariance_ewma63_only.json",
+      "sha256": "e2e42a99f5f296827f3ca3797810c9f361aaaf36b341aeb34e5b4cb84f7b8f33"
+    },
+    "source__release__recipes__etf_covariance_ledoit_wolf_only.json": {
+      "bytes": 1439,
+      "path": "release/recipes/etf_covariance_ledoit_wolf_only.json",
+      "sha256": "0c8af157e36f3f65a9c93e9f7588ccfa5ddf0e34c9bc69d7356185369ca395e8"
+    },
+    "source__release__recipes__etf_reference_sample_target10.json": {
+      "bytes": 1435,
+      "path": "release/recipes/etf_reference_sample_target10.json",
+      "sha256": "cacea1915cc3636bcb6cba241d4c3fc10f2b2f8d3e9f47b6d535770cdacba1ee"
+    },
+    "source__release__recipes__etf_strategic_equal.json": {
+      "bytes": 1443,
+      "path": "release/recipes/etf_strategic_equal.json",
+      "sha256": "e46675816cd788a7cb5025f576656a4d7bb8ba1b85b7ca1dace78b67f824ad07"
+    },
+    "source__release__recipes__etf_target05_only.json": {
+      "bytes": 1411,
+      "path": "release/recipes/etf_target05_only.json",
+      "sha256": "3f4a9227aa0f57742d4efa71e8e47f72e8d1777ebb9c66d0967a15f97e2b1d2a"
+    },
+    "source__release__recipes__etf_target15_only.json": {
+      "bytes": 1411,
+      "path": "release/recipes/etf_target15_only.json",
+      "sha256": "82f8d8ba1af13f87f0889d937fe4fa8d90b104f454e8dc8adfa161c1bccce7cb"
+    },
+    "source__release__recipes__etf_trend_252.json": {
+      "bytes": 1431,
+      "path": "release/recipes/etf_trend_252.json",
+      "sha256": "3337bb944ea51b37c8227ea6d743f138145262bccce0ca6fa41e731611d5701c"
+    },
+    "source__release__recipes__etf_trend_252_volatility_63.json": {
+      "bytes": 1459,
+      "path": "release/recipes/etf_trend_252_volatility_63.json",
+      "sha256": "e8d740230042e8a88c8cf5105718ce227bcf08d0812ac3a8f78f1a5b8e9a95b1"
+    },
+    "source__release__recipes__etf_volatility_63.json": {
+      "bytes": 1439,
+      "path": "release/recipes/etf_volatility_63.json",
+      "sha256": "62ec1400ac488217a020d1a0423fee2b0c30fb4874bf9380f8368de180667297"
+    },
+    "source__release__recipes__etf_weight_inverse_vol_only.json": {
+      "bytes": 1431,
+      "path": "release/recipes/etf_weight_inverse_vol_only.json",
+      "sha256": "86a39cfae2d3cb003ead35042ed2d9837e8fa5e542fa6253696056acd6b9cb8f"
+    },
+    "source__release__recipes__etf_weight_risk_budget_only.json": {
+      "bytes": 1431,
+      "path": "release/recipes/etf_weight_risk_budget_only.json",
+      "sha256": "8e0803ff29194d0472cdaa60d441992ec47219eaaa226f51d99ba8e4d004453c"
+    },
+    "source__release__recipes__forecast_etf8_n126.json": {
+      "bytes": 3403,
+      "path": "release/recipes/forecast_etf8_n126.json",
+      "sha256": "0a7bb8a040dab4a57d0026ddfa5d384f4f43ec537efde2fa7e0e82ed4d5ff132"
+    },
+    "source__release__recipes__forecast_etf8_n252.json": {
+      "bytes": 3403,
+      "path": "release/recipes/forecast_etf8_n252.json",
+      "sha256": "7684a384a64daeffd55c2197e8d16afb893bf84b7942189654d57217b51d47b0"
+    },
+    "source__release__recipes__forecast_stock100_n126.json": {
+      "bytes": 159830,
+      "path": "release/recipes/forecast_stock100_n126.json",
+      "sha256": "f4932e52dac455cf24098bf4852cfe5a52388c3173b178c94d129d50145c3dce"
+    },
+    "source__release__recipes__forecast_stock100_n63.json": {
+      "bytes": 159820,
+      "path": "release/recipes/forecast_stock100_n63.json",
+      "sha256": "360a40c4cd1fe669a11aa6263ab1b6eafe54e158e3902f3822d52a55b79f6ef8"
+    },
+    "source__release__recipes__forecast_stock150_n126.json": {
+      "bytes": 159830,
+      "path": "release/recipes/forecast_stock150_n126.json",
+      "sha256": "9bb6332b922681a06240c0faccdcc6302c5fd894746ade1ffd9c2d8223dfce08"
+    },
+    "source__release__recipes__forecast_stock150_n252.json": {
+      "bytes": 159830,
+      "path": "release/recipes/forecast_stock150_n252.json",
+      "sha256": "826e9208f20b1388af67a22edeb411402e40935f17572c16980a85fffa244564"
+    },
+    "source__release__recipes__forecast_stock150_n63.json": {
+      "bytes": 159820,
+      "path": "release/recipes/forecast_stock150_n63.json",
+      "sha256": "16af195cd7c7389dd619b930cc85c5d4bdec1bb94ded10397660b06064f4d4b4"
+    },
+    "source__release__recipes__forecast_stock50_n126.json": {
+      "bytes": 159828,
+      "path": "release/recipes/forecast_stock50_n126.json",
+      "sha256": "69de4f0b27c436a1733eba0736248e137fe05fb0ae145225e54b809abab902c6"
+    },
+    "source__release__recipes__forecast_stock50_n252.json": {
+      "bytes": 159828,
+      "path": "release/recipes/forecast_stock50_n252.json",
+      "sha256": "a4de39d48d19ca6514b700861154ae70ed840aaecd387306dd20fb586737511d"
+    },
+    "source__release__recipes__forecast_stock50_n63.json": {
+      "bytes": 159818,
+      "path": "release/recipes/forecast_stock50_n63.json",
+      "sha256": "59727456244fc1e16f6a0fbdd0d9eb144c43571784afa1c65a0a155b318bf50f"
+    },
+    "source__release__recipes__integration_control_fixed_composite_fee0.json": {
+      "bytes": 233252,
+      "path": "release/recipes/integration_control_fixed_composite_fee0.json",
+      "sha256": "a255ed6c752c3f2c1e8c074f482da91a709cff8f28115741a0601f918f631cdf"
+    },
+    "source__release__recipes__integration_control_fixed_composite_fee10.json": {
+      "bytes": 233254,
+      "path": "release/recipes/integration_control_fixed_composite_fee10.json",
+      "sha256": "5ffc774236c7c644cd665ad9ec28374f85aa5e0777e3a4e7a9b8a777369bc60d"
+    },
+    "source__release__recipes__integration_control_fixed_composite_fee25.json": {
+      "bytes": 233254,
+      "path": "release/recipes/integration_control_fixed_composite_fee25.json",
+      "sha256": "4534823a96a8ea0bc92666c2b9024eceb3469500fa840f6ec991da999e5356ca"
+    },
+    "source__release__recipes__integration_control_fixed_composite_fee5.json": {
+      "bytes": 233252,
+      "path": "release/recipes/integration_control_fixed_composite_fee5.json",
+      "sha256": "c3968badd082bdcf935d2a7c0e6b6ccc09c4d5305b46fa0fd379d770baae965b"
+    },
+    "source__release__recipes__integration_etf_covariance.json": {
+      "bytes": 1477,
+      "path": "release/recipes/integration_etf_covariance.json",
+      "sha256": "c3c97bcb8b9ff05002721c89b63e9ff58bdd4f4ed2027ceaa3c8c152dcd1aa7b"
+    },
+    "source__release__recipes__risk_etf8_capped_inverse_volatility_fee0.json": {
+      "bytes": 3849,
+      "path": "release/recipes/risk_etf8_capped_inverse_volatility_fee0.json",
+      "sha256": "1e83b77394ec3a10c35d7e8bf4bb49ae1daaa68d69166d0f86c30a08c6071a5c"
+    },
+    "source__release__recipes__risk_etf8_capped_inverse_volatility_fee10.json": {
+      "bytes": 3851,
+      "path": "release/recipes/risk_etf8_capped_inverse_volatility_fee10.json",
+      "sha256": "3dba305b8f8e1d30e9a9cca16ebd2e849596f4c3cfdffcf5e5c983e32cb8390a"
+    },
+    "source__release__recipes__risk_etf8_capped_inverse_volatility_fee25.json": {
+      "bytes": 3851,
+      "path": "release/recipes/risk_etf8_capped_inverse_volatility_fee25.json",
+      "sha256": "e257e68c397bac7d398f54da6822528215dcc65ba2d1c937b9eb8c84af7ae6ca"
+    },
+    "source__release__recipes__risk_etf8_capped_inverse_volatility_fee5.json": {
+      "bytes": 3849,
+      "path": "release/recipes/risk_etf8_capped_inverse_volatility_fee5.json",
+      "sha256": "ed2e2373a24d83f5ac59aa329960768f68d9432fdd2b0907012d307299eb0f96"
+    },
+    "source__release__recipes__risk_etf8_constant_correlation_fixed0p5_eta0_fee0.json": {
+      "bytes": 3861,
+      "path": "release/recipes/risk_etf8_constant_correlation_fixed0p5_eta0_fee0.json",
+      "sha256": "9bedb0ae5137ebbdb2303e852429f8b220ddf4100ea1085f0900d560b93660d2"
+    },
+    "source__release__recipes__risk_etf8_constant_correlation_fixed0p5_eta0_fee10.json": {
+      "bytes": 3863,
+      "path": "release/recipes/risk_etf8_constant_correlation_fixed0p5_eta0_fee10.json",
+      "sha256": "6211eb894673531cc6c2f4f89e64e03fae343b42f9b50ad0725852e6d8a58be4"
+    },
+    "source__release__recipes__risk_etf8_constant_correlation_fixed0p5_eta0_fee25.json": {
+      "bytes": 3863,
+      "path": "release/recipes/risk_etf8_constant_correlation_fixed0p5_eta0_fee25.json",
+      "sha256": "5f4f5823d55d3c4faffb20806e51ae44edbbc5fd0b324cc2e36170f7e0c5b02c"
+    },
+    "source__release__recipes__risk_etf8_constant_correlation_fixed0p5_eta0_fee5.json": {
+      "bytes": 3861,
+      "path": "release/recipes/risk_etf8_constant_correlation_fixed0p5_eta0_fee5.json",
+      "sha256": "8b4a5ba2d5ea618224deaa7d5c4948d342da274105286643f74af577c5638938"
+    },
+    "source__release__recipes__risk_etf8_constant_correlation_fixed0p5_eta0p01_fee0.json": {
+      "bytes": 3868,
+      "path": "release/recipes/risk_etf8_constant_correlation_fixed0p5_eta0p01_fee0.json",
+      "sha256": "ad3883dcb5ec5aa2efa53efbe41d287302f8cabdd76e14c0ea98db09c8362c15"
+    },
+    "source__release__recipes__risk_etf8_constant_correlation_fixed0p5_eta0p01_fee10.json": {
+      "bytes": 3870,
+      "path": "release/recipes/risk_etf8_constant_correlation_fixed0p5_eta0p01_fee10.json",
+      "sha256": "e8398cd1843df77c36bf625cbdb28a914ce0b650a3f98b728cbb617766e5fb4f"
+    },
+    "source__release__recipes__risk_etf8_constant_correlation_fixed0p5_eta0p01_fee25.json": {
+      "bytes": 3870,
+      "path": "release/recipes/risk_etf8_constant_correlation_fixed0p5_eta0p01_fee25.json",
+      "sha256": "3256c11536ce54cddf85a3b579538828d870e8545bca9d61145d9c04c9e24858"
+    },
+    "source__release__recipes__risk_etf8_constant_correlation_fixed0p5_eta0p01_fee5.json": {
+      "bytes": 3868,
+      "path": "release/recipes/risk_etf8_constant_correlation_fixed0p5_eta0p01_fee5.json",
+      "sha256": "da2ab8799be65cf662654e36dbcc2fda98707272a38009ded352468feca72097"
+    },
+    "source__release__recipes__risk_etf8_constant_correlation_fixed0p5_eta0p1_fee0.json": {
+      "bytes": 3865,
+      "path": "release/recipes/risk_etf8_constant_correlation_fixed0p5_eta0p1_fee0.json",
+      "sha256": "91465a7eb4b8bf83fb885da1d8bb1ba2273fb21e9cef72917823d840cacc5d70"
+    },
+    "source__release__recipes__risk_etf8_constant_correlation_fixed0p5_eta0p1_fee10.json": {
+      "bytes": 3867,
+      "path": "release/recipes/risk_etf8_constant_correlation_fixed0p5_eta0p1_fee10.json",
+      "sha256": "56305c14eca0ef75d29fdd22d37b89eb4032240ae9913bbbe63ef77930066975"
+    },
+    "source__release__recipes__risk_etf8_constant_correlation_fixed0p5_eta0p1_fee25.json": {
+      "bytes": 3867,
+      "path": "release/recipes/risk_etf8_constant_correlation_fixed0p5_eta0p1_fee25.json",
+      "sha256": "714dbf6f60273d25d728eea35369e1103912e4ce374d4a58f6d335473bd249af"
+    },
+    "source__release__recipes__risk_etf8_constant_correlation_fixed0p5_eta0p1_fee5.json": {
+      "bytes": 3865,
+      "path": "release/recipes/risk_etf8_constant_correlation_fixed0p5_eta0p1_fee5.json",
+      "sha256": "863ba108f1841294d11a008b0cddc7986ca9ce59b214690a2a63c8f8cd66f450"
+    },
+    "source__release__recipes__risk_etf8_equal_weight_fee0.json": {
+      "bytes": 3810,
+      "path": "release/recipes/risk_etf8_equal_weight_fee0.json",
+      "sha256": "0dba9d65250266693c0c9f7ebc7931e748292e1e1b92afef86ffec163da148e9"
+    },
+    "source__release__recipes__risk_etf8_equal_weight_fee10.json": {
+      "bytes": 3812,
+      "path": "release/recipes/risk_etf8_equal_weight_fee10.json",
+      "sha256": "d072e37484796ece62b2db32dc937813ef54113d3114586a13c4420ca5f8130a"
+    },
+    "source__release__recipes__risk_etf8_equal_weight_fee25.json": {
+      "bytes": 3812,
+      "path": "release/recipes/risk_etf8_equal_weight_fee25.json",
+      "sha256": "0226d4eaaee387315a621f913ba873eb1006bf05eca5469441db52e2778b0834"
+    },
+    "source__release__recipes__risk_etf8_equal_weight_fee5.json": {
+      "bytes": 3810,
+      "path": "release/recipes/risk_etf8_equal_weight_fee5.json",
+      "sha256": "c4903d4a007d6b072bd74984077d40a97bbce43b8e4349b54a59d7facfe20b7c"
+    },
+    "source__release__recipes__risk_etf8_ewma_halflife63_eta0_fee0.json": {
+      "bytes": 3819,
+      "path": "release/recipes/risk_etf8_ewma_halflife63_eta0_fee0.json",
+      "sha256": "631e0c78d36b65e52c3ba6e9d473c73368b8ef82296176550112475dce938486"
+    },
+    "source__release__recipes__risk_etf8_ewma_halflife63_eta0_fee10.json": {
+      "bytes": 3821,
+      "path": "release/recipes/risk_etf8_ewma_halflife63_eta0_fee10.json",
+      "sha256": "496201b4243b4b4653cc418f523f6821389f1eb258c9c65e99c8b57538b550e7"
+    },
+    "source__release__recipes__risk_etf8_ewma_halflife63_eta0_fee25.json": {
+      "bytes": 3821,
+      "path": "release/recipes/risk_etf8_ewma_halflife63_eta0_fee25.json",
+      "sha256": "b04addc3c1aa02994c98e798460b1bd89931fd92882168aa5c9b24c4bae79ed2"
+    },
+    "source__release__recipes__risk_etf8_ewma_halflife63_eta0_fee5.json": {
+      "bytes": 3819,
+      "path": "release/recipes/risk_etf8_ewma_halflife63_eta0_fee5.json",
+      "sha256": "6a844451c0728bb60c72b0a11c2e0aad5d4a4e9f89678867298699891ce9a3c2"
+    },
+    "source__release__recipes__risk_etf8_ewma_halflife63_eta0p01_fee0.json": {
+      "bytes": 3826,
+      "path": "release/recipes/risk_etf8_ewma_halflife63_eta0p01_fee0.json",
+      "sha256": "05b2ab7b4a35c9b45253fddb191e8b9d959b30e672baedbc71e00d5b83d0957f"
+    },
+    "source__release__recipes__risk_etf8_ewma_halflife63_eta0p01_fee10.json": {
+      "bytes": 3828,
+      "path": "release/recipes/risk_etf8_ewma_halflife63_eta0p01_fee10.json",
+      "sha256": "cce050d28c92cb0f5b635d5705001207b4b245257b92e6058875f9350bed1cdc"
+    },
+    "source__release__recipes__risk_etf8_ewma_halflife63_eta0p01_fee25.json": {
+      "bytes": 3828,
+      "path": "release/recipes/risk_etf8_ewma_halflife63_eta0p01_fee25.json",
+      "sha256": "9ec795f9ceda9a3f7cfac2f1b3d6ea90e9a8d9c7c2cee43b34262a834dbe4a32"
+    },
+    "source__release__recipes__risk_etf8_ewma_halflife63_eta0p01_fee5.json": {
+      "bytes": 3826,
+      "path": "release/recipes/risk_etf8_ewma_halflife63_eta0p01_fee5.json",
+      "sha256": "8401f06af72340098d4b1174ab2096c54a99b24759fa7f233a1d4b91cfda4f88"
+    },
+    "source__release__recipes__risk_etf8_ewma_halflife63_eta0p1_fee0.json": {
+      "bytes": 3823,
+      "path": "release/recipes/risk_etf8_ewma_halflife63_eta0p1_fee0.json",
+      "sha256": "c4947588c9376ecb713f0ce8bdc18fafa6753646b6f0a9bbb5d039f79d05b988"
+    },
+    "source__release__recipes__risk_etf8_ewma_halflife63_eta0p1_fee10.json": {
+      "bytes": 3825,
+      "path": "release/recipes/risk_etf8_ewma_halflife63_eta0p1_fee10.json",
+      "sha256": "36d0387fb4aac564839ecc661bb8f19783015ff4c19a150f7341aa2d3f4e7854"
+    },
+    "source__release__recipes__risk_etf8_ewma_halflife63_eta0p1_fee25.json": {
+      "bytes": 3825,
+      "path": "release/recipes/risk_etf8_ewma_halflife63_eta0p1_fee25.json",
+      "sha256": "6f9ede79ae41021b97740aa00712b69397736e44ca3a4e3b483cab3ba5490585"
+    },
+    "source__release__recipes__risk_etf8_ewma_halflife63_eta0p1_fee5.json": {
+      "bytes": 3823,
+      "path": "release/recipes/risk_etf8_ewma_halflife63_eta0p1_fee5.json",
+      "sha256": "6408217b397687cfb250691455fddfb2dbe4a4153ade599052633f4a0dbaff0a"
+    },
+    "source__release__recipes__risk_etf8_ledoit_wolf_eta0_fee0.json": {
+      "bytes": 3807,
+      "path": "release/recipes/risk_etf8_ledoit_wolf_eta0_fee0.json",
+      "sha256": "00cecc174189c486381721501468eb5318140ded398e596bbe833331f6b3dcc9"
+    },
+    "source__release__recipes__risk_etf8_ledoit_wolf_eta0_fee10.json": {
+      "bytes": 3809,
+      "path": "release/recipes/risk_etf8_ledoit_wolf_eta0_fee10.json",
+      "sha256": "bef19526922755dbfc6015900f6724cab1d1aac057178a05182694adc9aeeb5f"
+    },
+    "source__release__recipes__risk_etf8_ledoit_wolf_eta0_fee25.json": {
+      "bytes": 3809,
+      "path": "release/recipes/risk_etf8_ledoit_wolf_eta0_fee25.json",
+      "sha256": "195343f390719f0b12452dc69737d949415d635cab717498e6e45961d099c763"
+    },
+    "source__release__recipes__risk_etf8_ledoit_wolf_eta0_fee5.json": {
+      "bytes": 3807,
+      "path": "release/recipes/risk_etf8_ledoit_wolf_eta0_fee5.json",
+      "sha256": "c0174f1defe502c9333ce6ce8b0cd45f700363d64cda4395ce084d41dd552955"
+    },
+    "source__release__recipes__risk_etf8_ledoit_wolf_eta0p01_fee0.json": {
+      "bytes": 3814,
+      "path": "release/recipes/risk_etf8_ledoit_wolf_eta0p01_fee0.json",
+      "sha256": "e595407a3abb61c51be7b73ca4f0958e8571a89591794bbf3a5d6ea5ea96f8ca"
+    },
+    "source__release__recipes__risk_etf8_ledoit_wolf_eta0p01_fee10.json": {
+      "bytes": 3816,
+      "path": "release/recipes/risk_etf8_ledoit_wolf_eta0p01_fee10.json",
+      "sha256": "405e4a976d88443cc2912b4bc837522d52c112ae896dc6ca24a8e08a5da4509e"
+    },
+    "source__release__recipes__risk_etf8_ledoit_wolf_eta0p01_fee25.json": {
+      "bytes": 3816,
+      "path": "release/recipes/risk_etf8_ledoit_wolf_eta0p01_fee25.json",
+      "sha256": "d224729131540c2093a7d1e7627f0c7dac79923c04aa3ac772382ea835d7d78b"
+    },
+    "source__release__recipes__risk_etf8_ledoit_wolf_eta0p01_fee5.json": {
+      "bytes": 3814,
+      "path": "release/recipes/risk_etf8_ledoit_wolf_eta0p01_fee5.json",
+      "sha256": "536fab16e2a3c3efb5d19d0b8854cc4d83b220d682be65a22653c8d1a210702f"
+    },
+    "source__release__recipes__risk_etf8_ledoit_wolf_eta0p1_fee0.json": {
+      "bytes": 3811,
+      "path": "release/recipes/risk_etf8_ledoit_wolf_eta0p1_fee0.json",
+      "sha256": "7241f0dd429198156506433437c5496c44183e8819b9ae9e1093d636350e66e8"
+    },
+    "source__release__recipes__risk_etf8_ledoit_wolf_eta0p1_fee10.json": {
+      "bytes": 3813,
+      "path": "release/recipes/risk_etf8_ledoit_wolf_eta0p1_fee10.json",
+      "sha256": "a2444946a57fedea80660bdb6b23495ec1a389944049ccdd109e16398e0b564b"
+    },
+    "source__release__recipes__risk_etf8_ledoit_wolf_eta0p1_fee25.json": {
+      "bytes": 3813,
+      "path": "release/recipes/risk_etf8_ledoit_wolf_eta0p1_fee25.json",
+      "sha256": "155983f3368dd271611a4e1880f98dd344e5e3d7c2d159682f91d5d91a9993af"
+    },
+    "source__release__recipes__risk_etf8_ledoit_wolf_eta0p1_fee5.json": {
+      "bytes": 3811,
+      "path": "release/recipes/risk_etf8_ledoit_wolf_eta0p1_fee5.json",
+      "sha256": "32299a79be65bb465f773c3f6e131a4d6e644175cfd8afe64aba21d415f76ac6"
+    },
+    "source__release__recipes__risk_etf8_oas_eta0_fee0.json": {
+      "bytes": 3783,
+      "path": "release/recipes/risk_etf8_oas_eta0_fee0.json",
+      "sha256": "2c75689019853ca310ad85654c7f3a0c47291b016212ee57ab8e878707f9c96e"
+    },
+    "source__release__recipes__risk_etf8_oas_eta0_fee10.json": {
+      "bytes": 3785,
+      "path": "release/recipes/risk_etf8_oas_eta0_fee10.json",
+      "sha256": "4c3a5581a35b3a142b85bb487b750cd32b167fbea2a81b968e6543a16f3d0304"
+    },
+    "source__release__recipes__risk_etf8_oas_eta0_fee25.json": {
+      "bytes": 3785,
+      "path": "release/recipes/risk_etf8_oas_eta0_fee25.json",
+      "sha256": "dd8bf05c8ac8a25af9ed2ad32f2240cac9c431ae154330cdca2f9786100440b2"
+    },
+    "source__release__recipes__risk_etf8_oas_eta0_fee5.json": {
+      "bytes": 3783,
+      "path": "release/recipes/risk_etf8_oas_eta0_fee5.json",
+      "sha256": "50157f080548acc33ec6900c39d8d19ccb25b248c2e0eeabe29302cce4fe6814"
+    },
+    "source__release__recipes__risk_etf8_oas_eta0p01_fee0.json": {
+      "bytes": 3790,
+      "path": "release/recipes/risk_etf8_oas_eta0p01_fee0.json",
+      "sha256": "704c2b0985aa0f8a7d2b24382e7260db8bd780055131cca6f2f997e5ab250d92"
+    },
+    "source__release__recipes__risk_etf8_oas_eta0p01_fee10.json": {
+      "bytes": 3792,
+      "path": "release/recipes/risk_etf8_oas_eta0p01_fee10.json",
+      "sha256": "124623000f62fc1ac1766ed02ede491b7b96867ad31ebe99fd6dd79e39d03739"
+    },
+    "source__release__recipes__risk_etf8_oas_eta0p01_fee25.json": {
+      "bytes": 3792,
+      "path": "release/recipes/risk_etf8_oas_eta0p01_fee25.json",
+      "sha256": "47a27052348ad9777d024ad6a716d3ed69972bb6a1f7c83f4e16e942dcdf5873"
+    },
+    "source__release__recipes__risk_etf8_oas_eta0p01_fee5.json": {
+      "bytes": 3790,
+      "path": "release/recipes/risk_etf8_oas_eta0p01_fee5.json",
+      "sha256": "7c1ae58859a3094cc515d197f0a8ff6c634df72030f8615cf561900f268b8d5a"
+    },
+    "source__release__recipes__risk_etf8_oas_eta0p1_fee0.json": {
+      "bytes": 3787,
+      "path": "release/recipes/risk_etf8_oas_eta0p1_fee0.json",
+      "sha256": "1d22704e6f4ccada68382e1b2f511fafd0a439cf0cdc961824d8a14ee7941fb6"
+    },
+    "source__release__recipes__risk_etf8_oas_eta0p1_fee10.json": {
+      "bytes": 3789,
+      "path": "release/recipes/risk_etf8_oas_eta0p1_fee10.json",
+      "sha256": "a5b06225865c4a6014e78e34f6b0c474db0954ea4ee240802322286895a53787"
+    },
+    "source__release__recipes__risk_etf8_oas_eta0p1_fee25.json": {
+      "bytes": 3789,
+      "path": "release/recipes/risk_etf8_oas_eta0p1_fee25.json",
+      "sha256": "0a02dc93a2bd07f2d54e6b0dd0af65dcee631d9f71156fa41b3eedb0b429286a"
+    },
+    "source__release__recipes__risk_etf8_oas_eta0p1_fee5.json": {
+      "bytes": 3787,
+      "path": "release/recipes/risk_etf8_oas_eta0p1_fee5.json",
+      "sha256": "1d2ad42af3eead27a3e94fee7f458146eaba125d13ab69aa60aea1b914bf31ac"
+    },
+    "source__release__recipes__risk_etf8_pca_K1_eta0_fee0.json": {
+      "bytes": 3792,
+      "path": "release/recipes/risk_etf8_pca_K1_eta0_fee0.json",
+      "sha256": "8cad7ed0e841cb74b5f8eb58ddd236838f2c9764ef86678c27f3942e286b2870"
+    },
+    "source__release__recipes__risk_etf8_pca_K1_eta0_fee10.json": {
+      "bytes": 3794,
+      "path": "release/recipes/risk_etf8_pca_K1_eta0_fee10.json",
+      "sha256": "c3f3b23b22da0a1199197c1ecee88dfb195ec86ee8f8634ade57de6ad355a11b"
+    },
+    "source__release__recipes__risk_etf8_pca_K1_eta0_fee25.json": {
+      "bytes": 3794,
+      "path": "release/recipes/risk_etf8_pca_K1_eta0_fee25.json",
+      "sha256": "83cee30cfe20c911970482de8ad71826b2b7d269d1c64afaa9cf5ed91e65fbbf"
+    },
+    "source__release__recipes__risk_etf8_pca_K1_eta0_fee5.json": {
+      "bytes": 3792,
+      "path": "release/recipes/risk_etf8_pca_K1_eta0_fee5.json",
+      "sha256": "79771407eadc8c9f3b88f96418c1b8138c1cc16e3b765352c80c6ec3c86cd238"
+    },
+    "source__release__recipes__risk_etf8_pca_K1_eta0p01_fee0.json": {
+      "bytes": 3799,
+      "path": "release/recipes/risk_etf8_pca_K1_eta0p01_fee0.json",
+      "sha256": "7512ceee098d8bd2429cbe0287725dcdaa0e5b32fa49134499f11ff8b5a1d6e2"
+    },
+    "source__release__recipes__risk_etf8_pca_K1_eta0p01_fee10.json": {
+      "bytes": 3801,
+      "path": "release/recipes/risk_etf8_pca_K1_eta0p01_fee10.json",
+      "sha256": "acea8020a995e33708bdd3eeaa40d9495fee73a938ac979e91a8d7d3dc9106c4"
+    },
+    "source__release__recipes__risk_etf8_pca_K1_eta0p01_fee25.json": {
+      "bytes": 3801,
+      "path": "release/recipes/risk_etf8_pca_K1_eta0p01_fee25.json",
+      "sha256": "4135fe570cc20ecec24ae6b754c2c0aae9b839ba5e24772e1bd6b63b5661602b"
+    },
+    "source__release__recipes__risk_etf8_pca_K1_eta0p01_fee5.json": {
+      "bytes": 3799,
+      "path": "release/recipes/risk_etf8_pca_K1_eta0p01_fee5.json",
+      "sha256": "9f6d436711121e6f3c8e600c57da3fef9bd52eaa36d72f40578436bbf0bae2fd"
+    },
+    "source__release__recipes__risk_etf8_pca_K1_eta0p1_fee0.json": {
+      "bytes": 3796,
+      "path": "release/recipes/risk_etf8_pca_K1_eta0p1_fee0.json",
+      "sha256": "6c06810289bb7e256ff8f5bc0a37fbed35b74e21239ee34ae2b68622aac22037"
+    },
+    "source__release__recipes__risk_etf8_pca_K1_eta0p1_fee10.json": {
+      "bytes": 3798,
+      "path": "release/recipes/risk_etf8_pca_K1_eta0p1_fee10.json",
+      "sha256": "e9574cbc9e57195b9a81961cf41adc467c3b51f90c9fb6923bc6c3113a2bb0a8"
+    },
+    "source__release__recipes__risk_etf8_pca_K1_eta0p1_fee25.json": {
+      "bytes": 3798,
+      "path": "release/recipes/risk_etf8_pca_K1_eta0p1_fee25.json",
+      "sha256": "4b8860ac061f2bc628efc92f44b83838fa5df84b1166e9697376487df5d9b811"
+    },
+    "source__release__recipes__risk_etf8_pca_K1_eta0p1_fee5.json": {
+      "bytes": 3796,
+      "path": "release/recipes/risk_etf8_pca_K1_eta0p1_fee5.json",
+      "sha256": "d23e7971f5d59e49b4a2c3b199da02df94f54c5625d3aeafd30f830e7d3db5b2"
+    },
+    "source__release__recipes__risk_etf8_pca_K3_eta0_fee0.json": {
+      "bytes": 3792,
+      "path": "release/recipes/risk_etf8_pca_K3_eta0_fee0.json",
+      "sha256": "7daf595877820c4b0c4c9a226a8ceb92fe62ad3f9988371fa0470e944c643fac"
+    },
+    "source__release__recipes__risk_etf8_pca_K3_eta0_fee10.json": {
+      "bytes": 3794,
+      "path": "release/recipes/risk_etf8_pca_K3_eta0_fee10.json",
+      "sha256": "f2631af20620c8e494e7fc9fbe426ad99ff9bad31ac0e85ef7697f9868eee51d"
+    },
+    "source__release__recipes__risk_etf8_pca_K3_eta0_fee25.json": {
+      "bytes": 3794,
+      "path": "release/recipes/risk_etf8_pca_K3_eta0_fee25.json",
+      "sha256": "1f99f5523c85fcf1304688c6f677edc9c6d8ec5081a0af1eecc20a044ccebc89"
+    },
+    "source__release__recipes__risk_etf8_pca_K3_eta0_fee5.json": {
+      "bytes": 3792,
+      "path": "release/recipes/risk_etf8_pca_K3_eta0_fee5.json",
+      "sha256": "4b2535daf915ceb38ee275f8d52c7f0f93f79ae1bf81da05659dc6be00cf01bc"
+    },
+    "source__release__recipes__risk_etf8_pca_K3_eta0p01_fee0.json": {
+      "bytes": 3799,
+      "path": "release/recipes/risk_etf8_pca_K3_eta0p01_fee0.json",
+      "sha256": "e80b7299731082f0da3872c0b8d23c72b989be1e01888c4230ab7bfcef15472c"
+    },
+    "source__release__recipes__risk_etf8_pca_K3_eta0p01_fee10.json": {
+      "bytes": 3801,
+      "path": "release/recipes/risk_etf8_pca_K3_eta0p01_fee10.json",
+      "sha256": "a45035c34802bd974257a548fe14d9fcf69d8fc4baba3d69befa5c80ac9f3b39"
+    },
+    "source__release__recipes__risk_etf8_pca_K3_eta0p01_fee25.json": {
+      "bytes": 3801,
+      "path": "release/recipes/risk_etf8_pca_K3_eta0p01_fee25.json",
+      "sha256": "24902fa67db629356d1eddea0e2c870d0a8c943714a6551e5228247470740236"
+    },
+    "source__release__recipes__risk_etf8_pca_K3_eta0p01_fee5.json": {
+      "bytes": 3799,
+      "path": "release/recipes/risk_etf8_pca_K3_eta0p01_fee5.json",
+      "sha256": "f653527b637b94c9b91511ae0189f038204d182b334dac7559ceb552dfb7da34"
+    },
+    "source__release__recipes__risk_etf8_pca_K3_eta0p1_fee0.json": {
+      "bytes": 3796,
+      "path": "release/recipes/risk_etf8_pca_K3_eta0p1_fee0.json",
+      "sha256": "5b10b58b77096644787e1f849d73aa7705cfbc52949f346d572810ae8c0f4dd9"
+    },
+    "source__release__recipes__risk_etf8_pca_K3_eta0p1_fee10.json": {
+      "bytes": 3798,
+      "path": "release/recipes/risk_etf8_pca_K3_eta0p1_fee10.json",
+      "sha256": "f2768449974a167960ea73bfd69f590d3e5028feaa48e5cf094ab691d69ca19a"
+    },
+    "source__release__recipes__risk_etf8_pca_K3_eta0p1_fee25.json": {
+      "bytes": 3798,
+      "path": "release/recipes/risk_etf8_pca_K3_eta0p1_fee25.json",
+      "sha256": "8250412611b889b90fc7982994b97e9c8282a97e9793ba3bba24e5f5b185ffa4"
+    },
+    "source__release__recipes__risk_etf8_pca_K3_eta0p1_fee5.json": {
+      "bytes": 3796,
+      "path": "release/recipes/risk_etf8_pca_K3_eta0p1_fee5.json",
+      "sha256": "0d78815a3e5fd29e07147b2f467cb6a36783133baabadd20ed7b892ac8a9e3aa"
+    },
+    "source__release__recipes__risk_etf8_pca_K5_eta0_fee0.json": {
+      "bytes": 3792,
+      "path": "release/recipes/risk_etf8_pca_K5_eta0_fee0.json",
+      "sha256": "eeda95c8637eff34d609d6a7d9a9b423b6ce3d559fe59c5f45308e6ac23638e7"
+    },
+    "source__release__recipes__risk_etf8_pca_K5_eta0_fee10.json": {
+      "bytes": 3794,
+      "path": "release/recipes/risk_etf8_pca_K5_eta0_fee10.json",
+      "sha256": "7a50ddbf83327d70d4b3f23dd65b61ebda750c53cf28e45ec76876be6c3ada22"
+    },
+    "source__release__recipes__risk_etf8_pca_K5_eta0_fee25.json": {
+      "bytes": 3794,
+      "path": "release/recipes/risk_etf8_pca_K5_eta0_fee25.json",
+      "sha256": "990f2d633a797b1ee1be292e83cda845f24582df9c15f658237eb8442937c153"
+    },
+    "source__release__recipes__risk_etf8_pca_K5_eta0_fee5.json": {
+      "bytes": 3792,
+      "path": "release/recipes/risk_etf8_pca_K5_eta0_fee5.json",
+      "sha256": "f412f1f7f3d126997fa082a43f108d953b584688cc128699667f50a31ce09f0a"
+    },
+    "source__release__recipes__risk_etf8_pca_K5_eta0p01_fee0.json": {
+      "bytes": 3799,
+      "path": "release/recipes/risk_etf8_pca_K5_eta0p01_fee0.json",
+      "sha256": "e45685b3f6113e923bc4e7367d443c79d1e6e3b59e3c74a8ace4a9d976792b1e"
+    },
+    "source__release__recipes__risk_etf8_pca_K5_eta0p01_fee10.json": {
+      "bytes": 3801,
+      "path": "release/recipes/risk_etf8_pca_K5_eta0p01_fee10.json",
+      "sha256": "d24600600cc5a8911c82a0ba2db7271d4e1f09ed396d90e90f8b4e88338fb294"
+    },
+    "source__release__recipes__risk_etf8_pca_K5_eta0p01_fee25.json": {
+      "bytes": 3801,
+      "path": "release/recipes/risk_etf8_pca_K5_eta0p01_fee25.json",
+      "sha256": "55159bd1bb15ecda5b0fe1d88455f546b6719211db4b97a7b3e48ae0f89a45b7"
+    },
+    "source__release__recipes__risk_etf8_pca_K5_eta0p01_fee5.json": {
+      "bytes": 3799,
+      "path": "release/recipes/risk_etf8_pca_K5_eta0p01_fee5.json",
+      "sha256": "ff01daccf4a62f75a2d0c5d3306bce78bffce42f21e063cc5d97fdcdc32bfa55"
+    },
+    "source__release__recipes__risk_etf8_pca_K5_eta0p1_fee0.json": {
+      "bytes": 3796,
+      "path": "release/recipes/risk_etf8_pca_K5_eta0p1_fee0.json",
+      "sha256": "e15d1ac67c92bef7321fb688c2207343ff085c932a493b626444edd3d7f168b7"
+    },
+    "source__release__recipes__risk_etf8_pca_K5_eta0p1_fee10.json": {
+      "bytes": 3798,
+      "path": "release/recipes/risk_etf8_pca_K5_eta0p1_fee10.json",
+      "sha256": "8394aaff38124ef4dbeaf902794478c48079f965feeaa085cd752806119de593"
+    },
+    "source__release__recipes__risk_etf8_pca_K5_eta0p1_fee25.json": {
+      "bytes": 3798,
+      "path": "release/recipes/risk_etf8_pca_K5_eta0p1_fee25.json",
+      "sha256": "175539d6eb322f14cb5c3fd47e7e85b8ce524b93af75447eabe62f34ded48e95"
+    },
+    "source__release__recipes__risk_etf8_pca_K5_eta0p1_fee5.json": {
+      "bytes": 3796,
+      "path": "release/recipes/risk_etf8_pca_K5_eta0p1_fee5.json",
+      "sha256": "30afe189833ea68de55ef127ed52b81dfe61cf716873bda82d96346947eff0e6"
+    },
+    "source__release__recipes__risk_etf8_sample_ddof1_eta0_fee0.json": {
+      "bytes": 3810,
+      "path": "release/recipes/risk_etf8_sample_ddof1_eta0_fee0.json",
+      "sha256": "f69bf1e2bc0249bb8cc56ce09129d176d049fca049d774aa346c3bc8334493ce"
+    },
+    "source__release__recipes__risk_etf8_sample_ddof1_eta0_fee10.json": {
+      "bytes": 3812,
+      "path": "release/recipes/risk_etf8_sample_ddof1_eta0_fee10.json",
+      "sha256": "c610f5a18df047d02a56730af0fceddd850839f13309f51dd4ab17f257db3bca"
+    },
+    "source__release__recipes__risk_etf8_sample_ddof1_eta0_fee25.json": {
+      "bytes": 3812,
+      "path": "release/recipes/risk_etf8_sample_ddof1_eta0_fee25.json",
+      "sha256": "5cd36b0af71567f17fd6c9f4667315b0a3427950b85545a99985a6c8bb3c3327"
+    },
+    "source__release__recipes__risk_etf8_sample_ddof1_eta0_fee5.json": {
+      "bytes": 3810,
+      "path": "release/recipes/risk_etf8_sample_ddof1_eta0_fee5.json",
+      "sha256": "da09f62a023628e6dd3bf442645631e9d6dbbc520f04ef749dee5257d1451f82"
+    },
+    "source__release__recipes__risk_etf8_sample_ddof1_eta0p01_fee0.json": {
+      "bytes": 3817,
+      "path": "release/recipes/risk_etf8_sample_ddof1_eta0p01_fee0.json",
+      "sha256": "452ffa1ba19eab5e9c3135fb54150523dce6d0fa5003f76202298dae8f130121"
+    },
+    "source__release__recipes__risk_etf8_sample_ddof1_eta0p01_fee10.json": {
+      "bytes": 3819,
+      "path": "release/recipes/risk_etf8_sample_ddof1_eta0p01_fee10.json",
+      "sha256": "75889a862e5a18629680342a5fca009cd38a936310eaa5ab684e125aea0088e1"
+    },
+    "source__release__recipes__risk_etf8_sample_ddof1_eta0p01_fee25.json": {
+      "bytes": 3819,
+      "path": "release/recipes/risk_etf8_sample_ddof1_eta0p01_fee25.json",
+      "sha256": "c2a5e2bb995f93c33e65a43c7c50b40d9d07af6c86fdef0897470e7ca8f12dd0"
+    },
+    "source__release__recipes__risk_etf8_sample_ddof1_eta0p01_fee5.json": {
+      "bytes": 3817,
+      "path": "release/recipes/risk_etf8_sample_ddof1_eta0p01_fee5.json",
+      "sha256": "01550e4cf5ea12b89a604d2b15ec9522fa156c05820983bb6f67c8573c716abf"
+    },
+    "source__release__recipes__risk_etf8_sample_ddof1_eta0p1_fee0.json": {
+      "bytes": 3814,
+      "path": "release/recipes/risk_etf8_sample_ddof1_eta0p1_fee0.json",
+      "sha256": "f857189ff0024b49700e06942f6ea19efe218c3cbab47c66772949a4327c08b9"
+    },
+    "source__release__recipes__risk_etf8_sample_ddof1_eta0p1_fee10.json": {
+      "bytes": 3816,
+      "path": "release/recipes/risk_etf8_sample_ddof1_eta0p1_fee10.json",
+      "sha256": "e140b3b4a5b7f876fdc67b94ad9d9e6e99abc3a1272a682902f918152fea8aa4"
+    },
+    "source__release__recipes__risk_etf8_sample_ddof1_eta0p1_fee25.json": {
+      "bytes": 3816,
+      "path": "release/recipes/risk_etf8_sample_ddof1_eta0p1_fee25.json",
+      "sha256": "a7ad7b769c1a9e4935a6a4c902fe42f660fd0a80528b9434d75c247153f3f625"
+    },
+    "source__release__recipes__risk_etf8_sample_ddof1_eta0p1_fee5.json": {
+      "bytes": 3814,
+      "path": "release/recipes/risk_etf8_sample_ddof1_eta0p1_fee5.json",
+      "sha256": "9d8e82f07678dd1ce32d433f973932162991456996b5c84b9af17731abe0c7c1"
+    },
+    "source__release__recipes__risk_stock100_capped_inverse_volatility_fee0.json": {
+      "bytes": 160284,
+      "path": "release/recipes/risk_stock100_capped_inverse_volatility_fee0.json",
+      "sha256": "53b6c9d8bd54c8d18abe93de78878f0158e5acb3521d1f2cd304464b0c26d6be"
+    },
+    "source__release__recipes__risk_stock100_capped_inverse_volatility_fee10.json": {
+      "bytes": 160286,
+      "path": "release/recipes/risk_stock100_capped_inverse_volatility_fee10.json",
+      "sha256": "1bd603c32837d1485fc32884a03a0cdcaa18468442036caf311fc0d69d8db4c9"
+    },
+    "source__release__recipes__risk_stock100_capped_inverse_volatility_fee25.json": {
+      "bytes": 160286,
+      "path": "release/recipes/risk_stock100_capped_inverse_volatility_fee25.json",
+      "sha256": "9d7f7e5ccb58f430ff5ca5b51c2ca4080d8484ed223593022b1e08f5a6b0b080"
+    },
+    "source__release__recipes__risk_stock100_capped_inverse_volatility_fee5.json": {
+      "bytes": 160284,
+      "path": "release/recipes/risk_stock100_capped_inverse_volatility_fee5.json",
+      "sha256": "b60aace49c6a5e1dbf62ca83852ce2b12c2bd2446e23f9b80477b380f05555f6"
+    },
+    "source__release__recipes__risk_stock100_constant_correlation_fixed0p5_eta0_fee0.json": {
+      "bytes": 160296,
+      "path": "release/recipes/risk_stock100_constant_correlation_fixed0p5_eta0_fee0.json",
+      "sha256": "6d8422c72764f9b812ebf23e8e7d6d66797d0bb5d1ec212282e999919df77ee8"
+    },
+    "source__release__recipes__risk_stock100_constant_correlation_fixed0p5_eta0_fee10.json": {
+      "bytes": 160298,
+      "path": "release/recipes/risk_stock100_constant_correlation_fixed0p5_eta0_fee10.json",
+      "sha256": "06438f1f4a37898608b18bb11f35bd5a64181e602e1afa0d918492950c083f23"
+    },
+    "source__release__recipes__risk_stock100_constant_correlation_fixed0p5_eta0_fee25.json": {
+      "bytes": 160298,
+      "path": "release/recipes/risk_stock100_constant_correlation_fixed0p5_eta0_fee25.json",
+      "sha256": "2a7b8f9a4fa3967ad051bfa7daededdb60358a61d7bc0f595b00058cb98eaff1"
+    },
+    "source__release__recipes__risk_stock100_constant_correlation_fixed0p5_eta0_fee5.json": {
+      "bytes": 160296,
+      "path": "release/recipes/risk_stock100_constant_correlation_fixed0p5_eta0_fee5.json",
+      "sha256": "33f2b7108aec7e643eb9da4ba2dbe8727b1d1918ea4a2e0d3a4290c87f02805a"
+    },
+    "source__release__recipes__risk_stock100_constant_correlation_fixed0p5_eta0p01_fee0.json": {
+      "bytes": 160303,
+      "path": "release/recipes/risk_stock100_constant_correlation_fixed0p5_eta0p01_fee0.json",
+      "sha256": "f004fd65b6b0ec5f0aaa100886ddd43671db0b19fd016460eb747109f4b078f1"
+    },
+    "source__release__recipes__risk_stock100_constant_correlation_fixed0p5_eta0p01_fee10.json": {
+      "bytes": 160305,
+      "path": "release/recipes/risk_stock100_constant_correlation_fixed0p5_eta0p01_fee10.json",
+      "sha256": "02dfd4ba3d8c3efbd4ccdd7b02b7d270322ca7a9717af58fb8131ac7dcd9ac7e"
+    },
+    "source__release__recipes__risk_stock100_constant_correlation_fixed0p5_eta0p01_fee25.json": {
+      "bytes": 160305,
+      "path": "release/recipes/risk_stock100_constant_correlation_fixed0p5_eta0p01_fee25.json",
+      "sha256": "57261fecfa905a2134d03886a67cf140e719f95104c4ab5f56328869328461ab"
+    },
+    "source__release__recipes__risk_stock100_constant_correlation_fixed0p5_eta0p01_fee5.json": {
+      "bytes": 160303,
+      "path": "release/recipes/risk_stock100_constant_correlation_fixed0p5_eta0p01_fee5.json",
+      "sha256": "65c2c638cf06cb59e8bdb52f57f865b80c33cc9a894624b49ba92184fa14da61"
+    },
+    "source__release__recipes__risk_stock100_constant_correlation_fixed0p5_eta0p1_fee0.json": {
+      "bytes": 160300,
+      "path": "release/recipes/risk_stock100_constant_correlation_fixed0p5_eta0p1_fee0.json",
+      "sha256": "26be3868e0fd11c4ca773613393b6a115012e37007ae74c6717835000a529a3f"
+    },
+    "source__release__recipes__risk_stock100_constant_correlation_fixed0p5_eta0p1_fee10.json": {
+      "bytes": 160302,
+      "path": "release/recipes/risk_stock100_constant_correlation_fixed0p5_eta0p1_fee10.json",
+      "sha256": "09fa478800af289db1b50c30fa9b7ef6a59ca19a1b8b3a1d11457458f665c411"
+    },
+    "source__release__recipes__risk_stock100_constant_correlation_fixed0p5_eta0p1_fee25.json": {
+      "bytes": 160302,
+      "path": "release/recipes/risk_stock100_constant_correlation_fixed0p5_eta0p1_fee25.json",
+      "sha256": "dc4fb117a3715531cacf9cee05784b8cec2108b6b58f6337b0e30cd382ba4dae"
+    },
+    "source__release__recipes__risk_stock100_constant_correlation_fixed0p5_eta0p1_fee5.json": {
+      "bytes": 160300,
+      "path": "release/recipes/risk_stock100_constant_correlation_fixed0p5_eta0p1_fee5.json",
+      "sha256": "2d3782122cc49ab97000dfe467e104795840d635ebbf1972bb738b022802a8db"
+    },
+    "source__release__recipes__risk_stock100_equal_weight_fee0.json": {
+      "bytes": 160245,
+      "path": "release/recipes/risk_stock100_equal_weight_fee0.json",
+      "sha256": "e51428151741a2ff9498a234e7cb8ebee9eca0aac374d1d84afd6e934267312b"
+    },
+    "source__release__recipes__risk_stock100_equal_weight_fee10.json": {
+      "bytes": 160247,
+      "path": "release/recipes/risk_stock100_equal_weight_fee10.json",
+      "sha256": "629b6a7a657e38ac3376dac311f7aae059f5476a0fbeb7682cc99951bdff5f7e"
+    },
+    "source__release__recipes__risk_stock100_equal_weight_fee25.json": {
+      "bytes": 160247,
+      "path": "release/recipes/risk_stock100_equal_weight_fee25.json",
+      "sha256": "353ac03b2b0cd7c90f86f3d2d2e1551d68fd6c65d373ff436fddea151c5bd456"
+    },
+    "source__release__recipes__risk_stock100_equal_weight_fee5.json": {
+      "bytes": 160245,
+      "path": "release/recipes/risk_stock100_equal_weight_fee5.json",
+      "sha256": "09ca222fc1287b31a0982e329b666242a9e1d636f69b7ff9ca8bad12f77dc044"
+    },
+    "source__release__recipes__risk_stock100_ewma_halflife63_eta0_fee0.json": {
+      "bytes": 160254,
+      "path": "release/recipes/risk_stock100_ewma_halflife63_eta0_fee0.json",
+      "sha256": "4eedd372bdc38815ed22a4404a55f3c6c3161ab1f811c44cde1c29f5ed9346fc"
+    },
+    "source__release__recipes__risk_stock100_ewma_halflife63_eta0_fee10.json": {
+      "bytes": 160256,
+      "path": "release/recipes/risk_stock100_ewma_halflife63_eta0_fee10.json",
+      "sha256": "19b3df7114f48ab3e4ea9250aa71b2d5ef648d1603270ef6d0de2d316240f5ad"
+    },
+    "source__release__recipes__risk_stock100_ewma_halflife63_eta0_fee25.json": {
+      "bytes": 160256,
+      "path": "release/recipes/risk_stock100_ewma_halflife63_eta0_fee25.json",
+      "sha256": "fff3abef800fc69e8f03468c8db31db7322639fb928fd300edc876c6ada7ee20"
+    },
+    "source__release__recipes__risk_stock100_ewma_halflife63_eta0_fee5.json": {
+      "bytes": 160254,
+      "path": "release/recipes/risk_stock100_ewma_halflife63_eta0_fee5.json",
+      "sha256": "92ef3b830d83ca9afa24444430b5a3b7691265dddcc52d25229cc8bbf14bcd79"
+    },
+    "source__release__recipes__risk_stock100_ewma_halflife63_eta0p01_fee0.json": {
+      "bytes": 160261,
+      "path": "release/recipes/risk_stock100_ewma_halflife63_eta0p01_fee0.json",
+      "sha256": "a326b3f8dd743ae5ad02ac4b067f5ea6bb0d3d46cc7dd55506b6bfb23810b58d"
+    },
+    "source__release__recipes__risk_stock100_ewma_halflife63_eta0p01_fee10.json": {
+      "bytes": 160263,
+      "path": "release/recipes/risk_stock100_ewma_halflife63_eta0p01_fee10.json",
+      "sha256": "42e0f8d400b8e17b65f55d69629c842080995ba0fc8c7bec4b67d7cd15def4e6"
+    },
+    "source__release__recipes__risk_stock100_ewma_halflife63_eta0p01_fee25.json": {
+      "bytes": 160263,
+      "path": "release/recipes/risk_stock100_ewma_halflife63_eta0p01_fee25.json",
+      "sha256": "bf8e3458c9a2f200a8da9847707b94fbc28a680611030249766cb632096b7fee"
+    },
+    "source__release__recipes__risk_stock100_ewma_halflife63_eta0p01_fee5.json": {
+      "bytes": 160261,
+      "path": "release/recipes/risk_stock100_ewma_halflife63_eta0p01_fee5.json",
+      "sha256": "ae2d8b43fca911c5708e60610c97e7da8a69167b2b2b5d20993a15fa25876a80"
+    },
+    "source__release__recipes__risk_stock100_ewma_halflife63_eta0p1_fee0.json": {
+      "bytes": 160258,
+      "path": "release/recipes/risk_stock100_ewma_halflife63_eta0p1_fee0.json",
+      "sha256": "a7006a776273372862eacb5dc410c5d103fd717b357491a2d34409e9bdd42144"
+    },
+    "source__release__recipes__risk_stock100_ewma_halflife63_eta0p1_fee10.json": {
+      "bytes": 160260,
+      "path": "release/recipes/risk_stock100_ewma_halflife63_eta0p1_fee10.json",
+      "sha256": "605c8d55caf1d838700f7610198c2b827cd33414f5f24af8cc79e58653ca0954"
+    },
+    "source__release__recipes__risk_stock100_ewma_halflife63_eta0p1_fee25.json": {
+      "bytes": 160260,
+      "path": "release/recipes/risk_stock100_ewma_halflife63_eta0p1_fee25.json",
+      "sha256": "bc0389bdedd0c9524fc59605300c1aebf88c408e93bbadbeeef863616b5dd5bb"
+    },
+    "source__release__recipes__risk_stock100_ewma_halflife63_eta0p1_fee5.json": {
+      "bytes": 160258,
+      "path": "release/recipes/risk_stock100_ewma_halflife63_eta0p1_fee5.json",
+      "sha256": "a251bd9d7b5e4cfd6aa9b1869e24b04f1435c8e5575f33ca1d292160ae9a7ea2"
+    },
+    "source__release__recipes__risk_stock100_ledoit_wolf_eta0_fee0.json": {
+      "bytes": 160242,
+      "path": "release/recipes/risk_stock100_ledoit_wolf_eta0_fee0.json",
+      "sha256": "6b0180eb1e13fbd45b7eb3c57b2e0312cdb4b923f9a5f619b574d63a4d04b677"
+    },
+    "source__release__recipes__risk_stock100_ledoit_wolf_eta0_fee10.json": {
+      "bytes": 160244,
+      "path": "release/recipes/risk_stock100_ledoit_wolf_eta0_fee10.json",
+      "sha256": "1600feffab6b6c32c77e133cfd364e42152edd14fb105d68a7fd1271f64bc585"
+    },
+    "source__release__recipes__risk_stock100_ledoit_wolf_eta0_fee25.json": {
+      "bytes": 160244,
+      "path": "release/recipes/risk_stock100_ledoit_wolf_eta0_fee25.json",
+      "sha256": "0fa4bf745fc3c2d39746222dc2fef89a3cdc9a27f37e455acc9b3e40ba2c0521"
+    },
+    "source__release__recipes__risk_stock100_ledoit_wolf_eta0_fee5.json": {
+      "bytes": 160242,
+      "path": "release/recipes/risk_stock100_ledoit_wolf_eta0_fee5.json",
+      "sha256": "a6cec29fb4adb94514021b31de85123ea0a6eb61ff7ea2f4a9a2ee058b6625cf"
+    },
+    "source__release__recipes__risk_stock100_ledoit_wolf_eta0p01_fee0.json": {
+      "bytes": 160249,
+      "path": "release/recipes/risk_stock100_ledoit_wolf_eta0p01_fee0.json",
+      "sha256": "d18779812c4a04f75673b148e4ac39a164be1f9a57531849a866ccf196dd0cee"
+    },
+    "source__release__recipes__risk_stock100_ledoit_wolf_eta0p01_fee10.json": {
+      "bytes": 160251,
+      "path": "release/recipes/risk_stock100_ledoit_wolf_eta0p01_fee10.json",
+      "sha256": "4f7cab8e4f75b2dd30b02f3a55db47d7515a6b8f9f461e8db3722fb574ae63b9"
+    },
+    "source__release__recipes__risk_stock100_ledoit_wolf_eta0p01_fee25.json": {
+      "bytes": 160251,
+      "path": "release/recipes/risk_stock100_ledoit_wolf_eta0p01_fee25.json",
+      "sha256": "3a62d67900d9aef910ef280f2dce672a4c24e29a38330db136fce578437b5319"
+    },
+    "source__release__recipes__risk_stock100_ledoit_wolf_eta0p01_fee5.json": {
+      "bytes": 160249,
+      "path": "release/recipes/risk_stock100_ledoit_wolf_eta0p01_fee5.json",
+      "sha256": "ef5ed44d047261348f98a6a051d24d31f7995832d88c2a59df0705966883511a"
+    },
+    "source__release__recipes__risk_stock100_ledoit_wolf_eta0p1_fee0.json": {
+      "bytes": 160246,
+      "path": "release/recipes/risk_stock100_ledoit_wolf_eta0p1_fee0.json",
+      "sha256": "b2911f30aaf96aa7e2e5c01a81af5b7ea58f270f837e23786c639293190e345c"
+    },
+    "source__release__recipes__risk_stock100_ledoit_wolf_eta0p1_fee10.json": {
+      "bytes": 160248,
+      "path": "release/recipes/risk_stock100_ledoit_wolf_eta0p1_fee10.json",
+      "sha256": "611fe0ec9f9c97f1a777274f6fa8e0823afad0dd829153da748cc86827ea56cd"
+    },
+    "source__release__recipes__risk_stock100_ledoit_wolf_eta0p1_fee25.json": {
+      "bytes": 160248,
+      "path": "release/recipes/risk_stock100_ledoit_wolf_eta0p1_fee25.json",
+      "sha256": "23377508547db6bb21ecb71de72aa660f0e074a8f79ba55c6cb94ff3a4286dcd"
+    },
+    "source__release__recipes__risk_stock100_ledoit_wolf_eta0p1_fee5.json": {
+      "bytes": 160246,
+      "path": "release/recipes/risk_stock100_ledoit_wolf_eta0p1_fee5.json",
+      "sha256": "7917295b788fa2c4584d59ef942ba13695f9f4ffe43fb9bcdba5304d2627f02e"
+    },
+    "source__release__recipes__risk_stock100_oas_eta0_fee0.json": {
+      "bytes": 160218,
+      "path": "release/recipes/risk_stock100_oas_eta0_fee0.json",
+      "sha256": "51f823ba434b2ba330a631d0ad0d67223dc0141ebac5e2207a414410cbd6d26b"
+    },
+    "source__release__recipes__risk_stock100_oas_eta0_fee10.json": {
+      "bytes": 160220,
+      "path": "release/recipes/risk_stock100_oas_eta0_fee10.json",
+      "sha256": "e16de04479a5b2f99e32a562dfdda20d2922b0f31b22770853b16e411e0c44a0"
+    },
+    "source__release__recipes__risk_stock100_oas_eta0_fee25.json": {
+      "bytes": 160220,
+      "path": "release/recipes/risk_stock100_oas_eta0_fee25.json",
+      "sha256": "306e269d9cc2516d9022976c577c7cf36ee8f5b8a197542a6da4d8a2f56b811b"
+    },
+    "source__release__recipes__risk_stock100_oas_eta0_fee5.json": {
+      "bytes": 160218,
+      "path": "release/recipes/risk_stock100_oas_eta0_fee5.json",
+      "sha256": "b63b5fc5bfac950e485d92ab2d503f510c5661476f3fb20848ec3bd9ba517733"
+    },
+    "source__release__recipes__risk_stock100_oas_eta0p01_fee0.json": {
+      "bytes": 160225,
+      "path": "release/recipes/risk_stock100_oas_eta0p01_fee0.json",
+      "sha256": "4e8bd9ea58091e0d99f098c26c213dc54f93d2ddc9b843648e05b16b4b4cde3f"
+    },
+    "source__release__recipes__risk_stock100_oas_eta0p01_fee10.json": {
+      "bytes": 160227,
+      "path": "release/recipes/risk_stock100_oas_eta0p01_fee10.json",
+      "sha256": "a4f665bff110eece79fe83076a77fe9e65462793a3cb4c458f1eb00844d5c1c3"
+    },
+    "source__release__recipes__risk_stock100_oas_eta0p01_fee25.json": {
+      "bytes": 160227,
+      "path": "release/recipes/risk_stock100_oas_eta0p01_fee25.json",
+      "sha256": "2f98d1cf6db9e97feb52d522223cc6c945bb304c29e1bc547ecba744f6e91f6f"
+    },
+    "source__release__recipes__risk_stock100_oas_eta0p01_fee5.json": {
+      "bytes": 160225,
+      "path": "release/recipes/risk_stock100_oas_eta0p01_fee5.json",
+      "sha256": "008a6eaf98c17a0a0b40704538782016fce003c2f4de7441d069ecd0fae94b26"
+    },
+    "source__release__recipes__risk_stock100_oas_eta0p1_fee0.json": {
+      "bytes": 160222,
+      "path": "release/recipes/risk_stock100_oas_eta0p1_fee0.json",
+      "sha256": "20aa75266914846a3c4ac9e0a4b3228a1642d78bcb564641c9662b8daf9392a6"
+    },
+    "source__release__recipes__risk_stock100_oas_eta0p1_fee10.json": {
+      "bytes": 160224,
+      "path": "release/recipes/risk_stock100_oas_eta0p1_fee10.json",
+      "sha256": "304e9c786785d823baa9d9aef82ce489d5a344a0024993fce0b4a1d9ee7d4a68"
+    },
+    "source__release__recipes__risk_stock100_oas_eta0p1_fee25.json": {
+      "bytes": 160224,
+      "path": "release/recipes/risk_stock100_oas_eta0p1_fee25.json",
+      "sha256": "e20fbdcf353740c855e80ff9844a8a9af6193a313f01863fa0ce2596d5df474b"
+    },
+    "source__release__recipes__risk_stock100_oas_eta0p1_fee5.json": {
+      "bytes": 160222,
+      "path": "release/recipes/risk_stock100_oas_eta0p1_fee5.json",
+      "sha256": "1e544ef448dd99618e846ca01f2a513aa34073cddeb2bfdc54dc2fa9a76e2a07"
+    },
+    "source__release__recipes__risk_stock100_pca_K1_eta0_fee0.json": {
+      "bytes": 160227,
+      "path": "release/recipes/risk_stock100_pca_K1_eta0_fee0.json",
+      "sha256": "9d294b2a4fbedc73bf6659ad672892e7771f8fb9daa50fe54b275b34b4f7d137"
+    },
+    "source__release__recipes__risk_stock100_pca_K1_eta0_fee10.json": {
+      "bytes": 160229,
+      "path": "release/recipes/risk_stock100_pca_K1_eta0_fee10.json",
+      "sha256": "6606f7e80c2ccd3c38f6d6496ae7d07548d30efe13d61b22760c2b73fbf34fa6"
+    },
+    "source__release__recipes__risk_stock100_pca_K1_eta0_fee25.json": {
+      "bytes": 160229,
+      "path": "release/recipes/risk_stock100_pca_K1_eta0_fee25.json",
+      "sha256": "aabba2b21453617a6bf742e14d82f559eac2cb21a656bba9f937fd1f75dfb997"
+    },
+    "source__release__recipes__risk_stock100_pca_K1_eta0_fee5.json": {
+      "bytes": 160227,
+      "path": "release/recipes/risk_stock100_pca_K1_eta0_fee5.json",
+      "sha256": "26b1c70e22a11e9f24267dad68f5ed3d56da4de35f748c0f3390c6d72bef66a8"
+    },
+    "source__release__recipes__risk_stock100_pca_K1_eta0p01_fee0.json": {
+      "bytes": 160234,
+      "path": "release/recipes/risk_stock100_pca_K1_eta0p01_fee0.json",
+      "sha256": "63348adebbd520ea7859a12c71d4563e084c934a92881cecc1ac7dc248c829eb"
+    },
+    "source__release__recipes__risk_stock100_pca_K1_eta0p01_fee10.json": {
+      "bytes": 160236,
+      "path": "release/recipes/risk_stock100_pca_K1_eta0p01_fee10.json",
+      "sha256": "e717eade5dc5657c8a3cf039a80c6e161af92fb9a0531c09d243b1b197c8b5cd"
+    },
+    "source__release__recipes__risk_stock100_pca_K1_eta0p01_fee25.json": {
+      "bytes": 160236,
+      "path": "release/recipes/risk_stock100_pca_K1_eta0p01_fee25.json",
+      "sha256": "cd73efe69b51593c1a1d4688b8d51588ad6a157da077815fc8e540fda53d8ff4"
+    },
+    "source__release__recipes__risk_stock100_pca_K1_eta0p01_fee5.json": {
+      "bytes": 160234,
+      "path": "release/recipes/risk_stock100_pca_K1_eta0p01_fee5.json",
+      "sha256": "529d9c880092ba65d2cd456b0511881d3553422af5ecc3b90a96544e6abe6b0c"
+    },
+    "source__release__recipes__risk_stock100_pca_K1_eta0p1_fee0.json": {
+      "bytes": 160231,
+      "path": "release/recipes/risk_stock100_pca_K1_eta0p1_fee0.json",
+      "sha256": "d378faa130b13fc9158c948144b396172290359fd505789f087b24ab025910f0"
+    },
+    "source__release__recipes__risk_stock100_pca_K1_eta0p1_fee10.json": {
+      "bytes": 160233,
+      "path": "release/recipes/risk_stock100_pca_K1_eta0p1_fee10.json",
+      "sha256": "4b32410faa5c60ff30772ee8f0bb7da9eeaba0ad349ce8bea2fc144f5cee699e"
+    },
+    "source__release__recipes__risk_stock100_pca_K1_eta0p1_fee25.json": {
+      "bytes": 160233,
+      "path": "release/recipes/risk_stock100_pca_K1_eta0p1_fee25.json",
+      "sha256": "2186e4ce8b32a26acfc657fbc0aa02ffb67c8dbe83ba0ab142f69d14345f2565"
+    },
+    "source__release__recipes__risk_stock100_pca_K1_eta0p1_fee5.json": {
+      "bytes": 160231,
+      "path": "release/recipes/risk_stock100_pca_K1_eta0p1_fee5.json",
+      "sha256": "2e650b3d52cc2373007340cfaa96a1325ee1e587d1d189e840da8d00ce99b457"
+    },
+    "source__release__recipes__risk_stock100_pca_K3_eta0_fee0.json": {
+      "bytes": 160227,
+      "path": "release/recipes/risk_stock100_pca_K3_eta0_fee0.json",
+      "sha256": "208284b63ceda4b806c0157ae25477b48dac62d4c98a926b96c5b7ed4e135787"
+    },
+    "source__release__recipes__risk_stock100_pca_K3_eta0_fee10.json": {
+      "bytes": 160229,
+      "path": "release/recipes/risk_stock100_pca_K3_eta0_fee10.json",
+      "sha256": "fce2d5b2c68691f0d01c9b56251b847a1aee3b17514b49b42a4cafdd8740df87"
+    },
+    "source__release__recipes__risk_stock100_pca_K3_eta0_fee25.json": {
+      "bytes": 160229,
+      "path": "release/recipes/risk_stock100_pca_K3_eta0_fee25.json",
+      "sha256": "ce5fa16818ad7538e1b3af874af279f60a0be675d9aceb88b78f9df676c8f437"
+    },
+    "source__release__recipes__risk_stock100_pca_K3_eta0_fee5.json": {
+      "bytes": 160227,
+      "path": "release/recipes/risk_stock100_pca_K3_eta0_fee5.json",
+      "sha256": "f1c9bf32dff1041ab11840273e640da50ff05bd1919b41bc12f2c0de978e4fbe"
+    },
+    "source__release__recipes__risk_stock100_pca_K3_eta0p01_fee0.json": {
+      "bytes": 160234,
+      "path": "release/recipes/risk_stock100_pca_K3_eta0p01_fee0.json",
+      "sha256": "0b6236721c4d5ba8aaeed89b846739f37c3e19f5b100bd75b308b7561df1361a"
+    },
+    "source__release__recipes__risk_stock100_pca_K3_eta0p01_fee10.json": {
+      "bytes": 160236,
+      "path": "release/recipes/risk_stock100_pca_K3_eta0p01_fee10.json",
+      "sha256": "8a8e5ece3ca442c29ea56c34c3616fe4c271597bb7f26170cc8be0434e06a35e"
+    },
+    "source__release__recipes__risk_stock100_pca_K3_eta0p01_fee25.json": {
+      "bytes": 160236,
+      "path": "release/recipes/risk_stock100_pca_K3_eta0p01_fee25.json",
+      "sha256": "80a3060265ee976029c4449860154219ec5d16d8dab016680fc6f6983fd14db8"
+    },
+    "source__release__recipes__risk_stock100_pca_K3_eta0p01_fee5.json": {
+      "bytes": 160234,
+      "path": "release/recipes/risk_stock100_pca_K3_eta0p01_fee5.json",
+      "sha256": "1b9c63ccf36ca6b98ca834165f55ab49ea965e555e77cfe4ff0731542c12980f"
+    },
+    "source__release__recipes__risk_stock100_pca_K3_eta0p1_fee0.json": {
+      "bytes": 160231,
+      "path": "release/recipes/risk_stock100_pca_K3_eta0p1_fee0.json",
+      "sha256": "20d2b7dd66416403e3232167964ee1e4a1942673b8b13d2c08fcdc21771fd25e"
+    },
+    "source__release__recipes__risk_stock100_pca_K3_eta0p1_fee10.json": {
+      "bytes": 160233,
+      "path": "release/recipes/risk_stock100_pca_K3_eta0p1_fee10.json",
+      "sha256": "89735dabeca6d356cf4413dfa96ee38ce5cc7a2d027bcd0785ab97c9ace81c9b"
+    },
+    "source__release__recipes__risk_stock100_pca_K3_eta0p1_fee25.json": {
+      "bytes": 160233,
+      "path": "release/recipes/risk_stock100_pca_K3_eta0p1_fee25.json",
+      "sha256": "eeb026b7b9ab1a07ebe7615d59b6eaa31f52828f297252ffba3a1cae291d85ef"
+    },
+    "source__release__recipes__risk_stock100_pca_K3_eta0p1_fee5.json": {
+      "bytes": 160231,
+      "path": "release/recipes/risk_stock100_pca_K3_eta0p1_fee5.json",
+      "sha256": "ededa56e76805b8e8afbe6cf7b6a8c53a3f9152438f2735e55cddb66b7de0adb"
+    },
+    "source__release__recipes__risk_stock100_pca_K5_eta0_fee0.json": {
+      "bytes": 160227,
+      "path": "release/recipes/risk_stock100_pca_K5_eta0_fee0.json",
+      "sha256": "23bd7fb654087e59556e19dfdfc795901dd3bbebec6ce53e541de2eef2e11171"
+    },
+    "source__release__recipes__risk_stock100_pca_K5_eta0_fee10.json": {
+      "bytes": 160229,
+      "path": "release/recipes/risk_stock100_pca_K5_eta0_fee10.json",
+      "sha256": "5c903acf88c589562eb56e298fd47033cc09aec94d1c8488741434f08a5babb2"
+    },
+    "source__release__recipes__risk_stock100_pca_K5_eta0_fee25.json": {
+      "bytes": 160229,
+      "path": "release/recipes/risk_stock100_pca_K5_eta0_fee25.json",
+      "sha256": "75898807ac24fbc5490e1908147b5b87ea97643915ca73294a42698098df6665"
+    },
+    "source__release__recipes__risk_stock100_pca_K5_eta0_fee5.json": {
+      "bytes": 160227,
+      "path": "release/recipes/risk_stock100_pca_K5_eta0_fee5.json",
+      "sha256": "659f6e58366879181325076e974681ee7220ff0c1dc7599ea5be5a6bfb6ece36"
+    },
+    "source__release__recipes__risk_stock100_pca_K5_eta0p01_fee0.json": {
+      "bytes": 160234,
+      "path": "release/recipes/risk_stock100_pca_K5_eta0p01_fee0.json",
+      "sha256": "ebbda25bc9a3aee7c37f93f53c0a1735f9c36fdcae3ba75d6b8a38414741b8ec"
+    },
+    "source__release__recipes__risk_stock100_pca_K5_eta0p01_fee10.json": {
+      "bytes": 160236,
+      "path": "release/recipes/risk_stock100_pca_K5_eta0p01_fee10.json",
+      "sha256": "4ac3fc0764f87fa5c0fa5750aafe48c150f7bbcf360b2c26945184825c477720"
+    },
+    "source__release__recipes__risk_stock100_pca_K5_eta0p01_fee25.json": {
+      "bytes": 160236,
+      "path": "release/recipes/risk_stock100_pca_K5_eta0p01_fee25.json",
+      "sha256": "a64cefcf664097bf76c2b7e410a03c573a19d227d5ca77d169bd2e6e242fabb3"
+    },
+    "source__release__recipes__risk_stock100_pca_K5_eta0p01_fee5.json": {
+      "bytes": 160234,
+      "path": "release/recipes/risk_stock100_pca_K5_eta0p01_fee5.json",
+      "sha256": "afa5f855a93a9819ac8c63ee31ca68720b80ca64ac613fab96a4086330047319"
+    },
+    "source__release__recipes__risk_stock100_pca_K5_eta0p1_fee0.json": {
+      "bytes": 160231,
+      "path": "release/recipes/risk_stock100_pca_K5_eta0p1_fee0.json",
+      "sha256": "74534c2a37635ec48b7e3ff1dac53b95526ec673f4f2ca7b838eb716d81e472a"
+    },
+    "source__release__recipes__risk_stock100_pca_K5_eta0p1_fee10.json": {
+      "bytes": 160233,
+      "path": "release/recipes/risk_stock100_pca_K5_eta0p1_fee10.json",
+      "sha256": "1943bcd4aacc2fbef0edde856e7bc56be721a02d63dd86d3e8236857bfa18be7"
+    },
+    "source__release__recipes__risk_stock100_pca_K5_eta0p1_fee25.json": {
+      "bytes": 160233,
+      "path": "release/recipes/risk_stock100_pca_K5_eta0p1_fee25.json",
+      "sha256": "fd451ec67c8401ea0af38f9d1b7144b9315870fc705947dbce24a751decdac73"
+    },
+    "source__release__recipes__risk_stock100_pca_K5_eta0p1_fee5.json": {
+      "bytes": 160231,
+      "path": "release/recipes/risk_stock100_pca_K5_eta0p1_fee5.json",
+      "sha256": "80c9517babc643c02ce78cf6e5cd89684c5dda4b45a9ad4d8b954588b06603f8"
+    },
+    "source__release__recipes__risk_stock100_sample_ddof1_eta0_fee0.json": {
+      "bytes": 160245,
+      "path": "release/recipes/risk_stock100_sample_ddof1_eta0_fee0.json",
+      "sha256": "fbce92fe3743e9873860eabf1309608b8e316840d6d5e469f2b1c9e4f7c98121"
+    },
+    "source__release__recipes__risk_stock100_sample_ddof1_eta0_fee10.json": {
+      "bytes": 160247,
+      "path": "release/recipes/risk_stock100_sample_ddof1_eta0_fee10.json",
+      "sha256": "fa950d83d6785ee1371ad29763674db20be7b6cf2c607e5821ba589689fe53eb"
+    },
+    "source__release__recipes__risk_stock100_sample_ddof1_eta0_fee25.json": {
+      "bytes": 160247,
+      "path": "release/recipes/risk_stock100_sample_ddof1_eta0_fee25.json",
+      "sha256": "196aedc16b13dfae5102c179a5f53639e3f17ea2986c0176d729b6c800b7fe2c"
+    },
+    "source__release__recipes__risk_stock100_sample_ddof1_eta0_fee5.json": {
+      "bytes": 160245,
+      "path": "release/recipes/risk_stock100_sample_ddof1_eta0_fee5.json",
+      "sha256": "e4262ab9ec0111450eb16f2b2cf699882b467ac4e834a17117e0c1cc5e316268"
+    },
+    "source__release__recipes__risk_stock100_sample_ddof1_eta0p01_fee0.json": {
+      "bytes": 160252,
+      "path": "release/recipes/risk_stock100_sample_ddof1_eta0p01_fee0.json",
+      "sha256": "7513a64aab3cbf3761246409d0cbc0458c3180f62e51a7ffd7d0d840e2762f03"
+    },
+    "source__release__recipes__risk_stock100_sample_ddof1_eta0p01_fee10.json": {
+      "bytes": 160254,
+      "path": "release/recipes/risk_stock100_sample_ddof1_eta0p01_fee10.json",
+      "sha256": "c2c060e60c8c7deab0b10de596f5dafcdbbf8c33ef912c8a5daf6978b3104a1f"
+    },
+    "source__release__recipes__risk_stock100_sample_ddof1_eta0p01_fee25.json": {
+      "bytes": 160254,
+      "path": "release/recipes/risk_stock100_sample_ddof1_eta0p01_fee25.json",
+      "sha256": "d2b4e02460844dc252393c346edf2cbebddeb1a94d3a4ea5f9805fbf5699eef1"
+    },
+    "source__release__recipes__risk_stock100_sample_ddof1_eta0p01_fee5.json": {
+      "bytes": 160252,
+      "path": "release/recipes/risk_stock100_sample_ddof1_eta0p01_fee5.json",
+      "sha256": "dc236a48a9febb4dcd0f8bf5db57b82e8c92b1f32809146bd359be44601e34cd"
+    },
+    "source__release__recipes__risk_stock100_sample_ddof1_eta0p1_fee0.json": {
+      "bytes": 160249,
+      "path": "release/recipes/risk_stock100_sample_ddof1_eta0p1_fee0.json",
+      "sha256": "9273787ad87fb4e6fa35ec1492a00ac4cf3866ed68c6602ed5849a3fee649505"
+    },
+    "source__release__recipes__risk_stock100_sample_ddof1_eta0p1_fee10.json": {
+      "bytes": 160251,
+      "path": "release/recipes/risk_stock100_sample_ddof1_eta0p1_fee10.json",
+      "sha256": "f924a2fa9c5f2fdadd3b8052752274e2f07269b2b1a5c80051bcfc239f7a149d"
+    },
+    "source__release__recipes__risk_stock100_sample_ddof1_eta0p1_fee25.json": {
+      "bytes": 160251,
+      "path": "release/recipes/risk_stock100_sample_ddof1_eta0p1_fee25.json",
+      "sha256": "63a81bd61093ddd82815741ce21be2621b8ab517897d26b5d10231673254f706"
+    },
+    "source__release__recipes__risk_stock100_sample_ddof1_eta0p1_fee5.json": {
+      "bytes": 160249,
+      "path": "release/recipes/risk_stock100_sample_ddof1_eta0p1_fee5.json",
+      "sha256": "a0ec69cd79712e12dab7524fa863c0ec49f37015699981a66a7cb6bbf339f3b5"
+    },
+    "source__release__recipes__stock_control_fixed_composite_fee0.json": {
+      "bytes": 230871,
+      "path": "release/recipes/stock_control_fixed_composite_fee0.json",
+      "sha256": "4cb06d944f38640d49819ec0141263050737a2eda7c17f4005984414010641b7"
+    },
+    "source__release__recipes__stock_control_fixed_composite_fee10.json": {
+      "bytes": 230873,
+      "path": "release/recipes/stock_control_fixed_composite_fee10.json",
+      "sha256": "8d4a31ff751df66e6a7f6fd777b46be54ac533add618c9f89f6056d8a8222e5a"
+    },
+    "source__release__recipes__stock_control_fixed_composite_fee25.json": {
+      "bytes": 230873,
+      "path": "release/recipes/stock_control_fixed_composite_fee25.json",
+      "sha256": "bf6909eded0e298b0882db930e41e8e1586d8fee5aecf587356194ba9234e929"
+    },
+    "source__release__recipes__stock_control_fixed_composite_fee5.json": {
+      "bytes": 230871,
+      "path": "release/recipes/stock_control_fixed_composite_fee5.json",
+      "sha256": "3d637c2bead6f0e5c3d32e7a9ec48db3f2209f9848b3179861cfae1039926b9a"
+    },
+    "source__release__recipes__stock_control_momentum_F01_fee0.json": {
+      "bytes": 230804,
+      "path": "release/recipes/stock_control_momentum_F01_fee0.json",
+      "sha256": "7f064f5315e7c14f73010414f069684dde503bf0d10960dc02301e4ce99e4054"
+    },
+    "source__release__recipes__stock_control_momentum_F01_fee10.json": {
+      "bytes": 230806,
+      "path": "release/recipes/stock_control_momentum_F01_fee10.json",
+      "sha256": "d8d138c666392acc5c03629c21ad0432148fd452a5bd680aafeec032b8543518"
+    },
+    "source__release__recipes__stock_control_momentum_F01_fee25.json": {
+      "bytes": 230806,
+      "path": "release/recipes/stock_control_momentum_F01_fee25.json",
+      "sha256": "37f36af7081a3ada9517775b5c4114855bd037dd24986d4ffe9f2d9c6908b431"
+    },
+    "source__release__recipes__stock_control_momentum_F01_fee5.json": {
+      "bytes": 230804,
+      "path": "release/recipes/stock_control_momentum_F01_fee5.json",
+      "sha256": "a3948749e342135c225dee280ffd7a363ed7f121d7793eadb95896177e8944c2"
+    },
+    "source__release__recipes__stock_original_six_lgbm_l1_fee0.json": {
+      "bytes": 231156,
+      "path": "release/recipes/stock_original_six_lgbm_l1_fee0.json",
+      "sha256": "8cfe3577d3b0a133ac13d8b51a1848edd94e7247a2e0035560591b1d6d503cff"
+    },
+    "source__release__recipes__stock_original_six_lgbm_l1_fee10.json": {
+      "bytes": 231158,
+      "path": "release/recipes/stock_original_six_lgbm_l1_fee10.json",
+      "sha256": "e17a1fd8784b544fdb998799b9294a194e57fe8bb823016caccb015b85fdc982"
+    },
+    "source__release__recipes__stock_original_six_lgbm_l1_fee25.json": {
+      "bytes": 231158,
+      "path": "release/recipes/stock_original_six_lgbm_l1_fee25.json",
+      "sha256": "d1e3da292f847e85833c291783c432ce007f0ac786f670d440e939e977af1600"
+    },
+    "source__release__recipes__stock_original_six_lgbm_l1_fee5.json": {
+      "bytes": 231156,
+      "path": "release/recipes/stock_original_six_lgbm_l1_fee5.json",
+      "sha256": "cb45f4141fb0bc58d7d0dd23e21f9a22a3ef6f3f6fe5077c927c74c01cd2b067"
+    },
+    "source__release__recipes__stock_union_eleven_lgbm_l1_fee0.json": {
+      "bytes": 267233,
+      "path": "release/recipes/stock_union_eleven_lgbm_l1_fee0.json",
+      "sha256": "9e1f8ce9ae20aaef0d1c7157785b9c2335cf06348881b1504f6d1560d968e00c"
+    },
+    "source__release__recipes__stock_union_eleven_lgbm_l1_fee10.json": {
+      "bytes": 267235,
+      "path": "release/recipes/stock_union_eleven_lgbm_l1_fee10.json",
+      "sha256": "02b6b1d080ccb7dabd2121a01a68aaa9b4a1b2cd11e5c4811126541af81e24ab"
+    },
+    "source__release__recipes__stock_union_eleven_lgbm_l1_fee25.json": {
+      "bytes": 267235,
+      "path": "release/recipes/stock_union_eleven_lgbm_l1_fee25.json",
+      "sha256": "7ff380d97420e3e8bdd397a8b1df748385555dbdd3c4dda68bd7473f5aa0f1f8"
+    },
+    "source__release__recipes__stock_union_eleven_lgbm_l1_fee5.json": {
+      "bytes": 267233,
+      "path": "release/recipes/stock_union_eleven_lgbm_l1_fee5.json",
+      "sha256": "ff9a606897d6741e17873d40851aad7eac3458a2f629cb925a69b37cc1580cf6"
+    },
+    "source__release__root-approval.json": {
+      "bytes": 1694,
+      "path": "release/root-approval.json",
+      "sha256": "32a4749fb4f4eb649d5274a6191fc32ed4e444f48223e7e89b7d4c7090935bba"
+    },
+    "source__release__ticket.json": {
+      "bytes": 408,
+      "path": "release/ticket.json",
+      "sha256": "642b2b19e49321d26064bf50d1811adb1b25e4bbc5a91d491523941d42153ffe"
+    },
+    "source__release__wider-parent__panel.json": {
+      "bytes": 656651,
+      "path": "release/wider-parent/panel.json",
+      "sha256": "86765b77307b3dd44b1b74fdf52ef8ac15cab5e61f5131f4f37c9a74b9535fb4"
+    },
+    "source__release__wider-parent__root-full-replay-review.json": {
+      "bytes": 1484,
+      "path": "release/wider-parent/root-full-replay-review.json",
+      "sha256": "db3dd38006b1a3870ef2e21f82e73c1c4282d68bc7b3387309f3b8339e1de8d9"
+    },
+    "source__release__wider-parent__study.json": {
+      "bytes": 288363,
+      "path": "release/wider-parent/study.json",
+      "sha256": "108eb61861248eb22ca811ae71c27faed1cefe83ad1b1ee819e579fd54f0c4af"
+    },
+    "source__release__wider-parent__workflow.json": {
+      "bytes": 347137,
+      "path": "release/wider-parent/workflow.json",
+      "sha256": "4c935988d8b01d4e669755d4f5b9ee1c3ae4e9f6622f11fc0e989527f533281a"
+    },
+    "source__scripts__build_shared_holdout_notebook.py": {
+      "bytes": 13957,
+      "path": "scripts/build_shared_holdout_notebook.py",
+      "sha256": "236d046acb98a97b01e0a4c1685859bb7aedb7e823b2241fd2835e21ce2a7c06"
+    },
+    "source__scripts__evaluate_risk_calibration.py": {
+      "bytes": 7253,
+      "path": "scripts/evaluate_risk_calibration.py",
+      "sha256": "9deb81814bff243e8bb311e16f856c407e9dab78bbc62f014eac5555c3d7b32e"
+    },
+    "source__src__quantlab____init__.py": {
+      "bytes": 103,
+      "path": "src/quantlab/__init__.py",
+      "sha256": "fa16672b3b575dd180caf14e8703d40bfb662f1240c00c3ce2067531b14c3010"
+    },
+    "source__src__quantlab__allocation____init__.py": {
+      "bytes": 151,
+      "path": "src/quantlab/allocation/__init__.py",
+      "sha256": "dccd82f6b5550ebc59a4b20bac25106a576548360ca32f8d66e28b0523f5cd14"
+    },
+    "source__src__quantlab__allocation__policies.py": {
+      "bytes": 8092,
+      "path": "src/quantlab/allocation/policies.py",
+      "sha256": "c1c4254342c6080193965b227415224bb9110d5781d67b8854566fbdb31c5213"
+    },
+    "source__src__quantlab__allocation__sensitivity.py": {
+      "bytes": 4143,
+      "path": "src/quantlab/allocation/sensitivity.py",
+      "sha256": "e264345ae83b414a2451cbb6d7f68fc2cb2c17a934be48db5fceee9a0e7217e8"
+    },
+    "source__src__quantlab__allocation__study.py": {
+      "bytes": 13443,
+      "path": "src/quantlab/allocation/study.py",
+      "sha256": "46a9b5a686dec84ac601a301f14a89f77cd735c155ac1a92dbf6c160ac487a4f"
+    },
+    "source__src__quantlab__allocation__weighting.py": {
+      "bytes": 11545,
+      "path": "src/quantlab/allocation/weighting.py",
+      "sha256": "6407da185bd1c89798e75ad438bff78ef4fd95a16a9ca3e07ec2c5328e0b2971"
+    },
+    "source__src__quantlab__backtest____init__.py": {
+      "bytes": 56,
+      "path": "src/quantlab/backtest/__init__.py",
+      "sha256": "aec7153cf694bce15d3d1d03d01c3238c3cfe7ebd92299601f35d7c56d191796"
+    },
+    "source__src__quantlab__backtest__accounting.py": {
+      "bytes": 7478,
+      "path": "src/quantlab/backtest/accounting.py",
+      "sha256": "6c0d19803461b67cb2098c52efa20128a16f082f3191ea21b31bed5d69253638"
+    },
+    "source__src__quantlab__backtest__engine.py": {
+      "bytes": 10779,
+      "path": "src/quantlab/backtest/engine.py",
+      "sha256": "b10eb5e4a8e66472a3d2376510b280623fb6f3daa6a723cb3f5be27d6c69409e"
+    },
+    "source__src__quantlab__data____init__.py": {
+      "bytes": 75,
+      "path": "src/quantlab/data/__init__.py",
+      "sha256": "3c70aeb253fa64b8e68b1f48c7199470f4bef0a7990aac4c69cbaf710303861a"
+    },
+    "source__src__quantlab__data__archive.py": {
+      "bytes": 6509,
+      "path": "src/quantlab/data/archive.py",
+      "sha256": "7d8976a2b5edd10df9b62f8e7e4aff6323706984655bdb90c0f71462aeb4439c"
+    },
+    "source__src__quantlab__data__calendar.py": {
+      "bytes": 5053,
+      "path": "src/quantlab/data/calendar.py",
+      "sha256": "350c4971cd4f5fce675e76e9d7375560e317bac57fa457e85904c76105c7d7ee"
+    },
+    "source__src__quantlab__data__ingest.py": {
+      "bytes": 20442,
+      "path": "src/quantlab/data/ingest.py",
+      "sha256": "02b0168b94f8f4426ce989decd76c7bfcde65cb4e204025ee1b07f4d5df239f0"
+    },
+    "source__src__quantlab__data__provenance.py": {
+      "bytes": 4447,
+      "path": "src/quantlab/data/provenance.py",
+      "sha256": "15781c4936622f68aeef40e61ddfdbca7428387592a3f12acf30582f7b2220d3"
+    },
+    "source__src__quantlab__data__returns.py": {
+      "bytes": 4824,
+      "path": "src/quantlab/data/returns.py",
+      "sha256": "4c760447953ab764c917db49428641b896f670db9c6f94cd40f4039f9a6f9748"
+    },
+    "source__src__quantlab__data__snapshot.py": {
+      "bytes": 23848,
+      "path": "src/quantlab/data/snapshot.py",
+      "sha256": "fdfbea76b8f571fe4e08a77c719380cb0df46bd2a05f4e508509dd75775785e6"
+    },
+    "source__src__quantlab__data__yahoo.py": {
+      "bytes": 17672,
+      "path": "src/quantlab/data/yahoo.py",
+      "sha256": "30afdedaceec313aeb9339c5d1ea67c856be21ccd9525c98c3a2a49568522263"
+    },
+    "source__src__quantlab__evaluation____init__.py": {
+      "bytes": 57,
+      "path": "src/quantlab/evaluation/__init__.py",
+      "sha256": "c820f117f44325e333dcd983d0f4fe8f94d463a3dc9266e195781d95fa36b621"
+    },
+    "source__src__quantlab__evaluation__attribution.py": {
+      "bytes": 4377,
+      "path": "src/quantlab/evaluation/attribution.py",
+      "sha256": "4011f5c9bba682428967969fa6f906bea594381879c7106165f515f53eb890bd"
+    },
+    "source__src__quantlab__evaluation__holdout.py": {
+      "bytes": 25091,
+      "path": "src/quantlab/evaluation/holdout.py",
+      "sha256": "65e503676027208525706a6d38a6b7d61c7a8df45b17e21229dec7d8f46bd243"
+    },
+    "source__src__quantlab__evaluation__holdout_adapters.py": {
+      "bytes": 24867,
+      "path": "src/quantlab/evaluation/holdout_adapters.py",
+      "sha256": "0cc298fd968cedb48a77333d5b10367498774581529eac82e418f55608488768"
+    },
+    "source__src__quantlab__evaluation__holdout_outcomes.py": {
+      "bytes": 10528,
+      "path": "src/quantlab/evaluation/holdout_outcomes.py",
+      "sha256": "3a03a8766bbd22c24725986fc115fd6f7edca289efc9b127b6e7da12a1223f81"
+    },
+    "source__src__quantlab__evaluation__holdout_pipeline.py": {
+      "bytes": 21990,
+      "path": "src/quantlab/evaluation/holdout_pipeline.py",
+      "sha256": "21b657ba9a2761095b53c1d5a5f560527764906cba4c120dec7b6dc2f1af5b48"
+    },
+    "source__src__quantlab__evaluation__holdout_preparation.py": {
+      "bytes": 18464,
+      "path": "src/quantlab/evaluation/holdout_preparation.py",
+      "sha256": "f3c181d40b63ba6598f64793fdbe66aba358a9cac219c99cfcf7724658572866"
+    },
+    "source__src__quantlab__evaluation__holdout_registry.py": {
+      "bytes": 41665,
+      "path": "src/quantlab/evaluation/holdout_registry.py",
+      "sha256": "bdc80052ccb2911eb57ccf08077635bb649dce45fdf822247434b2cf688a4c90"
+    },
+    "source__src__quantlab__evaluation__holdout_release.py": {
+      "bytes": 26966,
+      "path": "src/quantlab/evaluation/holdout_release.py",
+      "sha256": "2b6a36aa57d0797cd51b15432305a0508b3fe93a2eeee63c97e4a04811c978b6"
+    },
+    "source__src__quantlab__evaluation__holdout_tables.py": {
+      "bytes": 13150,
+      "path": "src/quantlab/evaluation/holdout_tables.py",
+      "sha256": "a97ad8d8cba607836fd2100e05263a55b03a8b77091750cedf555f86ada04a40"
+    },
+    "source__src__quantlab__evaluation__holdout_training_smoke.py": {
+      "bytes": 8115,
+      "path": "src/quantlab/evaluation/holdout_training_smoke.py",
+      "sha256": "a3ed56be4040acae6ae1737ff643c59e4914834ccb49d4120f0b563670ce8f86"
+    },
+    "source__src__quantlab__evaluation__uncertainty.py": {
+      "bytes": 9749,
+      "path": "src/quantlab/evaluation/uncertainty.py",
+      "sha256": "34578d721164918bb41c9d03b904e6fbcb5150ec350dad3eb89d9be26b1bc2b5"
+    },
+    "source__src__quantlab__risk____init__.py": {
+      "bytes": 53,
+      "path": "src/quantlab/risk/__init__.py",
+      "sha256": "9ea558a011d283970ba40862a8b6ff5aaf5b077f4b77645b881a598b7224e35a"
+    },
+    "source__src__quantlab__risk__baseline_execution.py": {
+      "bytes": 5116,
+      "path": "src/quantlab/risk/baseline_execution.py",
+      "sha256": "14ed90f4c7c300c7e09a99c985e1341078d35de996dfc763d8cf44809d3289b5"
+    },
+    "source__src__quantlab__risk__covariance.py": {
+      "bytes": 13985,
+      "path": "src/quantlab/risk/covariance.py",
+      "sha256": "42e034e32eb8ad7e40c45008eb970a2dde41225cb45ed7ea2a23785f3710d942"
+    },
+    "source__src__quantlab__risk__economic_study.py": {
+      "bytes": 38964,
+      "path": "src/quantlab/risk/economic_study.py",
+      "sha256": "ebf03b129dcc6dbdedd70fd2241ff363f013bdd4a2429640c8e19cc5d0e9f84d"
+    },
+    "source__src__quantlab__risk__execution.py": {
+      "bytes": 14400,
+      "path": "src/quantlab/risk/execution.py",
+      "sha256": "1475c0dce6a3751e2ea6a04eb5aac4c3569c15658d16e5cd817eda7a4c9a9b1e"
+    },
+    "source__src__quantlab__risk__optimization.py": {
+      "bytes": 18954,
+      "path": "src/quantlab/risk/optimization.py",
+      "sha256": "6dfdd69d0907d9f9c0e5ee35a3db1f8e3594021090630e4f28e9f7387dfe6b14"
+    },
+    "source__src__quantlab__risk__scoring.py": {
+      "bytes": 17925,
+      "path": "src/quantlab/risk/scoring.py",
+      "sha256": "f152aa314cdb6d7ca3b8c2cd0b86694ebfea7e06d0f7f2bf5dc94f63b0301ef9"
+    },
+    "source__src__quantlab__risk__signal_weights.py": {
+      "bytes": 3057,
+      "path": "src/quantlab/risk/signal_weights.py",
+      "sha256": "8fc1b2b1edf46f90f9eb35c88f6bb84268432f7e343568885d7e0e7702635264"
+    },
+    "source__src__quantlab__risk__study.py": {
+      "bytes": 41645,
+      "path": "src/quantlab/risk/study.py",
+      "sha256": "396570076c34dba672f095fa89f10410a88a70a4ba602b16e68e1c0484772ecf"
+    },
+    "source__src__quantlab__stocks____init__.py": {
+      "bytes": 395,
+      "path": "src/quantlab/stocks/__init__.py",
+      "sha256": "353125f5383a0de1a985d2ce15c39720bfc0d1d659af0cee00ec5a9e86ab82a0"
+    },
+    "source__src__quantlab__stocks__ablation.py": {
+      "bytes": 22110,
+      "path": "src/quantlab/stocks/ablation.py",
+      "sha256": "84a8811d8f12d6e0932b4da815c12e94d7c64df618a68c5220f8812b42859096"
+    },
+    "source__src__quantlab__stocks__development.py": {
+      "bytes": 46737,
+      "path": "src/quantlab/stocks/development.py",
+      "sha256": "0d2ba42cf800d5fabfa3e5f207406e1678dfe8999e2f31190a5104b37074ef03"
+    },
+    "source__src__quantlab__stocks__feature_reproduction.py": {
+      "bytes": 8498,
+      "path": "src/quantlab/stocks/feature_reproduction.py",
+      "sha256": "2d4d2c691f26416c1d726e3f4325fbce214f873403d222d62930bf37bd3b02ec"
+    },
+    "source__src__quantlab__stocks__features.py": {
+      "bytes": 11413,
+      "path": "src/quantlab/stocks/features.py",
+      "sha256": "36662cc00d28d69e2465dce2ce28c0b0f40ca793f0a2fc1d572febe0da95596b"
+    },
+    "source__src__quantlab__stocks__labels.py": {
+      "bytes": 10987,
+      "path": "src/quantlab/stocks/labels.py",
+      "sha256": "e956dcc47eef517d868a5fe118207c405ce42e8d2275d177b3f8dc8d60070d57"
+    },
+    "source__src__quantlab__stocks__prepare.py": {
+      "bytes": 33515,
+      "path": "src/quantlab/stocks/prepare.py",
+      "sha256": "717645105d5314ce485843b205b60bf9cad76254e834b30776c6003dd08de8e2"
+    },
+    "source__src__quantlab__stocks__prepare_wider.py": {
+      "bytes": 7347,
+      "path": "src/quantlab/stocks/prepare_wider.py",
+      "sha256": "78b3da98be9798434057e3d9b9e97cd4c5a8004de71b2bdce8c51691bbb285e8"
+    },
+    "source__src__quantlab__stocks__training_targets.py": {
+      "bytes": 2233,
+      "path": "src/quantlab/stocks/training_targets.py",
+      "sha256": "6e001cbb8ab8c4a19da8e3b686d637264f83095088fd80a2488bdc48cc4607ee"
+    },
+    "source__src__quantlab__stocks__wider_features.py": {
+      "bytes": 6438,
+      "path": "src/quantlab/stocks/wider_features.py",
+      "sha256": "ed1d10132a41714387d921a592a2f6bc8ff0787fdb792355d072bf3b2a049d72"
+    },
+    "source__src__quantlab__stocks__wider_panel.py": {
+      "bytes": 18423,
+      "path": "src/quantlab/stocks/wider_panel.py",
+      "sha256": "c2e38b2f77a8126a2874fc7b0e73be85d3cd78237a974991ec9b1ad727c79519"
+    },
+    "source__src__quantlab__stocks__wider_study.py": {
+      "bytes": 21886,
+      "path": "src/quantlab/stocks/wider_study.py",
+      "sha256": "a114802fd83a5224056acf5c688d3e6d1bcb9f68c6c7f32b0a3fb6209e8abd13"
+    },
+    "source__uv.lock": {
+      "bytes": 136263,
+      "path": "uv.lock",
+      "sha256": "7a36c74a5c9c75eb20d6a6e613db86c5425b9a2ad01b71f6d7cc316c7725cfaa"
+    }
+  },
+  "instructions": [
+    "Authenticate full archive SHA before ZIP parsing.",
+    "Authenticate every mapped member size/SHA and reject unexpected members; shared-holdout-plan.json is the one unmapped plan member.",
+    "Restore each mapped member at its exact path in a new dedicated directory; never overlay an existing checkout.",
+    "Use restored frozen source for exact release authentication. Current development formatting/docs need not share frozen hashes.",
+    "This archive contains source/recipes/protocol metadata only; actual pinned data and scientific runtime are separately required. Existing final outcomes are not authorization to rerun or select recipes."
+  ]
+}

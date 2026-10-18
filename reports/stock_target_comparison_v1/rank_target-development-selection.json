@@ -1,0 +1,182 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "control_fixed_composite",
+      "common_date_count": 94,
+      "mean_monthly_ic": 0.023158480458873917
+    },
+    {
+      "candidate_id": "control_low_volatility_F09",
+      "common_date_count": 94,
+      "mean_monthly_ic": 0.009910643092466767
+    },
+    {
+      "candidate_id": "control_momentum_F01",
+      "common_date_count": 94,
+      "mean_monthly_ic": 0.018317168993844484
+    },
+    {
+      "candidate_id": "control_reversal_F07",
+      "common_date_count": 94,
+      "mean_monthly_ic": -0.014086719571968963
+    },
+    {
+      "candidate_id": "lgbm_regression_l1_leaves15_iterations100",
+      "common_date_count": 94,
+      "mean_monthly_ic": 0.0015975340080048798
+    },
+    {
+      "candidate_id": "lgbm_regression_l1_leaves15_iterations300",
+      "common_date_count": 94,
+      "mean_monthly_ic": 0.0011546121944474837
+    },
+    {
+      "candidate_id": "lgbm_regression_l1_leaves7_iterations100",
+      "common_date_count": 94,
+      "mean_monthly_ic": -0.003677362655134966
+    },
+    {
+      "candidate_id": "lgbm_regression_l1_leaves7_iterations300",
+      "common_date_count": 94,
+      "mean_monthly_ic": -0.00019861870123592644
+    },
+    {
+      "candidate_id": "lgbm_regression_l2_leaves15_iterations100",
+      "common_date_count": 94,
+      "mean_monthly_ic": -0.00034591170898653025
+    },
+    {
+      "candidate_id": "lgbm_regression_l2_leaves15_iterations300",
+      "common_date_count": 94,
+      "mean_monthly_ic": 0.006626956282729743
+    },
+    {
+      "candidate_id": "lgbm_regression_l2_leaves7_iterations100",
+      "common_date_count": 94,
+      "mean_monthly_ic": -0.0030753765719394722
+    },
+    {
+      "candidate_id": "lgbm_regression_l2_leaves7_iterations300",
+      "common_date_count": 94,
+      "mean_monthly_ic": -0.0003280397251000944
+    },
+    {
+      "candidate_id": "ridge_alpha_0p1",
+      "common_date_count": 94,
+      "mean_monthly_ic": -0.016999496643093318
+    },
+    {
+      "candidate_id": "ridge_alpha_1",
+      "common_date_count": 94,
+      "mean_monthly_ic": -0.017002897779055566
+    },
+    {
+      "candidate_id": "ridge_alpha_10",
+      "common_date_count": 94,
+      "mean_monthly_ic": -0.016964610743137203
+    },
+    {
+      "candidate_id": "ridge_alpha_100",
+      "common_date_count": 94,
+      "mean_monthly_ic": -0.016992011167753934
+    }
+  ],
+  "common_dates": [
+    "2007-01-31",
+    "2007-02-28",
+    "2007-03-30",
+    "2007-04-30",
+    "2007-05-31",
+    "2007-06-29",
+    "2007-07-31",
+    "2007-08-31",
+    "2007-09-28",
+    "2007-10-31",
+    "2007-11-30",
+    "2007-12-31",
+    "2008-01-31",
+    "2008-02-29",
+    "2008-03-31",
+    "2008-04-30",
+    "2008-05-30",
+    "2008-06-30",
+    "2008-07-31",
+    "2008-08-29",
+    "2008-09-30",
+    "2008-10-31",
+    "2008-11-28",
+    "2008-12-31",
+    "2009-01-30",
+    "2009-02-27",
+    "2009-03-31",
+    "2009-04-30",
+    "2009-05-29",
+    "2009-06-30",
+    "2009-07-31",
+    "2009-08-31",
+    "2009-09-30",
+    "2009-10-30",
+    "2009-11-30",
+    "2009-12-31",
+    "2010-01-29",
+    "2010-02-26",
+    "2010-03-31",
+    "2010-04-30",
+    "2010-05-28",
+    "2010-06-30",
+    "2010-07-30",
+    "2010-08-31",
+    "2010-09-30",
+    "2010-10-29",
+    "2010-11-30",
+    "2010-12-31",
+    "2011-01-31",
+    "2011-02-28",
+    "2011-03-31",
+    "2011-04-29",
+    "2011-05-31",
+    "2011-06-30",
+    "2011-07-29",
+    "2011-08-31",
+    "2011-09-30",
+    "2011-10-31",
+    "2011-11-30",
+    "2011-12-30",
+    "2012-01-31",
+    "2012-02-29",
+    "2012-03-30",
+    "2012-04-30",
+    "2012-05-31",
+    "2012-06-29",
+    "2012-07-31",
+    "2012-08-31",
+    "2012-09-28",
+    "2012-10-31",
+    "2012-11-30",
+    "2012-12-31",
+    "2013-01-31",
+    "2013-02-28",
+    "2013-03-28",
+    "2013-04-30",
+    "2013-05-31",
+    "2013-06-28",
+    "2013-07-31",
+    "2013-08-30",
+    "2013-09-30",
+    "2013-10-31",
+    "2013-11-29",
+    "2013-12-31",
+    "2014-01-31",
+    "2014-02-28",
+    "2014-03-31",
+    "2014-04-30",
+    "2014-05-30",
+    "2014-06-30",
+    "2014-07-31",
+    "2014-08-29",
+    "2014-09-30",
+    "2014-10-31"
+  ],
+  "selected_candidate_id": "control_fixed_composite",
+  "status": "development_selected_not_final_recipe"
+}

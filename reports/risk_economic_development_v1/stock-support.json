@@ -1,0 +1,1182 @@
+[
+  {
+    "path_id": "stock100/cost0/capped_inverse_volatility",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/constant_correlation_fixed0p5_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/constant_correlation_fixed0p5_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/constant_correlation_fixed0p5_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/equal_weight",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/ewma_halflife63_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/ewma_halflife63_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/ewma_halflife63_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/ledoit_wolf_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/ledoit_wolf_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/ledoit_wolf_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/oas_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/oas_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/oas_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/pca_K1_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/pca_K1_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/pca_K1_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/pca_K3_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/pca_K3_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/pca_K3_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/pca_K5_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/pca_K5_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/pca_K5_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/sample_ddof1_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/sample_ddof1_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost0/sample_ddof1_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/capped_inverse_volatility",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/constant_correlation_fixed0p5_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/constant_correlation_fixed0p5_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/constant_correlation_fixed0p5_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/equal_weight",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/ewma_halflife63_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/ewma_halflife63_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/ewma_halflife63_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/ledoit_wolf_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/ledoit_wolf_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/ledoit_wolf_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/oas_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/oas_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/oas_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/pca_K1_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/pca_K1_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/pca_K1_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/pca_K3_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/pca_K3_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/pca_K3_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/pca_K5_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/pca_K5_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/pca_K5_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/sample_ddof1_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/sample_ddof1_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost10/sample_ddof1_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/capped_inverse_volatility",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/constant_correlation_fixed0p5_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/constant_correlation_fixed0p5_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/constant_correlation_fixed0p5_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/equal_weight",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/ewma_halflife63_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/ewma_halflife63_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/ewma_halflife63_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/ledoit_wolf_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/ledoit_wolf_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/ledoit_wolf_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/oas_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/oas_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/oas_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/pca_K1_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/pca_K1_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/pca_K1_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/pca_K3_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/pca_K3_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/pca_K3_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/pca_K5_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/pca_K5_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/pca_K5_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/sample_ddof1_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/sample_ddof1_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost25/sample_ddof1_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/capped_inverse_volatility",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/constant_correlation_fixed0p5_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/constant_correlation_fixed0p5_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/constant_correlation_fixed0p5_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/equal_weight",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/ewma_halflife63_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/ewma_halflife63_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/ewma_halflife63_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/ledoit_wolf_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/ledoit_wolf_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/ledoit_wolf_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/oas_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/oas_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/oas_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/pca_K1_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/pca_K1_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/pca_K1_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/pca_K3_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/pca_K3_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/pca_K3_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/pca_K5_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/pca_K5_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cvs.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/pca_K5_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/sample_ddof1_eta0",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/sample_ddof1_eta0p01",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cmi.us",
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  },
+  {
+    "path_id": "stock100/cost5/sample_ddof1_eta0p1",
+    "status": "unsupported",
+    "failure_session": "2010-11-19",
+    "reason": "UNRESOLVED_SOURCE_MARK",
+    "unresolved_assets": [
+      "stock:cop.us",
+      "stock:cvs.us",
+      "stock:cvx.us"
+    ]
+  }
+]

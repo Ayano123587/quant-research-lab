@@ -1,0 +1,16 @@
+{
+  "schema": "risk_economic_portable_analysis_v1",
+  "complete": true,
+  "scientific_family_complete": false,
+  "holdout_evaluated": false,
+  "source_manifest_sha256": "077d7aa85065d31172194468f0781fe11de71e2e1d084504b612b9c3e0dfae04",
+  "source_audit_sha256": "724a713221505f14e8df9483e028dd8ada63e81ac660ab3b150c5d7966e5a6c2",
+  "complete_etf_paths": 104,
+  "unsupported_stock_paths": 104,
+  "daily_rows": 205400,
+  "outputs_sha256": {
+    "daily-paths.parquet": "4bed761d44af00a728b4680f80e83b9299df17af2595c39774ff16ebaf1485b8",
+    "path-metrics.csv": "c58306752039bb7bd0f5a0cae2b75329e518ec09a59604437c0c80839cd50c29",
+    "stock-support.json": "8ac95f52fb64de84c4dc46dd511549aafdf8373ca1e324faea928479acbc9b60"
+  }
+}

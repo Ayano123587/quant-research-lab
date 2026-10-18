@@ -1,0 +1,87 @@
+{
+  "asset_id": "stock:a.us",
+  "diagnostic_kernel_id": 139324902,
+  "diagnostic_kernel_version": 1,
+  "normalized_manifest_sha256": "9d1a82b8f6f94d6b52fcb774b2e83a4b8af57a883f3a4a190c9f1a8288d71675",
+  "parent_prepared_manifest_sha256": "6273a9cff15b751d271859cc2e289640177bae57c43b12208bf6997ee65bf917",
+  "python": "3.12.15",
+  "row": {
+    "checks": {
+      "F01": {
+        "actual": 0.20336031144349986,
+        "actual_float64_hex": "70237aefb507ca3f",
+        "equal": true,
+        "parent": 0.20336031144349986,
+        "parent_float64_hex": "70237aefb507ca3f"
+      },
+      "F07": {
+        "actual": -0.0062574493444576,
+        "actual_float64_hex": "0035a74469a179bf",
+        "equal": true,
+        "parent": -0.0062574493444576,
+        "parent_float64_hex": "0035a74469a179bf"
+      },
+      "F09": {
+        "actual": 0.263900025479352,
+        "actual_float64_hex": "883bb6eebce3d03f",
+        "equal": false,
+        "parent": 0.26390002547935193,
+        "parent_float64_hex": "873bb6eebce3d03f"
+      },
+      "F13": {
+        "actual": 0.048548057317306714,
+        "actual_float64_hex": "00a1ec7c4adba83f",
+        "equal": true,
+        "parent": 0.048548057317306714,
+        "parent_float64_hex": "00a1ec7c4adba83f"
+      },
+      "F15": {
+        "actual": -0.05940633455355726,
+        "actual_float64_hex": "f05f2ad0816aaebf",
+        "equal": true,
+        "parent": -0.05940633455355726,
+        "parent_float64_hex": "f05f2ad0816aaebf"
+      },
+      "F19": {
+        "actual": 18.38793344424392,
+        "actual_float64_hex": "620d309b4f633240",
+        "equal": true,
+        "parent": 18.38793344424392,
+        "parent_float64_hex": "620d309b4f633240"
+      },
+      "digest": {
+        "actual": "8348dce511ebfe0eab76bf801d102282053a76be6adc4f61349a733519699866",
+        "equal": true,
+        "parent": "8348dce511ebfe0eab76bf801d102282053a76be6adc4f61349a733519699866"
+      },
+      "intended_execution_at": {
+        "actual": "2010-12-01 14:30:00+00:00",
+        "equal": true,
+        "parent": "2010-12-01 14:30:00+00:00"
+      },
+      "max_input_available_at": {
+        "actual": "2010-11-30 21:01:00+00:00",
+        "equal": true,
+        "parent": "2010-11-30 21:01:00+00:00"
+      },
+      "signal_at": {
+        "actual": "2010-11-30 21:01:00+00:00",
+        "equal": true,
+        "parent": "2010-11-30 21:01:00+00:00"
+      }
+    },
+    "date": "2010-11-30",
+    "eligible": true,
+    "mismatched_fields": [
+      "F09"
+    ],
+    "missing_required_dates": [],
+    "off_calendar_source_dates": [],
+    "reasons": [],
+    "required_first": "2009-11-30",
+    "source_slice_first": "2009-11-30"
+  },
+  "schema": "actual_derived_feature_portability_fixture_v1",
+  "scope": "One actual observed derived-feature comparison; no source OHLC or synthetic records",
+  "source_report_sha256": "9bda32a7c2237c4a3a09e4e195a7cc5c1052ce85d42015dfd46e9581da94694a"
+}

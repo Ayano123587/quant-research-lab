@@ -1,0 +1,21 @@
+schema_version = 1
+status = "prospective_post_observation_development_not_final_holdout"
+parent_prepared_manifest_sha256 = "6273a9cff15b751d271859cc2e289640177bae57c43b12208bf6997ee65bf917"
+reference_manifest_sha256 = "b46c22e5a6f46330668f6f3870c0c8cc2ddde15c283d3f9af8637f93557492d6"
+candidate_id = "lgbm_regression_l1_leaves15_iterations100"
+arms = ["fresh_six_reference", "add_five_union_eleven", "documented_compact_ten", "all_supported_twenty_one"]
+model_columns = [6, 16, 15, 36]
+required_prediction_months = 96
+required_paired_mature_months = 94
+target_transform = "none_no_clipping_or_synthetic_replacement"
+optional_missing = "raw_null_preserved_model_rank_neutral_zero_plus_explicit_indicator"
+feature_eligibility = "unchanged_original_six_feature_selected_cohorts_all_prior_training_dates"
+reference_gate = "all96_asset_keys_raw_training_sha_and_float64_score_bytes_and_IC_exact"
+final_holdout_evaluation = false
+resume_supported = false
+
+[feature_reproduction]
+policy_sha256 = "f1b6724e7325b6260c6bd8fdcdae9b461c1c44b45c4d979c3178224b4dbef80c"
+diagnostic_sha256 = "b7a8bd63c4f0941e4fb8f05b9d54368941bfae9bfd505039e6bf4cb0fdf1a9a0"
+whitelist_sha256 = "0fc604514d7d725ef6e0d439cb0561023ad02a6bf31e9973a39e2f9b65681743"
+parent_platform = "Windows"

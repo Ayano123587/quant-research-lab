@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "holdout_evaluated": false,
+  "metric_cells": 3072,
+  "paired_months": 94,
+  "interpretation": "Descriptive development comparison; all16 candidates; no finaltest or profitability claim",
+  "outputs_sha256": {
+    "paired-target-intervals.csv": "9474137a6978bc01e81bfe04d3423df79742acff49dd6ecfe62512479ad857d5",
+    "paired-target-summary.csv": "8c6d921e301189f3de6a9a26a1d0d00f7b48c5772e34e5e31134779bbc5cee8c",
+    "rank_target-development-selection.json": "e6db2d817f03f9f330533a620ff39d7a38dd4743a499516200a014c71d19ed5c",
+    "rank_target-metrics.json": "1cb8d23b1157879693bc01eaf0b050d998dbf9810de78d1e7e1f9994244a0dde",
+    "raw_return-development-selection.json": "c7019b966fc707aadc68fae896dc67821b6e4673af2174fb3f5231e276e7a377",
+    "raw_return-metrics.json": "a4ac02351747c5085b73a92d9e313b14b389b9b3c0b20ed00046bded7881af43"
+  }
+}

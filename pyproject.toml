@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling>=1.26,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "quant-research-lab"
+version = "0.1.0"
+description = "Real-data research on stock selection, ETF allocation and portfolio risk"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy>=1.26,<3",
+    "pandas>=2.2,<4",
+    "pyarrow>=15,<30",
+    "scipy>=1.12,<2",
+    "scikit-learn>=1.4,<2",
+    "exchange-calendars>=4.5,<5",
+]
+
+[project.scripts]
+quantlab = "quantlab.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "ruff>=0.9,<1"]
+research = ["matplotlib>=3.8,<4", "nbformat>=5,<6", "nbclient>=0.10,<1", "ipykernel>=6,<8"]
+optimization = ["cvxpy>=1.5,<2"]
+ml = ["lightgbm>=4,<5"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/quantlab"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = ["real_data: checks that require the supplied source archive"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

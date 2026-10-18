@@ -1,0 +1,15 @@
+{
+  "schema": "stock_ablation_portable_analysis_v1",
+  "complete": true,
+  "scope": "Full480-cell development analysis export, not full native model archive",
+  "source_kernel_id": 139273894,
+  "source_kernel_version": 1,
+  "source_manifest_sha256": "d6196c7a3b73a375c2e0fe5368f36b539e06d64989e12239d76cc1a488bd64fe",
+  "holdout_evaluated": false,
+  "outputs_sha256": {
+    "audit-summary.json": "ad5db4eaf9b5cb406129e970e07d617c89c1cff2a3e6cffa3f9071c86b81fb7c",
+    "config.json": "656542c5589c6e03b67aa416b30fd28994ec875c9917fd98d6c6028e92b2c25f",
+    "metrics.json": "904b45569173c5796c9a3195dda7e5e25e96f29bcd039993da6a58281945b522",
+    "paired-comparison.json": "7e59492da43094a14267abbd94eb76b00e63ece98592834a9c981a4e36e42123"
+  }
+}

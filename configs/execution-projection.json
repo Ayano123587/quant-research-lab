@@ -1,0 +1,11 @@
+{
+  "bound_policy": "clip_only_within_registered_tolerance",
+  "matrix_policy": "unchanged_no_ridge",
+  "overbudget_policy": "reduce_largest_positive_tie_asset_id_then_nextafter_toward_zero",
+  "policy_id": "numerical_feasibility_projection_v1",
+  "raw_weight_policy": "retain_original_unchanged",
+  "registered_at": "2026-10-17T10:59:23.870812+00:00",
+  "schema": "risk_execution_projection_policy_v1",
+  "tolerance": 1e-08,
+  "underbudget_policy": "retain_cash_no_topup"
+}

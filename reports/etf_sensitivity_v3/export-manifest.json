@@ -1,0 +1,15 @@
+{
+  "schema": "etf_sensitivity_portable_analysis_v1",
+  "complete": true,
+  "holdout_evaluated": false,
+  "fee_bps": 10,
+  "paths": 7,
+  "sessions_per_path": 1975,
+  "source_manifest_sha256": "44655a41e80bcf1f6f81d598b747e77387e7d1a16a856918e74a3a553388d6ec",
+  "audit_sha256": "db8d9a5d336a98be447b7a729d74afd6fd4c241a1b1985c73732ae756181989e",
+  "scope": "independent saved ownership component/accounting and NAV metrics replay; no raw-price reconstruction",
+  "outputs_sha256": {
+    "daily-paths.parquet": "7e96e6939292f6792e23080e1839cfd2603f2fb0e1b7120e0b18fd467f420aa5",
+    "path-metrics.csv": "722134a73f25de09607bba99fdb6d4f3c4631026724a19e81999a1ee99276aac"
+  }
+}

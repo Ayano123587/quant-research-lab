@@ -1,0 +1,16 @@
+{
+  "scientific_assertions_PASS": true,
+  "observed_prediction_rows": 233970,
+  "independent_metric_cells": 480,
+  "fit_receipts_checked": 480,
+  "raw_training_hashes_reconstructed": 96,
+  "projected_training_hashes_reconstructed": 480,
+  "fresh_reference_dates_exact_float64": 96,
+  "common_mature_months": 94,
+  "maximum_absolute_IC_error_strict_bound": 1e-12,
+  "original_process_exit_code": 1,
+  "original_terminal_exception": "KeyError: 'source_archive_sha256'",
+  "exception_scope": "metadata lookup in final result literal after all scientific assertions and final input guards; no scientific exception caught or skipped",
+  "receipt_repaired_only": true,
+  "full_private_audit_sha256": "06f3836c96cc44e90f71251229e253af604c378b3372297f3b6a51b65cfb5697"
+}

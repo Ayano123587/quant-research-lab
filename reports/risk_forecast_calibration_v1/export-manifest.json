@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "source_csv_sha256": "f0e4467650aaf008786acdc8be875a5bb4f2498272b597a325c74ebe65c37e69",
+  "scheduled_cells": 9120,
+  "valid_cells": 8808,
+  "unsupported_or_immature_cells": 312,
+  "holdout_evaluated": false,
+  "models_refitted": false,
+  "future_prices_independently_reconstructed": false,
+  "uncertainty": "2000 circular scheduled-month block resamples; 3/6/12 months; shared indices; missing cells retained; descriptive unadjusted intervals",
+  "calibration": "Five within-recipe forecast quantiles; descriptive development analysis, no calibration fit",
+  "global_winner": null,
+  "outputs_sha256": {
+    "all_forecast_scores.csv": "f0e4467650aaf008786acdc8be875a5bb4f2498272b597a325c74ebe65c37e69",
+    "annual_paired_losses.csv": "f243d5a0116f35185b5a17740737a979ee275dc7ca2055794cd022b3bc545d70",
+    "calibration_bins.csv": "a37b154817f1615ab5f95aadd89d2725c49cf6775d3ad518352e6a4be3ca3f82",
+    "forecast_summary.csv": "0ccdb83805202371dd2db4cf7d45c0bef4740572712ba714b21312ed4e004dca",
+    "paired_loss_intervals.csv": "138fa81d0014a1d528c36b2831226e63e9eb1dbc5d3e264514892f01d66032ce",
+    "variance_calibration.png": "1e51b730973a8a82ac2d3a49551d0848ac508119054a0f0a2e321819dcc3bc1b"
+  }
+}

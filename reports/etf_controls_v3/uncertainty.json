@@ -1,0 +1,185 @@
+{
+  "comparisons": {
+    "trend_252": {
+      "annual_sessions": 252,
+      "block_sensitivity": [
+        {
+          "annual_arithmetic_mean_difference_interval": [
+            -0.07434097135216114,
+            0.06123375457476665
+          ],
+          "annual_sharpe_difference_interval": [
+            -0.25537135423712565,
+            0.7451825958196444
+          ],
+          "block_sessions": 21,
+          "undefined_sharpe_draws": 0
+        },
+        {
+          "annual_arithmetic_mean_difference_interval": [
+            -0.08092408695754844,
+            0.06874376353641276
+          ],
+          "annual_sharpe_difference_interval": [
+            -0.3003262076005586,
+            0.6959024836484552
+          ],
+          "block_sessions": 63,
+          "undefined_sharpe_draws": 0
+        },
+        {
+          "annual_arithmetic_mean_difference_interval": [
+            -0.08440623737813008,
+            0.08008181964435604
+          ],
+          "annual_sharpe_difference_interval": [
+            -0.29328437225143533,
+            0.7174264545257439
+          ],
+          "block_sessions": 126,
+          "undefined_sharpe_draws": 0
+        }
+      ],
+      "confidence": 0.95,
+      "draws": 2000,
+      "first_session": "2007-03-01",
+      "input_sha256": "7b3508645b143521877cfd4631e0b3ccca77f827e3b5ce75d983090f4e2eb8b0",
+      "last_session": "2014-12-31",
+      "method": "paired_circular_moving_block_percentile",
+      "numpy_version": "2.5.4",
+      "observed_annual_arithmetic_mean_difference": -0.007774105866072796,
+      "observed_annual_sharpe_difference": 0.2483717827812254,
+      "resampling_unit": "shared_observed_session_blocks_no_generated_market_data",
+      "schema": "paired_observed_return_block_intervals_v1",
+      "seed": 20261017,
+      "selection_adjusted": false,
+      "sessions": 1975
+    },
+    "trend_252_volatility_63": {
+      "annual_sessions": 252,
+      "block_sensitivity": [
+        {
+          "annual_arithmetic_mean_difference_interval": [
+            -0.07946103392080535,
+            0.05719514710350306
+          ],
+          "annual_sharpe_difference_interval": [
+            -0.23253858709741673,
+            0.7594208783529552
+          ],
+          "block_sessions": 21,
+          "undefined_sharpe_draws": 0
+        },
+        {
+          "annual_arithmetic_mean_difference_interval": [
+            -0.0847335466703094,
+            0.0643702153601161
+          ],
+          "annual_sharpe_difference_interval": [
+            -0.2536226961276542,
+            0.6980668771592131
+          ],
+          "block_sessions": 63,
+          "undefined_sharpe_draws": 0
+        },
+        {
+          "annual_arithmetic_mean_difference_interval": [
+            -0.0871606120229666,
+            0.07685675090475737
+          ],
+          "annual_sharpe_difference_interval": [
+            -0.24432719169039924,
+            0.699276560354866
+          ],
+          "block_sessions": 126,
+          "undefined_sharpe_draws": 0
+        }
+      ],
+      "confidence": 0.95,
+      "draws": 2000,
+      "first_session": "2007-03-01",
+      "input_sha256": "50fcc56c8d96456ecb29541b8d0e16a05ffd102eb856b9fa1478cce274caf827",
+      "last_session": "2014-12-31",
+      "method": "paired_circular_moving_block_percentile",
+      "numpy_version": "2.5.4",
+      "observed_annual_arithmetic_mean_difference": -0.011536532706182724,
+      "observed_annual_sharpe_difference": 0.2769177003487172,
+      "resampling_unit": "shared_observed_session_blocks_no_generated_market_data",
+      "schema": "paired_observed_return_block_intervals_v1",
+      "seed": 20261017,
+      "selection_adjusted": false,
+      "sessions": 1975
+    },
+    "volatility_63": {
+      "annual_sessions": 252,
+      "block_sensitivity": [
+        {
+          "annual_arithmetic_mean_difference_interval": [
+            -0.06934560082850974,
+            0.028920725922277894
+          ],
+          "annual_sharpe_difference_interval": [
+            -0.2536001946243482,
+            0.2941532872481783
+          ],
+          "block_sessions": 21,
+          "undefined_sharpe_draws": 0
+        },
+        {
+          "annual_arithmetic_mean_difference_interval": [
+            -0.06531920733357695,
+            0.024049973750388486
+          ],
+          "annual_sharpe_difference_interval": [
+            -0.22441162020402228,
+            0.23933746245263066
+          ],
+          "block_sessions": 63,
+          "undefined_sharpe_draws": 0
+        },
+        {
+          "annual_arithmetic_mean_difference_interval": [
+            -0.06596664156687718,
+            0.027538959211632928
+          ],
+          "annual_sharpe_difference_interval": [
+            -0.2057074529997618,
+            0.21461185113687917
+          ],
+          "block_sessions": 126,
+          "undefined_sharpe_draws": 0
+        }
+      ],
+      "confidence": 0.95,
+      "draws": 2000,
+      "first_session": "2007-03-01",
+      "input_sha256": "58dcae6260d640525d16f7ce974bb5e81a0a790df1e8e3d551bcaba4aad15cf1",
+      "last_session": "2014-12-31",
+      "method": "paired_circular_moving_block_percentile",
+      "numpy_version": "2.5.4",
+      "observed_annual_arithmetic_mean_difference": -0.021172857250761887,
+      "observed_annual_sharpe_difference": 0.030167838778335402,
+      "resampling_unit": "shared_observed_session_blocks_no_generated_market_data",
+      "schema": "paired_observed_return_block_intervals_v1",
+      "seed": 20261017,
+      "selection_adjusted": false,
+      "sessions": 1975
+    }
+  },
+  "created_at": "2026-10-17T14:04:25.333795+00:00",
+  "interpretation": {
+    "block_sensitivity": "all_21_63_126_session_intervals_reported_without_selection",
+    "fees": "original_executed_ledger_fees_preserved_no_reexecution",
+    "generated_market_data": false,
+    "limits": "Historical resampling uncertainty is not a guarantee of future performance.",
+    "selection_adjusted": false
+  },
+  "reference": "strategic_equal",
+  "schema": "etf_control_uncertainty_report_v1",
+  "scope": "full_development_observed_after_control_scores_not_preregistered_inference",
+  "source_sha256": {
+    "evaluation/uncertainty.py": "dac44a1b93f62c3d93489256297f0fe5f0d02b5e2bc3c2dff579c070bfd6f391",
+    "scripts/evaluate_etf_uncertainty.py": "29c533c99dacab996f06bbab7695d9b530035d6ffeff320789cc7d91d33c6f0d"
+  },
+  "study_manifest_sha256": "109976808a1196c62111b14877271b94049ce6df7964e27b8fcdd4a82e054f3a"
+}

@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
+        with:
+          version: "0.13.1"
+          python-version: "3.12.15"
+          enable-cache: true
+      - name: Install locked environment
+        run: uv sync --locked --group dev --group research --group optimization --group ml
+      - name: Lint
+        run: uv run --no-sync ruff check src tests cloud scripts
+      - name: Check CLI
+        run: uv run --no-sync quantlab --help
+      - name: Full offline software and real saved-artifact checks
+        env:
+          HF_HUB_OFFLINE: "1"
+          TRANSFORMERS_OFFLINE: "1"
+          WANDB_MODE: disabled
+        run: uv run --no-sync python -m pytest
+      - name: Validate saved notebook index without executing notebooks
+        run: uv run --no-sync python scripts/validate_saved_notebook_index.py

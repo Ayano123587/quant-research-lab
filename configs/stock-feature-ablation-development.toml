@@ -1,0 +1,21 @@
+schema_version = 1
+status = "post_observation_development_ablation_not_final_holdout"
+registered_at = "2026-10-17T17:11:38.187400+00:00"
+historical_preregistration = false
+reference_manifest_sha256 = "b46c22e5a6f46330668f6f3870c0c8cc2ddde15c283d3f9af8637f93557492d6"
+candidate_id = "lgbm_regression_l1_leaves15_iterations100"
+target_transform = "none_no_clipping_or_synthetic_replacement"
+feature_ids = ["F01", "F07", "F09", "F13", "F15", "F19"]
+projection = "remove_actual_columns_without_zero_replacement"
+reference_gate = "exact_keys_float64_score_bytes_target_units_and_IC_before_comparisons"
+minimum_common_mature_dates = 94
+scheduled_prediction_dates = 96
+threads = 4
+random_seed = 20261017
+selection = "none_descriptive_registered_family_contrasts"
+
+[removed_families]
+momentum_trend = ["F01", "F13", "F15"]
+reversal = ["F07"]
+risk = ["F09"]
+activity = ["F19"]

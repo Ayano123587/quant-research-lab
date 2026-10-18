@@ -1,0 +1,125 @@
+{
+  "calendar_sha256": "9e5c0a972ce2c7f83f5ffdde86234c96332807fb278eb8a3954422e8da7a83ce",
+  "cash": "explicit_zero_interest_assumption",
+  "cloud_kernel_id": 139222404,
+  "cloud_kernel_version": 3,
+  "development_only": true,
+  "fee_bps_per_traded_side": 10,
+  "holdout_evaluated": false,
+  "initial_cash": 100000.0,
+  "limitations": [
+    "Development observations only; no final recipe selected here.",
+    "Whole current-vintage Yahoo OHLC times observed same-row AdjClose/Close ratio.",
+    "Derived adjusted opens are research proxies; vendor adjusted opens and auction fills are not observed.",
+    "No explicit dividend cash settlement; historical publication/vintage availability is unverified.",
+    "Cash earns zero; fees are 10 bp per traded side; no slippage, spread, impact or taxes.",
+    "No leverage, shorts, target-risk guarantee, forced terminal liquidation, or pending-order charge.",
+    "No out-of-sample superiority established. Any attached intervals are posthoc descriptions, not 2014-preregistered or selection-adjusted inference."
+  ],
+  "metric_conventions": {
+    "annualization": 252,
+    "drawdown": "close NAV peaks including initial capital; no intraday extrema",
+    "rolling_risk": "63 complete observed daily net returns; first 62 values unavailable",
+    "turnover": "daily buy plus sell notional divided by pretrade NAV; initial trade included",
+    "volatility_ddof": 1
+  },
+  "monthly_target_support": {
+    "strategic_equal": {
+      "last_intended_execution_at": "2015-01-02T14:30:00+00:00",
+      "last_signal_at": "2014-12-31T21:01:00+00:00",
+      "monthly_decisions": 95,
+      "terminal_pending_target": true
+    },
+    "trend_252": {
+      "last_intended_execution_at": "2015-01-02T14:30:00+00:00",
+      "last_signal_at": "2014-12-31T21:01:00+00:00",
+      "monthly_decisions": 95,
+      "terminal_pending_target": true
+    },
+    "trend_252_volatility_63": {
+      "last_intended_execution_at": "2015-01-02T14:30:00+00:00",
+      "last_signal_at": "2014-12-31T21:01:00+00:00",
+      "monthly_decisions": 95,
+      "terminal_pending_target": true
+    },
+    "volatility_63": {
+      "last_intended_execution_at": "2015-01-02T14:30:00+00:00",
+      "last_signal_at": "2014-12-31T21:01:00+00:00",
+      "monthly_decisions": 95,
+      "terminal_pending_target": true
+    }
+  },
+  "policies": [
+    "strategic_equal",
+    "trend_252",
+    "volatility_63",
+    "trend_252_volatility_63"
+  ],
+  "price_basis": "provider_adjusted_close_ratio_price_index_research_proxy",
+  "report_exporter_sha256": "6a5a74c07be241b6aeee65b2da13b821fe74403759d9452f979557e5263a0076",
+  "schema": "etf_control_derived_portfolio_report_v1",
+  "sessions_per_policy": 1975,
+  "source_identity": {
+    "archive_sha256": null,
+    "calendar_sha256": "9e5c0a972ce2c7f83f5ffdde86234c96332807fb278eb8a3954422e8da7a83ce",
+    "manifest_sha256": "d749000ac4116a8f74ea0c42a7d28e94822369ffcee413ff6dc22100d3666ab3",
+    "price_basis": "provider_adjusted_close_ratio_price_index_research_proxy",
+    "price_basis_policy_sha256": "9b251fa3c4eccbfa76cb17bea894077639644b812ca149b348938b157ddc76c2",
+    "raw_bundle_sha256": "c7cc178eb60b3674388deac4b84315d6776ed66800ba5f7e5418cbf6f736c240",
+    "source_type": "yahoo_etf_release"
+  },
+  "strategy_rerun": false,
+  "study_manifest_sha256": "109976808a1196c62111b14877271b94049ce6df7964e27b8fcdd4a82e054f3a",
+  "study_source_sha256": {
+    "allocation/policies.py": "c1c4254342c6080193965b227415224bb9110d5781d67b8854566fbdb31c5213",
+    "allocation/study.py": "46a9b5a686dec84ac601a301f14a89f77cd735c155ac1a92dbf6c160ac487a4f",
+    "backtest/accounting.py": "6c0d19803461b67cb2098c52efa20128a16f082f3191ea21b31bed5d69253638",
+    "backtest/engine.py": "86caf2fe87d2a570a72f6d14af1e029f118e200955ac01ba30385b57da3ccbfd",
+    "data/archive.py": "7d8976a2b5edd10df9b62f8e7e4aff6323706984655bdb90c0f71462aeb4439c",
+    "data/calendar.py": "350c4971cd4f5fce675e76e9d7375560e317bac57fa457e85904c76105c7d7ee",
+    "data/ingest.py": "02b0168b94f8f4426ce989decd76c7bfcde65cb4e204025ee1b07f4d5df239f0",
+    "data/provenance.py": "15781c4936622f68aeef40e61ddfdbca7428387592a3f12acf30582f7b2220d3",
+    "data/snapshot.py": "fdfbea76b8f571fe4e08a77c719380cb0df46bd2a05f4e508509dd75775785e6",
+    "data/yahoo.py": "30afdedaceec313aeb9339c5d1ea67c856be21ccd9525c98c3a2a49568522263",
+    "risk/covariance.py": "42e034e32eb8ad7e40c45008eb970a2dde41225cb45ed7ea2a23785f3710d942"
+  },
+  "symbols": [
+    "SPY",
+    "EFA",
+    "EEM",
+    "TLT",
+    "LQD",
+    "GLD",
+    "DBC",
+    "VNQ"
+  ],
+  "uncertainty": {
+    "block_lengths": [
+      21,
+      63,
+      126
+    ],
+    "draws_per_block": 2000,
+    "input_return_hashes_verified": true,
+    "pairs": 3,
+    "posthoc_descriptive": true,
+    "report_sha256": "7aecc85a860f9b81a6c60468c40930655757935ebd203a9273c9346e0b7d0d69",
+    "selection_adjusted": false
+  },
+  "verified_scientific_outputs_sha256": {
+    "contract.json": "a842496ff980367c95b5802ef72f383b297b08393a56310f9d1c63b733971803",
+    "metrics.json": "166c3886c2a529c22a6892e4eda71b93c240a553ef70de670de51aa32f7aec73",
+    "strategic_equal-decision-events.json": "9e219598875003fe7ec373d67d3bc3eebbaedf5bb2c968f7220ad9616433f3e3",
+    "strategic_equal-monthly-targets.json": "7d8b34114fc7ddecc8869761ffb57926e2bd9b3bbca423362f4f89496591f85f",
+    "strategic_equal.parquet": "7f26c4769d41877283e5b7b1e885fe50693d039741af0222909b0ecea5d53f41",
+    "trend_252-decision-events.json": "66f81e6b4c84883367921c8326915c5cb81fe0f4ac3eaedf32c7298616983709",
+    "trend_252-monthly-targets.json": "f85c0d547e4e44de92fbc2c457b0e02a9a5a91e4c780e1bc115640bd6f889961",
+    "trend_252.parquet": "2cbd3d9bf372dd04e72846bdf11428e6fd32339c4b8995188f263f6bdcfd09df",
+    "trend_252_volatility_63-decision-events.json": "22f6aa8691b64a2555b191a48bd73fbbc4f672ceb02f650d36fad95570dab3c1",
+    "trend_252_volatility_63-monthly-targets.json": "ad652db0de9fe7ed851c22f7dc2db6bfc4b645407f24b14004943d40cae34efb",
+    "trend_252_volatility_63.parquet": "65f58458250526b078a72651884434d8dc130c4a0aad498434b6d4de89e55b3c",
+    "volatility_63-decision-events.json": "9e2c1e9021ca4a97651da5ad2c8dfb1b45dc5acbae2ed127d5884d8e213ae437",
+    "volatility_63-monthly-targets.json": "a95c4731e52dc83082144436842da5d867c640447890b86c72155a6a301c2f61",
+    "volatility_63.parquet": "a454c258d3ea87c5840cd87fb842253d82acf261e51fabee60d387fda138e4a5"
+  }
+}

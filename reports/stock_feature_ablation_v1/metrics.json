@@ -1,0 +1,3842 @@
+[
+  {
+    "arm_id": "all_features",
+    "ic": -0.006411154107342113,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.029415134617661737,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.01955628516026107,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.05470222988733767,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.021651744806922047,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.07339246927543068,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.0340142286388955,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.12990352932226695,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.18110129883021608,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.020823761651148274,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.08024582838983771,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-03-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.058760655338426795,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-03-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.06272063182215032,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-03-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.05949095708068499,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-03-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.03722028529498712,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-03-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.012954264837566275,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.026815550438924043,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.05623586819944679,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.0403265675665417,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.041661517629606314,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.14424207561516122,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.11910245940687979,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.12853767890547216,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.09803374836871707,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.06663882629110832,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.08093702370965157,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-06-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.05351582190720119,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-06-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.10706062328477624,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-06-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.07386047134961592,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-06-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.007010375449880978,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-06-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.07414114998975772,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.06903602674466294,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.08507916372214099,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.05798592901016719,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.0835280211926958,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.034839418904833656,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.012808958874486857,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.08483738418962174,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.04319290165072512,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.05159110172097688,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.11206935179804166,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-09-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.07012212266191166,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-09-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.09381254967017838,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-09-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.062430698098150106,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-09-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.08819752979587057,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-09-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.08292800319532968,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.0960523930438269,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.1292444248115526,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.07967506910058296,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.15846141446854065,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.050193181685958196,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.082556342869526,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.08175090818386753,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.10806496752548961,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.026010689322961057,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.020702796139920134,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.07887794090673264,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.1300302736336302,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.049722946338859306,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.034563883645014906,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2007-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.15333172579871954,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.08113402370579575,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.04326284556415225,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.19938560667063138,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.19145442931551498,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.008220110670177729,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-02-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.007046621322929299,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-02-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.0569015915006411,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-02-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.02958920526978429,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-02-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.0010938588288890315,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-02-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.06858222260493463,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.07224879815527634,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.045744499343595646,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.05786452501309471,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.11432873525990164,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.11510378563949372,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.03813077354470786,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.06760311466881144,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.0192155868576112,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.0997967666419461,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.04882812753142457,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-05-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.1258875404939389,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-05-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.037187155417760874,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-05-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.03441419433963255,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-05-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.044915034601411614,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-05-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.07608169187605017,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.09760855460540035,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.10865664824363207,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.12130599527006998,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.015308453375649367,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.16469502624683055,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.07143787157013813,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.2078038881186844,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.0877272195452257,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.20496799358616682,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.16215806267438987,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-08-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.08828167456165874,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-08-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.19770305773948027,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-08-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.14271845310295317,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-08-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.1662028376981729,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-08-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.1813849390048429,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.10893094029304519,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.23235680711134046,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.1946464514610474,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.15191864304393282,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.0021273785167261468,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.03920439392646719,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.005438871638525901,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.02242724670089954,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.04171030459108474,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.047550915498613316,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-11-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.022436613985339766,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-11-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.10612020491891805,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-11-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.09975594045392054,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-11-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.0325135077754868,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-11-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.048993753146221716,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.023273782919912573,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.034813740656724525,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.0017206493304069588,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.07745699237550198,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2008-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.006732172531520076,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-01-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.07886384961166806,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-01-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.012424242693346405,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-01-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.03982894219969823,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-01-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.016789418830427436,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-01-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.1087040220126847,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-02-27",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.04426624239415542,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-02-27",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.05617725823112939,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-02-27",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.028293675572908936,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-02-27",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.07139734090869843,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-02-27",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.09319815806125342,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.06659236815833369,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.03995891370441024,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.0838835043740168,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.05844688679986314,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.14403793292025718,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.1253297246564904,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.13092938627520043,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.02334091475681296,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.16926683329282785,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.17817891495128466,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-05-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.12762295325008216,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-05-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.227878130595433,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-05-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.22753334557503796,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-05-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.18354440583062803,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-05-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.06285595642792302,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.07903370455250538,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.06558375377241088,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.02723221899326234,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.05914364601806877,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.011988485048286302,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2009-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.0007993861039336723,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2009-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.02154179725137251,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2009-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.04748174480171894,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2009-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.0013061411815054385,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2009-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.07151724130974813,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2009-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.02207918302786049,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2009-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.08443806735030156,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2009-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.02515631216883493,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2009-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.018695014212744814,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2009-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.0682915306841102,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.03016427855021423,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.06874830093921373,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.03987871485443127,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.09864745894054724,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.04806908345088767,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2009-10-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.033240252019530465,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2009-10-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.060826586423911505,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2009-10-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.05228932264322995,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2009-10-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.053386130778348376,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2009-10-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.061226054701010314,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.11292854595778096,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.10477914599866285,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.0020654969559949178,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.04026275464805414,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.10300858858913034,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.020880402917699558,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.10483338416956742,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.14686682649346522,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.06327628618887662,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2009-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.013799017410781406,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-01-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.1296276127226373,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-01-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.006570853480155762,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-01-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.0315296526018873,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-01-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.051380103472346936,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-01-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.010311852056243529,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-02-26",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.05840248149428109,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-02-26",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.015813864364245953,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-02-26",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.07061804118101314,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-02-26",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.038447953271575415,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-02-26",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.007262445085276791,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.04285492901148167,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.011726935632585886,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.01188165633554967,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.07095420695423534,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.04795507100809712,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.04512860513224506,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.01827056755256544,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.04490872231503968,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.08175026259216688,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.021618798426770114,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-05-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.10537497334212213,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-05-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.027443087362708944,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-05-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.06085164024182239,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-05-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.024279250211475183,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-05-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.1296326416607274,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.016986860816225705,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.1047308522235704,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.031112704292673155,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.12216995415808536,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.07594823391601356,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-07-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.052952440922229456,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-07-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.004716549922525029,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-07-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.05986612256811404,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-07-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.14976353611571638,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-07-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.12765634924980998,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.15574076967269923,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.15153576183485457,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.08559111782753362,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.11015175612131017,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.02272729018224586,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.0151629124242051,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.018027593849536474,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.03382844848216896,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.02432008141504717,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.044367889520626036,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-10-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.0744501953035991,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-10-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.0878920375609305,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-10-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.1418279755694797,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-10-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.05901037777499375,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-10-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.09199799367633756,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.11231005386677508,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.054950820512558084,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.018277564872396505,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.06965927167969121,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.054434031372265546,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.06142544207960345,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.11280546978376663,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.0013677687865481505,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.04768029855625669,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2010-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.0741093450505224,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2011-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.06289960116492015,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2011-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.13075859576581078,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2011-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.002281626793290201,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2011-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.05293970009115315,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2011-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.09951279887979426,
+    "n_predictions": 380,
+    "n_resolved": 379,
+    "signal_session": "2011-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.056581705771482756,
+    "n_predictions": 380,
+    "n_resolved": 379,
+    "signal_session": "2011-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.0577311868091436,
+    "n_predictions": 380,
+    "n_resolved": 379,
+    "signal_session": "2011-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.11998523350249467,
+    "n_predictions": 380,
+    "n_resolved": 379,
+    "signal_session": "2011-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.06861131562658912,
+    "n_predictions": 380,
+    "n_resolved": 379,
+    "signal_session": "2011-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.0047323986560575525,
+    "n_predictions": 377,
+    "n_resolved": 377,
+    "signal_session": "2011-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.0015143866734047178,
+    "n_predictions": 377,
+    "n_resolved": 377,
+    "signal_session": "2011-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.0439040075323101,
+    "n_predictions": 377,
+    "n_resolved": 377,
+    "signal_session": "2011-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.03236423198311608,
+    "n_predictions": 377,
+    "n_resolved": 377,
+    "signal_session": "2011-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.02391725240836569,
+    "n_predictions": 377,
+    "n_resolved": 377,
+    "signal_session": "2011-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.033864966223251414,
+    "n_predictions": 379,
+    "n_resolved": 379,
+    "signal_session": "2011-04-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.03437815162272873,
+    "n_predictions": 379,
+    "n_resolved": 379,
+    "signal_session": "2011-04-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.010092226900106846,
+    "n_predictions": 379,
+    "n_resolved": 379,
+    "signal_session": "2011-04-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.08165188657031347,
+    "n_predictions": 379,
+    "n_resolved": 379,
+    "signal_session": "2011-04-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.12886740396021268,
+    "n_predictions": 379,
+    "n_resolved": 379,
+    "signal_session": "2011-04-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.006963118879484236,
+    "n_predictions": 379,
+    "n_resolved": 379,
+    "signal_session": "2011-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.05996051350876504,
+    "n_predictions": 379,
+    "n_resolved": 379,
+    "signal_session": "2011-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.04180903833657079,
+    "n_predictions": 379,
+    "n_resolved": 379,
+    "signal_session": "2011-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.05103421642050434,
+    "n_predictions": 379,
+    "n_resolved": 379,
+    "signal_session": "2011-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.025928801505753933,
+    "n_predictions": 379,
+    "n_resolved": 379,
+    "signal_session": "2011-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.1787824903355824,
+    "n_predictions": 380,
+    "n_resolved": 380,
+    "signal_session": "2011-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.13470342552742107,
+    "n_predictions": 380,
+    "n_resolved": 380,
+    "signal_session": "2011-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.11748082682157689,
+    "n_predictions": 380,
+    "n_resolved": 380,
+    "signal_session": "2011-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.05608230820079776,
+    "n_predictions": 380,
+    "n_resolved": 380,
+    "signal_session": "2011-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.06851660261961685,
+    "n_predictions": 380,
+    "n_resolved": 380,
+    "signal_session": "2011-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.0484080635795782,
+    "n_predictions": 382,
+    "n_resolved": 382,
+    "signal_session": "2011-07-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.04447383750107771,
+    "n_predictions": 382,
+    "n_resolved": 382,
+    "signal_session": "2011-07-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.061844009679190494,
+    "n_predictions": 382,
+    "n_resolved": 382,
+    "signal_session": "2011-07-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.03819026805472489,
+    "n_predictions": 382,
+    "n_resolved": 382,
+    "signal_session": "2011-07-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.07726236905513804,
+    "n_predictions": 382,
+    "n_resolved": 382,
+    "signal_session": "2011-07-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.06637311282587019,
+    "n_predictions": 387,
+    "n_resolved": 387,
+    "signal_session": "2011-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.0539858287228818,
+    "n_predictions": 387,
+    "n_resolved": 387,
+    "signal_session": "2011-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.18858495471508188,
+    "n_predictions": 387,
+    "n_resolved": 387,
+    "signal_session": "2011-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.11319990821977086,
+    "n_predictions": 387,
+    "n_resolved": 387,
+    "signal_session": "2011-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.08033622618333873,
+    "n_predictions": 387,
+    "n_resolved": 387,
+    "signal_session": "2011-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.19974709285470393,
+    "n_predictions": 397,
+    "n_resolved": 396,
+    "signal_session": "2011-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.12665600348701392,
+    "n_predictions": 397,
+    "n_resolved": 396,
+    "signal_session": "2011-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.19800670359166878,
+    "n_predictions": 397,
+    "n_resolved": 396,
+    "signal_session": "2011-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.23048007713915317,
+    "n_predictions": 397,
+    "n_resolved": 396,
+    "signal_session": "2011-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.2362942653216534,
+    "n_predictions": 397,
+    "n_resolved": 396,
+    "signal_session": "2011-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.026188127860593585,
+    "n_predictions": 403,
+    "n_resolved": 402,
+    "signal_session": "2011-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.037693773294833206,
+    "n_predictions": 403,
+    "n_resolved": 402,
+    "signal_session": "2011-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.0060945438418039,
+    "n_predictions": 403,
+    "n_resolved": 402,
+    "signal_session": "2011-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.0871498640462151,
+    "n_predictions": 403,
+    "n_resolved": 402,
+    "signal_session": "2011-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.030412063899138527,
+    "n_predictions": 403,
+    "n_resolved": 402,
+    "signal_session": "2011-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.015877980156976987,
+    "n_predictions": 442,
+    "n_resolved": 442,
+    "signal_session": "2011-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.024861686506864683,
+    "n_predictions": 442,
+    "n_resolved": 442,
+    "signal_session": "2011-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.050341201150215585,
+    "n_predictions": 442,
+    "n_resolved": 442,
+    "signal_session": "2011-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.08038987961454934,
+    "n_predictions": 442,
+    "n_resolved": 442,
+    "signal_session": "2011-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.058506825063424944,
+    "n_predictions": 442,
+    "n_resolved": 442,
+    "signal_session": "2011-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.07008013527886792,
+    "n_predictions": 444,
+    "n_resolved": 444,
+    "signal_session": "2011-12-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.13405424333522278,
+    "n_predictions": 444,
+    "n_resolved": 444,
+    "signal_session": "2011-12-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.11715587151269304,
+    "n_predictions": 444,
+    "n_resolved": 444,
+    "signal_session": "2011-12-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.06548670601238293,
+    "n_predictions": 444,
+    "n_resolved": 444,
+    "signal_session": "2011-12-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.13362132447939104,
+    "n_predictions": 444,
+    "n_resolved": 444,
+    "signal_session": "2011-12-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.10481287667431088,
+    "n_predictions": 444,
+    "n_resolved": 444,
+    "signal_session": "2012-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.0564003479347586,
+    "n_predictions": 444,
+    "n_resolved": 444,
+    "signal_session": "2012-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.09798467297192197,
+    "n_predictions": 444,
+    "n_resolved": 444,
+    "signal_session": "2012-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.0651775729302801,
+    "n_predictions": 444,
+    "n_resolved": 444,
+    "signal_session": "2012-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.05891281597603199,
+    "n_predictions": 444,
+    "n_resolved": 444,
+    "signal_session": "2012-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.05760011282049322,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-02-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.017914258283015752,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-02-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.02330661719442619,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-02-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.012288995958469669,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-02-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.03658105603562734,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-02-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.014193498157139554,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-03-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.025140301626527316,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-03-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.04008336392749867,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-03-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.05585541758659905,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-03-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.04522087763165125,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-03-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.06821108282595642,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.05994002589440937,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.09726863823218164,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.08210536340545664,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.07679589584678546,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.023337501296157113,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.06848968216024967,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.030776874619047188,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.027731625363120804,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.02862419386445055,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.030373314426452542,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-06-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.044935616936730025,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-06-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.039459880356569936,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-06-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.027394964804281077,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-06-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.014110463921302503,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-06-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.04142128513149345,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.003059691145616157,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.07272324419804388,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.05961041963859201,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.05949605487904123,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.044251003136165784,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2012-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.029517747061595646,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2012-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.029924595998339142,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2012-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.08773176978817346,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2012-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.010750130359925347,
+    "n_predictions": 500,
+    "n_resolved": 499,
+    "signal_session": "2012-08-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.07897023746252599,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-09-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.0965481019132275,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-09-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.08387724167867021,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-09-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.023353661564550286,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-09-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.02133924302640908,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-09-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.015749591339879552,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.09538743672013789,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.0030150383033425454,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.048028925759537176,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.03146525851579077,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.005862080452483875,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.029889324578378854,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.013256577024227008,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.09574603022262874,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.007775278806750631,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-11-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.045359335829974534,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.019165894939496962,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.013440851118255371,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.01872864292810012,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.024394126162153897,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2012-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.10516244789272751,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.036912838902226686,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.09281943901844922,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.1297875631004142,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.14747269892246076,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.00774266794021775,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.03359168736024741,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.04989262112410148,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.06909712822337967,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.03531248839239654,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.11359325227084739,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-03-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.13363481119500759,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-03-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.08669847185887841,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-03-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.005293336229386084,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-03-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.06363051178719545,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-03-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.0051646961193961205,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.024140738520770196,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.025641810259909182,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.03237155800137003,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.06463874811309094,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.010776487779108196,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.03363954755195747,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.06611922117177635,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.0411696894282864,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.04516782954471901,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-05-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.08234324030802785,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-06-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.006687189279416184,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-06-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.048229868905136114,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-06-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.07798385674580088,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-06-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.02142448008999653,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-06-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.02433698927948212,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.028112151676063835,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.04484060519061679,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.023525533346683933,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.01766776955432781,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.05937785946803993,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-08-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.06497496684541881,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-08-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.044766933448751885,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-08-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.0027786379821078053,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-08-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.10023183460160273,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-08-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.054062412648422896,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.052172756436522985,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.05401877904802454,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.007935882218900316,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.029453717261578163,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.026346025934566943,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.032658091472591626,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.05316558914939601,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.009390922298868521,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.07096031049645961,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.08279399058054404,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-11-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.06800135793199413,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-11-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.01287954244752099,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-11-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.06601434431106672,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-11-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.08225497337361144,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-11-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.04008549542341703,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.039702508271654946,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.03184682083916669,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.06602214640694369,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.07200066203259245,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2013-12-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.13064022490312935,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.09491067776760453,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.05945169431937964,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.11408404187928517,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.12842494163648605,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-01-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.14710292027622782,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.006870747723030463,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.15356244661329324,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.07271591804577214,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.034504244083027394,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-02-28",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.06281664971117464,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.0029924078350628425,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.11716010420130596,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.011424582472412596,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.013888011871381748,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-03-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.0051892255553589355,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.003982871387427412,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.05287616549415459,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.05813192377786048,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.09575008883346833,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-04-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.10365515900069987,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-05-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.0036521278284171264,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-05-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.005443951836239635,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-05-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.1312017946729243,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-05-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.07380570383548918,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-05-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.045699459959286204,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.026829949195629973,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.041307356031090946,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.006232588969074836,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.057893044217736604,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-06-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.02740756586157985,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.017795827535345542,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.0335416329315241,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": 0.014230005214750676,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.04371136956242475,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-07-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.0797372466337399,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-08-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": -0.0649355100302138,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-08-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.07274149388190097,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-08-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.013583391135604849,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-08-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.050526906460163036,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-08-29",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": -0.011355459690054236,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.08709644926268224,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": -0.05937870345646191,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.05008549559534138,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": -0.074032281396982,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-09-30",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": 0.017558229008100414,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": 0.06558920703533155,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": 0.0049102361258398595,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "risk",
+    "ic": -0.08454436149113544,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "activity",
+    "ic": 0.04178344200282405,
+    "n_predictions": 500,
+    "n_resolved": 500,
+    "signal_session": "2014-10-31",
+    "status": "valid"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": null,
+    "n_predictions": 500,
+    "n_resolved": 0,
+    "signal_session": "2014-11-28",
+    "status": "insufficient_resolved_cross_section"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": null,
+    "n_predictions": 500,
+    "n_resolved": 0,
+    "signal_session": "2014-11-28",
+    "status": "insufficient_resolved_cross_section"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": null,
+    "n_predictions": 500,
+    "n_resolved": 0,
+    "signal_session": "2014-11-28",
+    "status": "insufficient_resolved_cross_section"
+  },
+  {
+    "arm_id": "risk",
+    "ic": null,
+    "n_predictions": 500,
+    "n_resolved": 0,
+    "signal_session": "2014-11-28",
+    "status": "insufficient_resolved_cross_section"
+  },
+  {
+    "arm_id": "activity",
+    "ic": null,
+    "n_predictions": 500,
+    "n_resolved": 0,
+    "signal_session": "2014-11-28",
+    "status": "insufficient_resolved_cross_section"
+  },
+  {
+    "arm_id": "all_features",
+    "ic": null,
+    "n_predictions": 500,
+    "n_resolved": 0,
+    "signal_session": "2014-12-31",
+    "status": "insufficient_resolved_cross_section"
+  },
+  {
+    "arm_id": "momentum_trend",
+    "ic": null,
+    "n_predictions": 500,
+    "n_resolved": 0,
+    "signal_session": "2014-12-31",
+    "status": "insufficient_resolved_cross_section"
+  },
+  {
+    "arm_id": "reversal",
+    "ic": null,
+    "n_predictions": 500,
+    "n_resolved": 0,
+    "signal_session": "2014-12-31",
+    "status": "insufficient_resolved_cross_section"
+  },
+  {
+    "arm_id": "risk",
+    "ic": null,
+    "n_predictions": 500,
+    "n_resolved": 0,
+    "signal_session": "2014-12-31",
+    "status": "insufficient_resolved_cross_section"
+  },
+  {
+    "arm_id": "activity",
+    "ic": null,
+    "n_predictions": 500,
+    "n_resolved": 0,
+    "signal_session": "2014-12-31",
+    "status": "insufficient_resolved_cross_section"
+  }
+]

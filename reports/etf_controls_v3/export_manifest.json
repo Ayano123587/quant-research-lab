@@ -1,0 +1,30 @@
+{
+  "complete": true,
+  "outputs_sha256": {
+    "README.md": "b97ce73aedd4e7bf1003f9ada4dd1d9d22c80abb8e76edef459fb192a613119b",
+    "drawdown.png": "fc3b865968b0dfdca233c039a65d71282d9954ff606d3cd901ba3ae7ebe55014",
+    "drawdown.svg": "c6c4e8cafd028e819d581c096409bbcee0f71701d35555e14994985268cfaf10",
+    "equity.png": "1555c0c749d70658828d5fd9ad54cebce02bb5b1922900458eb857de8aa5f9b2",
+    "equity.svg": "29fde9e191f5f920f9a8783e4bd446fa1934b3d34e471553f57ccd8d88095025",
+    "exposure.png": "fce72effec4ff046f0c155b78a5aae8c8b37d772e9203ac7b8eafc0fcf0074a1",
+    "exposure.svg": "5a0c375e5d14259c3a228590df7bf65c4d9b1a6f7a940010e0f0c7cbe7922c03",
+    "metrics.csv": "02777878e5dae5d3dee46c29a808bca5bfbc458d38be21fbfddb2f234b37e58e",
+    "metrics.json": "b469983184a7b695673686df0983fc46465024c1dc370faa2794fb5b9412bcfc",
+    "portfolio_daily.csv": "9db31fd99b8ce12a008f2979136bb32c044fb269d06099c3f935fc06c6e1ca08",
+    "provenance.json": "1f9152282092f0de4598abdf7a984f769fa1e73f5d2e972f175f1f8056587b89",
+    "rolling_risk.png": "71ee9f96b4d99b374ceb708b760c0b880e2cb30ff512a4fc4977137b9ef8e317",
+    "rolling_risk.svg": "484e70d934b61fd04be45ddb39db06be9bc73c4f8d0efdf2de2eb335e41b1812",
+    "uncertainty.json": "121a732fddb7f8963c2ec36a5551f4a601bdc9e456495ef4d48ff9ef30be085e",
+    "uncertainty.png": "7538732ab04e40bca15ad6443801f0f5adf43198502c9a1577edb746b43782b7",
+    "uncertainty.svg": "b33f6435fcdbbb34435a93a644ab737f23c818196c29538c4b017596b32acf04"
+  },
+  "policies": [
+    "strategic_equal",
+    "trend_252",
+    "volatility_63",
+    "trend_252_volatility_63"
+  ],
+  "portfolio_rows": 7900,
+  "report_kind": "derived_portfolio_results_no_market_OHLC",
+  "study_manifest_sha256": "109976808a1196c62111b14877271b94049ce6df7964e27b8fcdd4a82e054f3a"
+}

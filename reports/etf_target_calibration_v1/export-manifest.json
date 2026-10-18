@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "source_manifest_sha256": "38a5927ea6060db1b4c126e92abb91a58003ed5d209346a598fc5aad5b0cd8dd",
+  "accounting_replay_sha256": "3afc5dde349973beaacd71125ab901a2908c1471898e894f67a5eb82e9d86aba",
+  "holdout_evaluated": false,
+  "policy_months": 376,
+  "all_saved_targets": 380,
+  "sessions_per_policy": 1975,
+  "fee_bps": 10,
+  "scope": "descriptive_saved_policy_trajectories; not_common_fixed_portfolio_variance_forecast_calibration",
+  "interval": "signal_close_exclusive_to_next_signal_close_inclusive; actual_old_overnight_new_intraday_owners_and_fees",
+  "target": "requested10pct_is_a_cap_down_rule_not_a_realized_volatility_guarantee",
+  "final_pending_target": "all4_2014-12-31_targets_preserved_without_2015_outcomes",
+  "outputs_sha256": {
+    "forecast_vs_policy_risk.png": "120e42633006e3f6150d8fc0dd5ec59cf553c185f8f412ec023c20db2d42a9f8",
+    "monthly_policy_risk.csv": "80ce4412fca4c6d5c5a407bfa38a83f27adba41e9a722e6dc6e68f23cff7c3f7",
+    "monthly_realized_policy_risk.png": "c35165f7933068866bfd2df113c6d1832686b366543e5560ea78dc3736a772a3",
+    "signal_targets.csv": "c0c31e27fb8c8225dc888821ec4dd8172e008fe0938bd34ce410eb52825c56f4",
+    "summary.csv": "2ced21f913b9cbc3abbfe6e5ea01e15409193c897b782972f16331f1f05928d6"
+  }
+}

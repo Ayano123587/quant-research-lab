@@ -1,0 +1,87 @@
+schema_version = 1
+status = "initial_development_family_not_final_holdout_recipe"
+feature_ids = ["F01", "F07", "F09", "F13", "F15", "F19"]
+feature_transform = "same_signal_selected_cross_section_average_rank_centered"
+target = "observed_next_scheduled_open_to_following_month_execution_open_decimal_return"
+target_transform = "none_no_clipping_or_synthetic_replacement"
+fit_rows = "selected_feature_rows_with_valid_labels_available_no_later_than_fit_cutoff"
+selection_information_cutoff_session = "2014-12-31"
+metric = "mean_within_signal_date_spearman_rank_IC"
+minimum_scored_cross_section = 30
+selection_tie_rule = "higher_mean_IC_then_ascending_fixed_candidate_id"
+minimum_training_signal_dates = 36
+minimum_training_rows = 10000
+training_sample_weight = "inverse_rows_per_signal_date_normalized_to_mean_one"
+execution_economic_comparison = "same_names_count_same_eligible_pool_same_dates_fees_and_funding"
+refit = "expanding_monthly_at_signal_after_close_using_only_already_mature_labels"
+validation_kind = "prequential_time_ordered_predictions_not_random_row_cross_validation"
+past_validation_outcomes = "may_enter_later_fits_only_after_maturity_under_unchanged_candidate_recipe"
+final_period = "refused_by_development_runner"
+random_seed = 20261017
+threads = 4
+
+[[validation_windows]]
+id = "2007_2008"
+signal_start = "2007-01-01"
+signal_end = "2008-12-31"
+
+[[validation_windows]]
+id = "2009_2010"
+signal_start = "2009-01-01"
+signal_end = "2010-12-31"
+
+[[validation_windows]]
+id = "2011_2012"
+signal_start = "2011-01-01"
+signal_end = "2012-12-31"
+
+[[validation_windows]]
+id = "2013_2014"
+signal_start = "2013-01-01"
+signal_end = "2014-12-31"
+# Individual outcomes still require maturity by the information cutoff.
+
+[fixed_composite]
+id = "equal_oriented_five_factor_composite"
+F01 = 0.2
+F07 = 0.2
+F09 = -0.2
+F13 = 0.2
+F15 = 0.2
+F19 = 0.0
+
+[ridge]
+alphas = [0.1, 1.0, 10.0, 100.0]
+fit_intercept = true
+solver = "svd"
+objective = "weighted_sum_squared_error_plus_alpha_times_squared_coefficient_norm_unpenalized_intercept"
+
+[lightgbm]
+objectives = ["regression_l1", "regression_l2"]
+num_leaves = [7, 15]
+max_depth = 4
+n_estimators = [100, 300]
+learning_rate = 0.03
+min_child_samples = 100
+reg_lambda = 10.0
+colsample_bytree = 1.0
+subsample = 1.0
+early_stopping = "none_fixed_iterations_no_future_date_early_stopping"
+deterministic = true
+force_col_wise = true
+
+[baselines]
+rank_ties = "ascending_original_source_asset_id"
+momentum_feature = "F01"
+reversal_feature = "F07"
+low_volatility_feature = "negative_F09"
+positions = 50
+single_asset_cap = 0.03
+insufficient_positions = "hold_previous_positions_and_cash_initially_record_reason_retain_all_daily_pnl"
+universe_equal_weight = "separately_labelled_broad_eligible_universe_baseline"
+
+[uncertainty]
+unit = "whole_signal_date_preserving_cross_section"
+method = "paired_contiguous_date_block_resampling_of_observed_metrics"
+role = "uncertainty_only_not_generated_market_training_data"
+seed = 20261017

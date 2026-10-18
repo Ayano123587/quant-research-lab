@@ -1,0 +1,70 @@
+schema_version = 1
+status = "development_comparison_not_final_holdout_recipe"
+data = "unchanged_actual_source_records_only"
+signal_start = "2007-02-28"
+selection_information_cutoff_session = "2014-12-31"
+evaluation = "monthly_forecasts_with_outcomes_mature_by_information_cutoff"
+holdout = "refused_until_joint_final_recipe_freeze"
+
+[panels]
+etf_symbols = ["SPY", "EFA", "EEM", "TLT", "LQD", "GLD", "DBC", "VNQ"]
+stock_asset_counts = [50, 100, 150]
+return_observations = [63, 126, 252]
+stock_order = "descending_past_63_session_source_activity_then_ascending_asset_id"
+stock_nested_support = "complete_past_252_return_history_before_ranking_same_order_for_all_windows"
+future_coverage = "never_used_for_panel_selection_unresolved_future_proxy_retained_with_reason"
+comparisons = "full_observed_support_and_paired_common_dates_for_each_declared_contrast"
+missing_cells = "explicit_support_counts_no_replacement_assets_or_generated_observations"
+archive_population = "conditional_on_supplied_snapshot_not_unbiased_historical_exchange_membership"
+
+[estimators]
+methods = ["sample_ddof1", "ewma", "ledoit_wolf", "oas", "constant_correlation", "pca_factor"]
+ewma_half_life_observations = 63
+ewma_finite_sample_correction = "effective_weight_ddof1"
+constant_correlation_shrinkage = 0.5
+constant_correlation_role = "fixed_target_blend_not_claimed_exact_analytical_shrinkage_estimator"
+pca_basis = "daily_return_covariance_no_standardisation"
+pca_components = [1, 3, 5]
+pca_rank_rule = "retain_only_registered_K_no_larger_than_available_sample_rank_otherwise_unavailable"
+pca_residual_floor = 0.0
+matrix_ridge = 0.0
+singular_sample = "preserve_PSD_matrix_no_inverse_required_record_solver_status"
+
+[forecast_scoring]
+reference_weights = "equal_weight_selected_past_only_panel_common_to_all_estimators"
+horizon = "21_scheduled_close_to_close_intervals_starting_execution_close_22_actual_marks"
+realised_proxy = "sample_ddof1_daily_reference_portfolio_return_variance"
+losses = ["squared_variance_error", "log_forecast_variance_plus_realised_over_forecast"]
+primary_selection = "mean_QLIKE_on_common_mature_dates_with_positive_forecasts"
+selection_scope = "separate_per_panel_and_observation_window_no_pooling_unlike_variance_scales"
+nonpositive_forecast = "unscored_explicit_reason_no_epsilon_replacement"
+tie_rule = "ascending_fixed_candidate_id"
+probe_interpretation = "constant_weight_daily_return_risk_probe_not_a_tradable_holdings_ledger"
+
+[integration_dimensions]
+etf_asset_count = 8
+etf_return_observations = 63
+stock_asset_count = 100
+stock_return_observations = 252
+dimension_selection = "declared_before_scores_not_chosen_from_best_development_or_holdout_performance"
+
+[allocation]
+baselines = ["equal_weight", "capped_inverse_volatility"]
+optimisation = "long_only_full_risky_budget_capped_minimum_variance"
+etf_cap = 0.35
+stock_cap = 0.10
+turnover_penalty_eta = [0.0, 0.01, 0.1]
+penalty_units = "eta_times_mean_covariance_diagonal_times_full_L1_trade_over_union"
+fees_bps_per_traded_side = 10.0
+execution_projection_policy = "configs/execution-projection.json"
+execution_projection_maximum_L1_change = 0.00000001
+infeasible_or_failed_solver = "hold_actual_previous_positions_and_cash_record_reason_retain_PnL"
+initial_failure = "remain_in_cash_record_reason"
+
+[uncertainty]
+unit = "whole_signal_date_retaining_all_paired_methods_and_panels"
+method = "paired_contiguous_date_block_resampling_of_observed_metrics"
+block_signal_dates = 6
+replicates = 2000
+seed = 20261017
+role = "uncertainty_only_no_synthetic_market_series_or_known_truth_simulations"

@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "holdout_evaluated": false,
+  "source_export_sha256": "c00d0013957f9de7d291cf957b089d9ad236b7f3a23287b273e34ee25d23343b",
+  "comparisons": 312,
+  "reference": "equal_weight at same fee",
+  "interval_target": "252 times paired daily arithmetic mean return difference",
+  "interpretation": "Descriptive reused-development circular block intervals; no multiplicity adjustment or winner selection. Not CAGR or Sharpe intervals.",
+  "market_data_generated": false,
+  "outputs_sha256": {
+    "paired-mean-return-intervals.csv": "2b073943842d7e6e10d96e9360613d09eccd94e6afa2da6a57dec13106300fa1"
+  }
+}

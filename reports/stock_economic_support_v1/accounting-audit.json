@@ -1,0 +1,12 @@
+{
+  "actual_utc": "2026-10-18T00:06:03.421822+00:00",
+  "parent_manifest_sha256": "be9bbe820ffa16ec917434f8f6bb6ee18533425ec330b79f05a2e76f3ee607a7",
+  "inventory_files_verified": 128,
+  "paths_audited": 64,
+  "saved_daily_rows": 48028,
+  "maximum_money_identity_error": 4.5702108764089644e-11,
+  "complete_performance_paths": 0,
+  "aggregate_performance_authorized": false,
+  "scope": "all saved valid-prefix money identities and incomplete opening accounting; not price reconstruction or full-period strategy replay",
+  "audit_sha256": "7a84b1780338e20b7c4c02ad79a067d7ff43cdee99215d791773951eb2c213b7"
+}

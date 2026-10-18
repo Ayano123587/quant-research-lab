@@ -1,0 +1,14 @@
+schema_version = 1
+phase = "development_only_no_selection_or_holdout"
+initial_signal = "2007-02-28"
+end_close = "2014-12-31"
+measured_sessions = 1975
+initial_cash = 100000.0
+fee_bps = 10
+cash = "explicit_zero_interest_assumption"
+comparison = "seven_one_change_scenarios_common_support_no_winner"
+weighting = "eight_strategic_sleeves_equal_or_declared_capped_method_then_trend_risk_no_leverage"
+covariance_window = 63
+ewma_half_life = 63
+price_basis = "provider_adjusted_close_ratio_price_index_research_proxy"
+terminal = "observed_close_no_liquidation_final_target_pending"

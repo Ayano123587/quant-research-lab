@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "scope": "complete_coverage_of_all64_attempted_paths_not_complete_performance",
+  "source_kernel_id": 139269458,
+  "source_kernel_version": 1,
+  "source_manifest_sha256": "be9bbe820ffa16ec917434f8f6bb6ee18533425ec330b79f05a2e76f3ee607a7",
+  "source_failure_audit_sha256": "165d781821be6b3b76dd34730e06bc11f2365ece016da9d35656f9e822ea0330",
+  "attempted_paths": 64,
+  "complete_paths": 0,
+  "unsupported_paths": 64,
+  "aggregate_performance_authorized": false,
+  "holdout_evaluated": false,
+  "source_check_scope": "all64 observed stopping events and unresolved exposures authenticated against original mirrored real source; not full ledger replay",
+  "unresolved_exposure_checks": 108,
+  "observed_unique_asset_dates": 11,
+  "reason_counts": {
+    "INCONSISTENT_OHLC": 28,
+    "ABSENT_SOURCE_ROW": 80
+  },
+  "outputs_sha256": {
+    "coverage.csv": "4083242d6239dbdd79108868a8c9e3c65bb4b7f7ac7f0e49b3f3ce755fce50d9",
+    "accounting-audit.json": "ea19916e3db83b764045d6fe279858dbe3e0e886dbdd4077be6227bf3f1795df"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "notebooks": [
+    {
+      "notebook": "notebooks/00_source_audit.ipynb",
+      "sha256": "310bbc9c0794d39b8ad943f8bdf21517730b5419cf1d677f5f6cdd232a3f4b2c",
+      "seconds": 32.82,
+      "executed_code_cells": 5,
+      "inline_plots": 3,
+      "tables": 4,
+      "real_rows_audited": 17453243,
+      "real_data_only": true,
+      "no_models_or_strategy_scores": true,
+      "python": "3.12.15 (main, Oct 14 2026, 01:08:45) [MSC v.1944 64 bit (AMD64)]",
+      "environment": {
+        "nbformat": "5.11.1",
+        "nbclient": "0.11.0",
+        "ipykernel": "7.4.0",
+        "pandas": "3.0.6",
+        "matplotlib": "3.11.2"
+      },
+      "uv_lock_sha256": "7a36c74a5c9c75eb20d6a6e613db86c5425b9a2ad01b71f6d7cc316c7725cfaa",
+      "input_files_sha256": {
+        "audit-summary.json": "2becff6d5d37bfb64bf3cea09e4e2b3f3feb1f524d1f14d72b7ff325be986733",
+        "file-summaries.json": "aa2df601ae2575959117d07b111563ca84bcc7b20b2fe3b0198589ea77e3c66b"
+      },
+      "figures_sha256": {
+        "source-endpoints.png": "3db9c77702b1ca11541e77ebccf38735a4602f3c2b17afe57ca94753b6bf8db6",
+        "source-population.png": "276a5e850deb6b4ef6658bb23745c6da2a4326af81a496888d0f1eb3b33be78c",
+        "source-quality-findings.png": "f97a472660fc2b699e18050cce55b933edc429adc532afc7848b03579cab90ad"
+      },
+      "root_visual_review": "All3 actual figures inspected; labels/axes/legends legible, complete populations and observed ranges.",
+      "html_table_outputs": 4,
+      "execution_counts": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "saved_outputs_valid": true
+    },
+    {
+      "notebook": "notebooks/01_stock_wider_training.ipynb",
+      "sha256": "8316650cfd47715c2b3d2637d41be21ec6a85ff5325c2aa6b3a95ae56a905f8a",
+      "executed_code_cells": 8,
+      "execution_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "inline_plots": 1,
+      "html_table_outputs": 0,
+      "saved_outputs_valid": true,
+      "source_version": 3,
+      "source_kernel_id": 139317315
+    },
+    {
+      "notebook": "notebooks/04_etf_controls.ipynb",
+      "sha256": "b59889948d9c2586bce60c26f90f4feaea652a7b0b33f64280bad8a07375c44e",
+      "executed_code_cells": 9,
+      "inline_plots": 10,
+      "html_table_outputs": 10,
+      "execution_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "saved_outputs_valid": true
+    },
+    {
+      "notebook": "notebooks/05_stock_development_analysis.ipynb",
+      "sha256": "756a941a896ee6a50277b75b32c1a083cbe54199270f4d3c9e4b2ba5458c9fa0",
+      "executed_code_cells": 5,
+      "inline_plots": 3,
+      "html_table_outputs": 4,
+      "execution_counts": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "saved_outputs_valid": true
+    },
+    {
+      "notebook": "notebooks/06_risk_forecast_analysis.ipynb",
+      "sha256": "d74ca65d10dcf2a4e56a6c005d2f49f8259f70a6b62b34ac1de0ee678c3ce917",
+      "executed_code_cells": 7,
+      "inline_plots": 6,
+      "html_table_outputs": 7,
+      "execution_counts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "saved_outputs_valid": true
+    },
+    {
+      "notebook": "notebooks/07_stock_feature_ablation.ipynb",
+      "sha256": "35440aedfcababf741a7f31aea88d3e7eab889ff3ff19db8c3310335c837ebbe",
+      "executed_code_cells": 3,
+      "inline_plots": 2,
+      "html_table_outputs": 2,
+      "execution_counts": [
+        1,
+        2,
+        3
+      ],
+      "saved_outputs_valid": true
+    },
+    {
+      "notebook": "notebooks/08_stock_target_comparison.ipynb",
+      "sha256": "4f28eefdd3b95abb36f6f4e038e1938ab6320e65bc8b3cefd0f28a5433753e5f",
+      "executed_code_cells": 2,
+      "inline_plots": 1,
+      "html_table_outputs": 2,
+      "execution_counts": [
+        1,
+        2
+      ],
+      "saved_outputs_valid": true
+    },
+    {
+      "notebook": "notebooks/09_risk_economic_analysis.ipynb",
+      "sha256": "25cf07756ba24942881cb0c65bcdfb1baec2128d4d7f1028010bcaccf82775f1",
+      "executed_code_cells": 4,
+      "inline_plots": 3,
+      "html_table_outputs": 3,
+      "execution_counts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "saved_outputs_valid": true
+    },
+    {
+      "notebook": "notebooks/10_etf_sensitivity.ipynb",
+      "sha256": "f2efc087ac2f759cc8a40d4a0311395ac1d9afaaaa4adbb4a0b747c0aa2c245f",
+      "executed_code_cells": 4,
+      "inline_plots": 2,
+      "html_table_outputs": 4,
+      "execution_counts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "saved_outputs_valid": true
+    }
+  ],
+  "empirical_studies_complete": false,
+  "data_policy": "Real source observations only",
+  "index_scope": "Validated saved notebook bytes, execution counts and outputs. Indexing does not rerun cells or independently prove their research results. Execution durations are included only where already recorded for these exact bytes."
+}

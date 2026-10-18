@@ -1,0 +1,86 @@
+schema_version = 1
+status = "development_protocol_not_final_model_freeze"
+source_archive_sha256 = "d9317c8fb2d63b9b00db5f933b6c9639d2bf7ea3b918169bb5cec5903dce85a1"
+data_policy = "actual_source_records_only_no_generated_replacements"
+
+[evaluation]
+development_start = "2000-01-01"
+holdout_start = "2015-01-01"
+selection_information_cutoff_session = "2014-12-31"
+selection_freeze_event = "calendar_decision_at_after_that_close"
+recipe_freeze_evidence = "actual_research_commit_and_timestamp_required_not_a_claim_of_2014_preregistration"
+source_end = "2017-11-10"
+scope = "all_eligible_observations_under_past_only_support_rules"
+selection = "development_only_shared_final_freeze_before_any_holdout_strategy_scoring"
+holdout_role = "one_final_evaluation_of_all_registered_studies_and_integrations"
+exposure = "source_audits_and_accounting_checks_include_terminal_prices_not_strategy_selection"
+unresolved_labels = "retain_reason_and_coverage_never_replace_with_last_price_or_zero"
+training_labels = "include_only_when_exit_session_close_availability_is_no_later_than_training_cutoff"
+development_scored_outcomes = "valid_outcome_and_development_signal_and_actual_label_availability_no_later_than_selection_freeze"
+selection_scope = "same_maturity_gate_for_validation_calibration_early_stopping_ablation_and_integration_selection"
+portfolio_development_end = "2014-12-31_close_only_no_2015_return_in_selection"
+holdout_initialization = "cash_at_freeze_close_frozen_recipe_signal_executes_next_scheduled_open_in_2015"
+holdout_measurement = "initial_fee_and_first_execution_open_to_close_included_no_development_holdings_carried"
+terminal_portfolio = "mark_actual_held_positions_at_last_supported_close_no_implicit_liquidation"
+holdout_refitting = "not_authorized_until_refit_schedule_and_mature_label_rule_are_registered_in_final_freeze"
+fold_unit = "whole_signal_dates_with_mature_labels_never_random_rows"
+improvement_rule = "retain_development_selected_recipe_report_final_outcome_without_holdout_retuning"
+
+[execution]
+signal = "month_end_close_plus_one_minute_assumption"
+execution = "next_scheduled_session_open_source_price_proxy"
+cash = "explicit_zero_interest_assumption"
+fee_bps_per_traded_side = 10.0
+turnover = "sum_absolute_buys_and_sells_over_pretrade_NAV"
+max_gross = 1.0
+long_only = true
+unresolved_held_mark = "stop_keep_actual_exposure_and_executed_event_do_not_bridge"
+source_quality = "flagged_rows_preserved_but_not_valid_feature_label_or_close_marks"
+adjustments = "provider_claim_unverified_no_fabricated_actions_or_dividend_cashflows"
+
+[stocks]
+universe = "all_available_source_stock_histories_past_only_eligibility"
+historical_membership = "not_established_snapshot_population_is_not_a_point_in_time_exchange_universe"
+eligible_history_returns = 252
+liquidity_rank = "trailing_source_close_times_volume_proxy_not_verified_dollar_liquidity"
+maximum_eligible_names = 500
+portfolio_names = 50
+single_asset_cap = 0.03
+features = ["momentum_252_skip_21", "reversal_21", "volatility_63", "source_liquidity_proxy", "trend_position"]
+label = "next_scheduled_open_to_following_monthly_execution_open"
+candidates = ["fixed_rank_composite", "ridge", "shallow_gradient_boosting"]
+baselines = ["same_eligible_universe_equal_weight", "momentum_252_skip_21", "low_volatility"]
+primary_prediction_metric = "mean_within_date_spearman_rank_IC"
+economic_comparison = "paired_net_returns_against_same_universe_baseline_with_coverage_and_costs"
+
+[etf]
+symbols = ["SPY", "EFA", "EEM", "TLT", "LQD", "GLD", "DBC", "VNQ"]
+universe_selection = "prespecified_asset_class_exposures_and_source_coverage_not_performance"
+policies = ["strategic_equal", "trend_252", "volatility_63", "trend_252_volatility_63"]
+strategic_sleeve_weight = 0.125
+trend_return_intervals = 252
+risk_return_intervals = 63
+annualisation_sessions = 252
+annual_volatility_target = 0.10
+inactive_sleeves = "retain_budget_as_cash_no_redistribution"
+scaler = "min_one_target_over_annual_forecast_volatility_no_leverage"
+common_support = "all_four_policies_same_dates_after_longest_required_real_history"
+
+[covariance]
+estimators = ["sample_ddof1", "ewma", "ledoit_wolf", "oas", "constant_correlation", "pca_factor"]
+input_units = "decimal_simple_return_per_session"
+matrix_units = "decimal_return_squared_per_session"
+future_proxy = "21_complete_close_to_close_intervals_starting_execution_session_close_22_marks"
+reference = "same_predeclared_past_only_weights_for_every_estimator"
+forecast_losses = ["variance_squared_error", "log_forecast_variance_plus_realised_over_forecast"]
+matrix_repair = "none_unless_explicitly_registered_and_reported"
+execution_weight_policy = "numerical_feasibility_projection_v1_preserve_raw_solver_weights_and_report_applied_adjustments"
+maximum_execution_weight_l1_adjustment = 0.00000001
+maximum_roundoff_cash_remainder = 0.00000001
+execution_projection_direction = "remove_tiny_negative_or_cap_excess_then_reduce_overbudget_no_underbudget_topup"
+known_truth_simulations = false
+panels = "matched_actual_asset_dimension_and_training_window_cells_with_support_counts"
+
+[integration]
+comparisons = ["same_stock_scores_members_and_dates_equal_vs_risk_weights", "same_etf_policy_sample_vs_selected_covariance_scaler"]
+freeze = "joint_with_all_model_risk_portfolio_and_reporting_choices_before_holdout_strategy_evaluation"

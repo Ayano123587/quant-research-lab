@@ -1,0 +1,98 @@
+{
+  "accepted_continuation": {
+    "canonical": "aikyatansinha/quant-continuation-correction-c4776bf4",
+    "dataset_sources": [
+      "aikyatansinha/portfolio-quant-etf-price-index-v1",
+      "aikyatansinha/portfolio-quant-lab-market-v1",
+      "aikyatansinha/portfolio-quant-stock-panel-v1",
+      "aikyatansinha/quant-continuation-overlay-c10a7adb",
+      "aikyatansinha/quant-continuation-source-2419dc3c",
+      "aikyatansinha/quant-shared-final-codefix-f520966f"
+    ],
+    "id": 139452282,
+    "source_dataset_id": 12685873,
+    "source_version": 1,
+    "submitted_and_actual_source_sha256": "3d6b67033fbe099dbf6f4d7d6ab9507efc7b2b3e4de9da7958321ad61bc67f27",
+    "version": 1
+  },
+  "accepted_source_config_sha256": "da3b05bfca0ee1359a02d6d9a1b14f8eacf0b29294bf27238ae6704f08b2d000",
+  "archive": "operational-correction-c4776bf4.zip",
+  "archive_bytes": 3181749,
+  "archive_sha256": "917b39a90c2bee27f72f88a0c4c85fc578f0a7ba8ef34e860c256ef712cc5a62",
+  "bundle_manifest_sha256": "c10a7adb5637546baefb2f76b35fc3affd7c34f1cd398e7c1e0e40702e672e03",
+  "checkpoint_contents_included": false,
+  "contract_sha256": "cbb5df44f5a837db7d89f5500adf55f02d0846fff6bbf4b4aa2376f62145779c",
+  "execution_status_at_packaging": "RUNNING",
+  "frozen_release_sha256": "f520966f25f426e6688f895bf51fdac25e887aecf2d26129d1b3243cfd663620",
+  "members": [
+    {
+      "bytes": 1461,
+      "member": "external-carrier/continuation-bundle-manifest.json",
+      "sha256": "2419dc3c2760899ce9571e519a7b55be6f96b68d693bdc96770dbdae8ee76870",
+      "zip_crc32": "0fca1b2a"
+    },
+    {
+      "bytes": 23474,
+      "member": "external-carrier/original-runner-ad674.py",
+      "sha256": "ad674ddc1b9933f51d1ce4303ecf1c0f4798873f1d680930f48a103dab5baad5",
+      "zip_crc32": "134e25df"
+    },
+    {
+      "bytes": 5838,
+      "member": "launcher/run.py",
+      "sha256": "3d6b67033fbe099dbf6f4d7d6ab9507efc7b2b3e4de9da7958321ad61bc67f27",
+      "zip_crc32": "eb296607"
+    },
+    {
+      "bytes": 316,
+      "member": "overlay/bootstrap-config-template.json",
+      "sha256": "51a92dc924017f08251fcd229166e17f4b3d95c3939a7a7fc276544dc4aa334f",
+      "zip_crc32": "085c106a"
+    },
+    {
+      "bytes": 1751,
+      "member": "overlay/continuation-bundle-manifest.json",
+      "sha256": "c10a7adb5637546baefb2f76b35fc3affd7c34f1cd398e7c1e0e40702e672e03",
+      "zip_crc32": "864df7be"
+    },
+    {
+      "bytes": 3104102,
+      "member": "overlay/continuation-contract.json",
+      "sha256": "cbb5df44f5a837db7d89f5500adf55f02d0846fff6bbf4b4aa2376f62145779c",
+      "zip_crc32": "e2039ee0"
+    },
+    {
+      "bytes": 12436,
+      "member": "overlay/continuation_cloud_bootstrap_review_v2.py",
+      "sha256": "2d1209602861c80b7653c935f3d7b171b42beddeef0e26f16450a9dfdc355850",
+      "zip_crc32": "c6b49d05"
+    },
+    {
+      "bytes": 31125,
+      "member": "overlay/frozen_continuation_review_v1.py",
+      "sha256": "c4776bf4b58ecc3644a40ba7b1191888786f77501877e8231fc91a7812a8e0ad",
+      "zip_crc32": "952f94a2"
+    }
+  ],
+  "old_carrier_remote_byte_proof_sha256": "c8f04d6632614b1015ea9e077fc57c115719c00577e9c4c45810c22c3e8add84",
+  "original_parent": {
+    "id": 139401694,
+    "source_sha256": "ad674ddc1b9933f51d1ce4303ecf1c0f4798873f1d680930f48a103dab5baad5",
+    "status": "CANCEL_ACKNOWLEDGED",
+    "version": 1
+  },
+  "previous_operational_attempt": {
+    "failure_phase": "Before replay and model fits; portable AST serialization mismatch",
+    "id": 139448587,
+    "status": "ERROR",
+    "version": 1
+  },
+  "public_eligible_after_source_scan": true,
+  "raw_observations_or_model_weights_included": false,
+  "root_publication_review_sha256": "da6ebe8dc16a5f8912a6e0fda348ebf5909d0c4725877517b9f3739d4162cd87",
+  "schema": "quant_operational_correction_source_archive_v1",
+  "scientific_completion_claimed": false,
+  "source_bytes_scrubbed_or_changed": false,
+  "status_basis": "ROOT session report; no new provider observation",
+  "terminal_evidence_pending": true
+}

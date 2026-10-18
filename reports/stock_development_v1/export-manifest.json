@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "cloud_study_manifest_sha256": "b46c22e5a6f46330668f6f3870c0c8cc2ddde15c283d3f9af8637f93557492d6",
+  "metric_cells": 1536,
+  "common_mature_months": 94,
+  "holdout_evaluated": false,
+  "model_fit_here": false,
+  "outputs_sha256": {
+    "metrics.json": "a4ac02351747c5085b73a92d9e313b14b389b9b3c0b20ed00046bded7881af43",
+    "development-selection.json": "c7019b966fc707aadc68fae896dc67821b6e4673af2174fb3f5231e276e7a377",
+    "config.json": "db47b8ab3ff74b4148450729f149635c890414d01c4f32dcf16227d9700f7917",
+    "uncertainty.json": "06825adb129f4b5e835286833723469015ddf0ad64831b5fd489465ee3d51558"
+  }
+}

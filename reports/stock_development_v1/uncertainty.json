@@ -1,0 +1,500 @@
+{
+  "PASS": true,
+  "created_at": "2026-10-17T15:10:15.474849+00:00",
+  "scope": "all_16_candidates_all_94_common_mature_development_months",
+  "post_hoc": true,
+  "selection_adjusted": false,
+  "holdout_read": false,
+  "model_fit": false,
+  "generated_market_data": false,
+  "source_sha256": "34578d721164918bb41c9d03b904e6fbcb5150ec350dad3eb89d9be26b1bc2b5",
+  "authenticated_metrics_sha256": "a4ac02351747c5085b73a92d9e313b14b389b9b3c0b20ed00046bded7881af43",
+  "intervals": [
+    {
+      "schema": "paired_monthly_rank_IC_intervals_v1",
+      "months": 94,
+      "first_month": "2007-01-31",
+      "last_month": "2014-10-31",
+      "reference": "control_fixed_composite",
+      "method": "paired_circular_contiguous_observed_month_blocks",
+      "block_months": 3,
+      "draws": 2000,
+      "seed": 20261017,
+      "confidence": 0.95,
+      "selection_adjusted": false,
+      "cross_section_resampled": false,
+      "numpy_version": "2.5.4",
+      "input_sha256": "99404682708cc5cccee10aff8ade67cf31da4f22744ddd1ef82297ef5f98ac9c",
+      "candidates": [
+        {
+          "candidate_id": "control_fixed_composite",
+          "mean_monthly_IC": 0.023158480458873917,
+          "mean_IC_difference": 0.0,
+          "paired_difference_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "control_low_volatility_F09",
+          "mean_monthly_IC": 0.009910643092466765,
+          "mean_IC_difference": -0.013247837366407151,
+          "paired_difference_interval": [
+            -0.045980070754629,
+            0.01710556853070398
+          ]
+        },
+        {
+          "candidate_id": "control_momentum_F01",
+          "mean_monthly_IC": 0.01831716899384448,
+          "mean_IC_difference": -0.004841311465029436,
+          "paired_difference_interval": [
+            -0.040786382458231095,
+            0.02947972344693866
+          ]
+        },
+        {
+          "candidate_id": "control_reversal_F07",
+          "mean_monthly_IC": -0.014086719571968963,
+          "mean_IC_difference": -0.037245200030842876,
+          "paired_difference_interval": [
+            -0.10795687625597573,
+            0.030986718346563902
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l1_leaves15_iterations100",
+          "mean_monthly_IC": 0.008556795505349516,
+          "mean_IC_difference": -0.0146016849535244,
+          "paired_difference_interval": [
+            -0.075376045999296,
+            0.044554304078192226
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l1_leaves15_iterations300",
+          "mean_monthly_IC": 0.008071536840530236,
+          "mean_IC_difference": -0.01508694361834368,
+          "paired_difference_interval": [
+            -0.07501314888139168,
+            0.04310316997022104
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l1_leaves7_iterations100",
+          "mean_monthly_IC": 0.00408053847550393,
+          "mean_IC_difference": -0.019077941983369987,
+          "paired_difference_interval": [
+            -0.07821850729365191,
+            0.03579996085150816
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l1_leaves7_iterations300",
+          "mean_monthly_IC": 0.0035074708713377133,
+          "mean_IC_difference": -0.019651009587536204,
+          "paired_difference_interval": [
+            -0.07893921361772262,
+            0.03649014789607901
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l2_leaves15_iterations100",
+          "mean_monthly_IC": -0.01180429799146326,
+          "mean_IC_difference": -0.03496277845033718,
+          "paired_difference_interval": [
+            -0.10097733343284089,
+            0.029194897195407642
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l2_leaves15_iterations300",
+          "mean_monthly_IC": -0.0034196506767318006,
+          "mean_IC_difference": -0.02657813113560572,
+          "paired_difference_interval": [
+            -0.09320726889998765,
+            0.038110920356654074
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l2_leaves7_iterations100",
+          "mean_monthly_IC": -0.01025080481089467,
+          "mean_IC_difference": -0.033409285269768586,
+          "paired_difference_interval": [
+            -0.100847539733816,
+            0.032829641024053835
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l2_leaves7_iterations300",
+          "mean_monthly_IC": -0.007776403626710847,
+          "mean_IC_difference": -0.030934884085584764,
+          "paired_difference_interval": [
+            -0.09822064347500306,
+            0.03231792501105146
+          ]
+        },
+        {
+          "candidate_id": "ridge_alpha_0p1",
+          "mean_monthly_IC": -0.008553525270045036,
+          "mean_IC_difference": -0.031712005728918954,
+          "paired_difference_interval": [
+            -0.11433203673722256,
+            0.047238575535084426
+          ]
+        },
+        {
+          "candidate_id": "ridge_alpha_1",
+          "mean_monthly_IC": -0.008559703938747864,
+          "mean_IC_difference": -0.03171818439762178,
+          "paired_difference_interval": [
+            -0.11434644535696141,
+            0.04723631004977196
+          ]
+        },
+        {
+          "candidate_id": "ridge_alpha_10",
+          "mean_monthly_IC": -0.008649833773300796,
+          "mean_IC_difference": -0.031808314232174714,
+          "paired_difference_interval": [
+            -0.1145286152852054,
+            0.047253919575305864
+          ]
+        },
+        {
+          "candidate_id": "ridge_alpha_100",
+          "mean_monthly_IC": -0.00953448339362602,
+          "mean_IC_difference": -0.03269296385249994,
+          "paired_difference_interval": [
+            -0.11617722016742281,
+            0.04693303879048552
+          ]
+        }
+      ]
+    },
+    {
+      "schema": "paired_monthly_rank_IC_intervals_v1",
+      "months": 94,
+      "first_month": "2007-01-31",
+      "last_month": "2014-10-31",
+      "reference": "control_fixed_composite",
+      "method": "paired_circular_contiguous_observed_month_blocks",
+      "block_months": 6,
+      "draws": 2000,
+      "seed": 20261017,
+      "confidence": 0.95,
+      "selection_adjusted": false,
+      "cross_section_resampled": false,
+      "numpy_version": "2.5.4",
+      "input_sha256": "99404682708cc5cccee10aff8ade67cf31da4f22744ddd1ef82297ef5f98ac9c",
+      "candidates": [
+        {
+          "candidate_id": "control_fixed_composite",
+          "mean_monthly_IC": 0.023158480458873917,
+          "mean_IC_difference": 0.0,
+          "paired_difference_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "control_low_volatility_F09",
+          "mean_monthly_IC": 0.009910643092466765,
+          "mean_IC_difference": -0.013247837366407151,
+          "paired_difference_interval": [
+            -0.046945376039374105,
+            0.016761636671226116
+          ]
+        },
+        {
+          "candidate_id": "control_momentum_F01",
+          "mean_monthly_IC": 0.01831716899384448,
+          "mean_IC_difference": -0.004841311465029436,
+          "paired_difference_interval": [
+            -0.04014893687461625,
+            0.029626691747946375
+          ]
+        },
+        {
+          "candidate_id": "control_reversal_F07",
+          "mean_monthly_IC": -0.014086719571968963,
+          "mean_IC_difference": -0.037245200030842876,
+          "paired_difference_interval": [
+            -0.10976612704077737,
+            0.03914876935851592
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l1_leaves15_iterations100",
+          "mean_monthly_IC": 0.008556795505349516,
+          "mean_IC_difference": -0.0146016849535244,
+          "paired_difference_interval": [
+            -0.07820248127328937,
+            0.052043266439918225
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l1_leaves15_iterations300",
+          "mean_monthly_IC": 0.008071536840530236,
+          "mean_IC_difference": -0.01508694361834368,
+          "paired_difference_interval": [
+            -0.07721610903133684,
+            0.049086767386749004
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l1_leaves7_iterations100",
+          "mean_monthly_IC": 0.00408053847550393,
+          "mean_IC_difference": -0.019077941983369987,
+          "paired_difference_interval": [
+            -0.08141767234750687,
+            0.04419312008418909
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l1_leaves7_iterations300",
+          "mean_monthly_IC": 0.0035074708713377133,
+          "mean_IC_difference": -0.019651009587536204,
+          "paired_difference_interval": [
+            -0.08336208280219186,
+            0.042980526940247905
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l2_leaves15_iterations100",
+          "mean_monthly_IC": -0.01180429799146326,
+          "mean_IC_difference": -0.03496277845033718,
+          "paired_difference_interval": [
+            -0.10424959963335699,
+            0.033810756971654594
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l2_leaves15_iterations300",
+          "mean_monthly_IC": -0.0034196506767318006,
+          "mean_IC_difference": -0.02657813113560572,
+          "paired_difference_interval": [
+            -0.09586869862523228,
+            0.04423798391115947
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l2_leaves7_iterations100",
+          "mean_monthly_IC": -0.01025080481089467,
+          "mean_IC_difference": -0.033409285269768586,
+          "paired_difference_interval": [
+            -0.10499375957152601,
+            0.039842791427827984
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l2_leaves7_iterations300",
+          "mean_monthly_IC": -0.007776403626710847,
+          "mean_IC_difference": -0.030934884085584764,
+          "paired_difference_interval": [
+            -0.10115264782968844,
+            0.038146293603066664
+          ]
+        },
+        {
+          "candidate_id": "ridge_alpha_0p1",
+          "mean_monthly_IC": -0.008553525270045036,
+          "mean_IC_difference": -0.031712005728918954,
+          "paired_difference_interval": [
+            -0.11847432800056744,
+            0.05876445794210882
+          ]
+        },
+        {
+          "candidate_id": "ridge_alpha_1",
+          "mean_monthly_IC": -0.008559703938747864,
+          "mean_IC_difference": -0.03171818439762178,
+          "paired_difference_interval": [
+            -0.11848786101399719,
+            0.058771468060168995
+          ]
+        },
+        {
+          "candidate_id": "ridge_alpha_10",
+          "mean_monthly_IC": -0.008649833773300796,
+          "mean_IC_difference": -0.031808314232174714,
+          "paired_difference_interval": [
+            -0.11864031445294014,
+            0.05883497348518961
+          ]
+        },
+        {
+          "candidate_id": "ridge_alpha_100",
+          "mean_monthly_IC": -0.00953448339362602,
+          "mean_IC_difference": -0.03269296385249994,
+          "paired_difference_interval": [
+            -0.12020729795030304,
+            0.05875333628958222
+          ]
+        }
+      ]
+    },
+    {
+      "schema": "paired_monthly_rank_IC_intervals_v1",
+      "months": 94,
+      "first_month": "2007-01-31",
+      "last_month": "2014-10-31",
+      "reference": "control_fixed_composite",
+      "method": "paired_circular_contiguous_observed_month_blocks",
+      "block_months": 12,
+      "draws": 2000,
+      "seed": 20261017,
+      "confidence": 0.95,
+      "selection_adjusted": false,
+      "cross_section_resampled": false,
+      "numpy_version": "2.5.4",
+      "input_sha256": "99404682708cc5cccee10aff8ade67cf31da4f22744ddd1ef82297ef5f98ac9c",
+      "candidates": [
+        {
+          "candidate_id": "control_fixed_composite",
+          "mean_monthly_IC": 0.023158480458873917,
+          "mean_IC_difference": 0.0,
+          "paired_difference_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "candidate_id": "control_low_volatility_F09",
+          "mean_monthly_IC": 0.009910643092466765,
+          "mean_IC_difference": -0.013247837366407151,
+          "paired_difference_interval": [
+            -0.050534540587276265,
+            0.02115035807144438
+          ]
+        },
+        {
+          "candidate_id": "control_momentum_F01",
+          "mean_monthly_IC": 0.01831716899384448,
+          "mean_IC_difference": -0.004841311465029436,
+          "paired_difference_interval": [
+            -0.038045674124222016,
+            0.02635198238004494
+          ]
+        },
+        {
+          "candidate_id": "control_reversal_F07",
+          "mean_monthly_IC": -0.014086719571968963,
+          "mean_IC_difference": -0.037245200030842876,
+          "paired_difference_interval": [
+            -0.10930595160973437,
+            0.03844641551950622
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l1_leaves15_iterations100",
+          "mean_monthly_IC": 0.008556795505349516,
+          "mean_IC_difference": -0.0146016849535244,
+          "paired_difference_interval": [
+            -0.07499952795475409,
+            0.049773496520875996
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l1_leaves15_iterations300",
+          "mean_monthly_IC": 0.008071536840530236,
+          "mean_IC_difference": -0.01508694361834368,
+          "paired_difference_interval": [
+            -0.07122155897467997,
+            0.046130585703735565
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l1_leaves7_iterations100",
+          "mean_monthly_IC": 0.00408053847550393,
+          "mean_IC_difference": -0.019077941983369987,
+          "paired_difference_interval": [
+            -0.08040921232351067,
+            0.043669056471640946
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l1_leaves7_iterations300",
+          "mean_monthly_IC": 0.0035074708713377133,
+          "mean_IC_difference": -0.019651009587536204,
+          "paired_difference_interval": [
+            -0.077314293684253,
+            0.04146540081474882
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l2_leaves15_iterations100",
+          "mean_monthly_IC": -0.01180429799146326,
+          "mean_IC_difference": -0.03496277845033718,
+          "paired_difference_interval": [
+            -0.09652931050432229,
+            0.03173105130932897
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l2_leaves15_iterations300",
+          "mean_monthly_IC": -0.0034196506767318006,
+          "mean_IC_difference": -0.02657813113560572,
+          "paired_difference_interval": [
+            -0.08997251761528058,
+            0.04163124611666272
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l2_leaves7_iterations100",
+          "mean_monthly_IC": -0.01025080481089467,
+          "mean_IC_difference": -0.033409285269768586,
+          "paired_difference_interval": [
+            -0.1013110239443167,
+            0.03718594659758087
+          ]
+        },
+        {
+          "candidate_id": "lgbm_regression_l2_leaves7_iterations300",
+          "mean_monthly_IC": -0.007776403626710847,
+          "mean_IC_difference": -0.030934884085584764,
+          "paired_difference_interval": [
+            -0.0967496713283865,
+            0.03657276499908094
+          ]
+        },
+        {
+          "candidate_id": "ridge_alpha_0p1",
+          "mean_monthly_IC": -0.008553525270045036,
+          "mean_IC_difference": -0.031712005728918954,
+          "paired_difference_interval": [
+            -0.11509428638694162,
+            0.05608984012116151
+          ]
+        },
+        {
+          "candidate_id": "ridge_alpha_1",
+          "mean_monthly_IC": -0.008559703938747864,
+          "mean_IC_difference": -0.03171818439762178,
+          "paired_difference_interval": [
+            -0.11511376256923608,
+            0.05609837477519177
+          ]
+        },
+        {
+          "candidate_id": "ridge_alpha_10",
+          "mean_monthly_IC": -0.008649833773300796,
+          "mean_IC_difference": -0.031808314232174714,
+          "paired_difference_interval": [
+            -0.11529718272618267,
+            0.056088782207461683
+          ]
+        },
+        {
+          "candidate_id": "ridge_alpha_100",
+          "mean_monthly_IC": -0.00953448339362602,
+          "mean_IC_difference": -0.03269296385249994,
+          "paired_difference_interval": [
+            -0.1169566589237208,
+            0.05576897199822626
+          ]
+        }
+      ]
+    }
+  ]
+}

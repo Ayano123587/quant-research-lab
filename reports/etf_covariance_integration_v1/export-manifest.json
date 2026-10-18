@@ -1,0 +1,30 @@
+{
+  "complete": true,
+  "holdout_evaluated": false,
+  "strategy_rerun": false,
+  "selection_rule": "minimum mean QLIKE on all94 common mature ETF8 T63 dates; fixed id tie",
+  "selected_covariance_recipe": "ewma_halflife63",
+  "covariance_reference": "sample_ddof1",
+  "matched_signal_targets": 95,
+  "matched_economic_sessions": 1975,
+  "fee_bps": 10,
+  "selection_based_on_portfolio_scores": false,
+  "forecast_source_manifest_sha256": "ea7a801782345b38d2f3e0a1be038c5212b00263360eb78c1b910bfeba65fc8a",
+  "sensitivity_source_manifest_sha256": "44655a41e80bcf1f6f81d598b747e77387e7d1a16a856918e74a3a553388d6ec",
+  "forecast_mean_qlike": {
+    "constant_correlation_fixed0p5": -8.54534605012286,
+    "ewma_halflife63": -8.597526333919213,
+    "ledoit_wolf": -8.554334935804516,
+    "oas": -8.56593006508266,
+    "pca_K1": -8.513904933113256,
+    "pca_K3": -8.59097755443693,
+    "pca_K5": -8.58194095065819,
+    "sample_ddof1": -8.582195183300236
+  },
+  "annualized_paired_arithmetic_mean_return_difference": -0.0005451782321088952,
+  "interpretation": "The forecast-selected EWMA has lower development Sharpe than sample. Forecast selection and economic evaluation answer different questions; this is reused-development integration, not an independent test.",
+  "outputs_sha256": {
+    "matched-path-metrics.csv": "57a470bea5e8abfda750bbf7dea3ad68c8c261a3f0cf02dc22c49cb58fdb4ef9",
+    "paired-forecast-losses.csv": "118c3ddff29032cb8beb5f7e104e5e8c31da4ce66f04a5d94d2edc4c52454968"
+  }
+}

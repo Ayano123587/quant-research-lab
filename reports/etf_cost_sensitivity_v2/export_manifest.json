@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "study_manifest_sha256": "38a5927ea6060db1b4c126e92abb91a58003ed5d209346a598fc5aad5b0cd8dd",
+  "accounting_replay_sha256": "3afc5dde349973beaacd71125ab901a2908c1471898e894f67a5eb82e9d86aba",
+  "paths": 16,
+  "sessions_per_path": 1975,
+  "holdout_evaluated": false,
+  "strategy_rerun": false,
+  "cost_scenario_selection": false,
+  "outputs_sha256": {
+    "cost_sensitivity.png": "66a58a3e8f958039812382dfabcae27138a8aa925bcefb073cb3959c59729d4a",
+    "cost_sensitivity.svg": "27629098f94883971e0dbddd20a3bf39181dfa79d70bea647a34f3b2491f4b39",
+    "metrics.csv": "c257a0d50bf2bc85c4136ccb678067e9bb2c88b9c76dc1de0215e48c96dcb8d9",
+    "monetary_attribution.png": "58d4b8519a12025d130c1d027457057f0e387f5ae8bb514f1e4b57c1558ae253",
+    "monetary_attribution.svg": "e0f0ea1c85201bf59c1a45b10e438d605e78b238bc2ffbe24ec9baf8f4c8ed6f",
+    "monetary_contributions.csv": "529e32dc88500ff1a06ff5404649d19cab101641acdbb07e8e69d2f843688d08"
+  }
+}

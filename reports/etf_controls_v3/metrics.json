@@ -1,0 +1,54 @@
+{
+  "strategic_equal": {
+    "annual_return_252_session_convention": 0.054893973216877834,
+    "annual_sharpe_zero_cash_reference": 0.42023705898644276,
+    "annual_volatility_sample_ddof1": 0.15617128123265941,
+    "drawdown_basis": "measured_session_closes_plus_initial_cash_no_intraday_extrema",
+    "maximum_close_nav_drawdown": -0.39272997553901656,
+    "maximum_money_reconciliation_residual": 5.002220859751105e-11,
+    "mean_close_risky_weight": 1.0,
+    "measured_sessions": 1975,
+    "net_return": 0.52017803237953,
+    "total_fee_money": 463.20871308288696,
+    "total_full_buy_plus_sell_turnover": 4.095695172733592
+  },
+  "trend_252": {
+    "annual_return_252_session_convention": 0.05559392898847415,
+    "annual_sharpe_zero_cash_reference": 0.6686088417676679,
+    "annual_volatility_sample_ddof1": 0.0865301958979902,
+    "drawdown_basis": "measured_session_closes_plus_initial_cash_no_intraday_extrema",
+    "maximum_close_nav_drawdown": -0.11221714638405134,
+    "maximum_money_reconciliation_residual": 5.007905201637186e-11,
+    "mean_close_risky_weight": 0.7136353502922529,
+    "measured_sessions": 1975,
+    "net_return": 0.5281013688742144,
+    "total_fee_money": 1355.948773236854,
+    "total_full_buy_plus_sell_turnover": 10.879191859005216
+  },
+  "trend_252_volatility_63": {
+    "annual_return_252_session_convention": 0.05240292875352903,
+    "annual_sharpe_zero_cash_reference": 0.6971547593351595,
+    "annual_volatility_sample_ddof1": 0.07759027173358161,
+    "drawdown_basis": "measured_session_closes_plus_initial_cash_no_intraday_extrema",
+    "maximum_close_nav_drawdown": -0.11221714638405167,
+    "maximum_money_reconciliation_residual": 6.762945758964634e-11,
+    "mean_close_risky_weight": 0.6651772800836988,
+    "measured_sessions": 1975,
+    "net_return": 0.4922699724547659,
+    "total_fee_money": 1526.010450059284,
+    "total_full_buy_plus_sell_turnover": 12.608861311155962
+  },
+  "volatility_63": {
+    "annual_return_252_session_convention": 0.040370793055795495,
+    "annual_sharpe_zero_cash_reference": 0.4504048977647774,
+    "annual_volatility_sample_ddof1": 0.09870252942012325,
+    "drawdown_basis": "measured_session_closes_plus_initial_cash_no_intraday_extrema",
+    "maximum_close_nav_drawdown": -0.22884814904466266,
+    "maximum_money_reconciliation_residual": 4.1040948417503387e-11,
+    "mean_close_risky_weight": 0.8095499951391132,
+    "measured_sessions": 1975,
+    "net_return": 0.36366824346377813,
+    "total_fee_money": 788.1643311205627,
+    "total_full_buy_plus_sell_turnover": 7.082706171830788
+  }
+}

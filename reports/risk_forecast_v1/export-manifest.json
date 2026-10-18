@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "scope": "all12_panel_lookback_summaries_all8_recipes_from_completed9120_cell_cloud_run",
+  "source_manifest_sha256": "ea7a801782345b38d2f3e0a1be038c5212b00263360eb78c1b910bfeba65fc8a",
+  "kernel_id": 139237851,
+  "kernel_version": 1,
+  "holdout_evaluated": false,
+  "economic_evaluation": false,
+  "per_date_9120_forecast_scores_independently_replayed": false,
+  "outputs_sha256": {
+    "forecast-comparison.json": "1a1825d19f997e03ff79525f453b0bb7603129e97df1cda0a1a74ca4d44f87c6",
+    "config.json": "efb903d204c39d13ac326251fdcb7a8c43347628408701c3c0be60cad92a1304",
+    "input-support.json": "e013d771baca231d811a900a5f6e8f41394e1748e4e9aefaa4eb19650a4b77a1",
+    "manifest.json": "ea7a801782345b38d2f3e0a1be038c5212b00263360eb78c1b910bfeba65fc8a"
+  }
+}
